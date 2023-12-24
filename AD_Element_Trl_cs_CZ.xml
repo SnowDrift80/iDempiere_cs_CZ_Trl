@@ -233,8 +233,8 @@
   <value column="PO_PrintName" original="" />
  </row>
  <row id="126" trl="N">
-  <value column="Name" original="Table">Tabul</value>
-  <value column="PrintName" original="Table">Tabul</value>
+  <value column="Name" original="Table">Tabulka</value>
+  <value column="PrintName" original="Table">Tabulka</value>
   <value column="Description" original="Database Table information">Tabulka DB informace</value>
   <value column="Help" original="The Database Table provides the information of the table definition">DB Tab poskytuje informace o definici tabulky</value>
   <value column="Placeholder" original="" />
@@ -365,10 +365,10 @@
   <value column="PO_PrintName" original="" />
  </row>
  <row id="141" trl="N">
-  <value column="Name" original="Next Node">DalšíUzel</value>
-  <value column="PrintName" original="Next Node">DalšíUzel</value>
-  <value column="Description" original="Next Node in workflow">DalšíUzelVPracovníPostup</value>
-  <value column="Help" original="The Next Node indicates the next step or task in this Workflow.">DalšíUzel ukazuje další krok nebo úkol v tomto PracovnímPostupu.</value>
+  <value column="Name" original="Next Node">Další Uzel</value>
+  <value column="PrintName" original="Next Node">Další Uzel</value>
+  <value column="Description" original="Next Node in workflow">Další uzel v pracovním postupu</value>
+  <value column="Help" original="The Next Node indicates the next step or task in this Workflow.">DalšíUzel ukazuje další krok nebo úkol v tomto pracovním postupu.</value>
   <value column="Placeholder" original="" />
   <value column="PO_Description" original="" />
   <value column="PO_Help" original="" />
@@ -378,8 +378,8 @@
  <row id="142" trl="N">
   <value column="Name" original="Node">Uzel</value>
   <value column="PrintName" original="Node">Uzel</value>
-  <value column="Description" original="Workflow Node (activity), step or process">PracovníUzel (činnost), krok nebo proces</value>
-  <value column="Help" original="The Workflow Node indicates a unique step or process in a Workflow.">PracovníUzel ukazuje jedinečný krok nebo proces v PracovnímPostupu.</value>
+  <value column="Description" original="Workflow Node (activity), step or process">Uzel (činnost) pracovního postupu, krok nebo proces</value>
+  <value column="Help" original="The Workflow Node indicates a unique step or process in a Workflow.">PracovníUzel ukazuje jedinečný krok nebo proces v pracovním postupu.</value>
   <value column="Placeholder" original="" />
   <value column="PO_Description" original="" />
   <value column="PO_Help" original="" />
@@ -398,10 +398,10 @@
   <value column="PO_PrintName" original="" />
  </row>
  <row id="144" trl="N">
-  <value column="Name" original="Workflow">PracPost</value>
-  <value column="PrintName" original="Workflow">PracPost</value>
-  <value column="Description" original="Workflow or combination of tasks">PracPost nebo kombinace úkolů</value>
-  <value column="Help" original="The Workflow field identifies a unique Workflow in the system.">PracPost pole identifikuje jedinečný PracPost v systému.</value>
+  <value column="Name" original="Workflow">Pracovní postup</value>
+  <value column="PrintName" original="Workflow">Pracovní postup</value>
+  <value column="Description" original="Workflow or combination of tasks">Pracovní postup nebo kombinace úkolů</value>
+  <value column="Help" original="The Workflow field identifies a unique Workflow in the system.">Pole Pracovní postup identifikuje jedinečný pracovní postup v systému.</value>
   <value column="Placeholder" original="" />
   <value column="PO_Description" original="" />
   <value column="PO_Help" original="" />
@@ -4081,10 +4081,10 @@ Příklad formátu "(000)_000-0000"</value>
   <value column="PO_PrintName" original="" />
  </row>
  <row id="630" trl="N">
-  <value column="Name" original="Sql WHERE">Sql Kde</value>
+  <value column="Name" original="Sql WHERE">Sql WHERE</value>
   <value column="PrintName" original="Where clause">Kde klauzule</value>
-  <value column="Description" original="Fully qualified SQL WHERE clause">Plně kvalifikovaná SQL Kde klauzule</value>
-  <value column="Help" original="The Where Clause indicates the SQL WHERE clause to use for record selection. The WHERE clause is added to the query. Fully qualified means &quot;tablename.columnname&quot;.">Kde klauzule udává SQL Kde klauzuli pro výběr záznamů. Kde klauzule je přidána do dotazu. Plně kvalifikovaná znamená "názevtabulky.názevsloupce".</value>
+  <value column="Description" original="Fully qualified SQL WHERE clause">Plně kvalifikovaná SQL Where klauzule</value>
+  <value column="Help" original="The Where Clause indicates the SQL WHERE clause to use for record selection. The WHERE clause is added to the query. Fully qualified means &quot;tablename.columnname&quot;.">Kde klauzule udává SQL Where klauzuli pro výběr záznamů. Kde klauzule je přidána do dotazu. Plně kvalifikovaná znamená "názevtabulky.názevsloupce".</value>
   <value column="Placeholder" original="" />
   <value column="PO_Description" original="" />
   <value column="PO_Help" original="" />
@@ -4092,10 +4092,10 @@ Příklad formátu "(000)_000-0000"</value>
   <value column="PO_PrintName" original="" />
  </row>
  <row id="631" trl="N">
-  <value column="Name" original="Window Type">TypOkno</value>
-  <value column="PrintName" original="Window Type">TypOkno</value>
-  <value column="Description" original="Type or classification of a Window">TypOkno: TypOkno</value>
-  <value column="Help" original="The Window Type indicates the type of window being defined (Maintain, Transaction or Query)">TypOkno: TypOkno udává typ definovaného okna (Údržba, Transakce nebo Dotaz)</value>
+  <value column="Name" original="Window Type">Typ Okna</value>
+  <value column="PrintName" original="Window Type">Typ Okna</value>
+  <value column="Description" original="Type or classification of a Window">Typ nebo klasifikace okna</value>
+  <value column="Help" original="The Window Type indicates the type of window being defined (Maintain, Transaction or Query)">Typ okna označuje typ definovaného okna (Maintain, Transaction nebo Query).</value>
   <value column="Placeholder" original="" />
   <value column="PO_Description" original="" />
   <value column="PO_Help" original="" />
@@ -4103,10 +4103,10 @@ Příklad formátu "(000)_000-0000"</value>
   <value column="PO_PrintName" original="" />
  </row>
  <row id="632" trl="N">
-  <value column="Name" original="Workflow">Workflow</value>
-  <value column="PrintName" original="Workflow">Workflow</value>
-  <value column="Description" original="Workflow or tasks">Workflow nebo úkoly</value>
-  <value column="Help" original="The Workflow field identifies a unique workflow.   A workflow is a grouping of related tasks, in a specified sequence and optionally including approvals">Workflow pole identifikuje jedinečný workflow. Workflow je seskupení souvisejících úkolů v určeném pořadí a volitelně obsahující schválení.</value>
+  <value column="Name" original="Workflow">Pracovní postupy</value>
+  <value column="PrintName" original="Workflow">Pracovní postupy</value>
+  <value column="Description" original="Workflow or tasks">Pracovní postupy nebo úkoly</value>
+  <value column="Help" original="The Workflow field identifies a unique workflow.   A workflow is a grouping of related tasks, in a specified sequence and optionally including approvals">Pole Pracovní postup identifikuje jedinečný pracovní postup.   Pracovní postup je seskupení souvisejících úkolů v určeném pořadí a volitelně včetně schvalování.</value>
   <value column="Placeholder" original="" />
   <value column="PO_Description" original="" />
   <value column="PO_Help" original="" />
@@ -18747,10 +18747,10 @@ Pokud není poměr ani množství 0, množství se vypočítá na základě pom�
   <value column="PO_PrintName" original="" />
  </row>
  <row id="2501" trl="N">
-  <value column="Name" original="Std User Workflow">Std Uživatelský Workflow</value>
-  <value column="PrintName" original="Std User Workflow">Std Uživ. Workflow</value>
-  <value column="Description" original="Standard Manual User Approval Workflow">Std Manu Uživ. Schválení Workflow</value>
-  <value column="Help" original="If selected, only documents with an open status (drafted, in progress, approved, rejected, invalid) and standard user actions (prepare, complete, approve, reject) are allowed to continue.  Use this to prevent having to define details on how automatic processes (unlock, invalidate, post, re-activate) and when the document is closed for normal user action (completed, waiting, closed, voided, reversed).">Pokud je vybráno, jsou povoleny pouze dokumenty s otevřeným stavem (vytvořený, v průběhu, schválený, zamítnutý, neplatný) a standardními uživatelskými akcemi (připravit, dokončit, schválit, zamítnout). Použijte toto k zabránění nutnosti definovat detaily o automatických procesech (odemknout, neplatný, zaúčtovat, znovu aktivovat) a kdy je dokument uzavřen pro normální uživatelskou akci (dokončený, čekající, uzavřený, zrušený, zrušený zpětně).</value>
+  <value column="Name" original="Std User Workflow">Standardní pracovní postup uživatele</value>
+  <value column="PrintName" original="Std User Workflow">Stnd prac. postup uživ.</value>
+  <value column="Description" original="Standard Manual User Approval Workflow">Standardní pracovní postup uživatele</value>
+  <value column="Help" original="If selected, only documents with an open status (drafted, in progress, approved, rejected, invalid) and standard user actions (prepare, complete, approve, reject) are allowed to continue.  Use this to prevent having to define details on how automatic processes (unlock, invalidate, post, re-activate) and when the document is closed for normal user action (completed, waiting, closed, voided, reversed).">Pokud je tato možnost vybrána, je povoleno pokračovat pouze v dokumentech s otevřeným stavem (připraveno, probíhá, schváleno, zamítnuto, neplatné) a standardními uživatelskými akcemi (připravit, dokončit, schválit, zamítnout).  Tuto možnost použijte, abyste nemuseli definovat podrobnosti o tom, jak probíhají automatické procesy (odblokovat, zneplatnit, zaúčtovat, znovu aktivovat) a kdy je dokument uzavřen pro běžné uživatelské akce (dokončen, čeká, uzavřen, zneplatněn, stornován).</value>
   <value column="Placeholder" original="" />
   <value column="PO_Description" original="" />
   <value column="PO_Help" original="" />
@@ -18758,7 +18758,7 @@ Pokud není poměr ani množství 0, množství se vypočítá na základě pom�
   <value column="PO_PrintName" original="" />
  </row>
  <row id="2502" trl="N">
-  <value column="Name" original="Invoice Tax ID">Fakturační DIČ</value>
+  <value column="Name" original="Invoice Tax ID">DIČ faktury</value>
   <value column="PrintName" original="Invoice Tax ID">DIČ faktury</value>
   <value column="Description" original="" />
   <value column="Help" original="" />
@@ -18769,8 +18769,8 @@ Pokud není poměr ani množství 0, množství se vypočítá na základě pom�
   <value column="PO_PrintName" original="" />
  </row>
  <row id="2503" trl="N">
-  <value column="Name" original="Invoice Partner Key">Fakturační Partner Klíč</value>
-  <value column="PrintName" original="Invoice Partner Key">Fakt Partner Klíč</value>
+  <value column="Name" original="Invoice Partner Key">Klíč partnerské faktury</value>
+  <value column="PrintName" original="Invoice Partner Key">Klíč partnerské faktury</value>
   <value column="Description" original="" />
   <value column="Help" original="" />
   <value column="Placeholder" original="" />
@@ -18780,9 +18780,9 @@ Pokud není poměr ani množství 0, množství se vypočítá na základě pom�
   <value column="PO_PrintName" original="" />
  </row>
  <row id="2504" trl="N">
-  <value column="Name" original="Invoice Address">Fakt Adresa</value>
-  <value column="PrintName" original="Invoice Address">Fakt Adresa</value>
-  <value column="Description" original="Address Used for Invoicing">Fakt Adresa pro Fakturaci</value>
+  <value column="Name" original="Invoice Address">Fakturační adresa</value>
+  <value column="PrintName" original="Invoice Address">Fakturační adresa</value>
+  <value column="Description" original="Address Used for Invoicing">Adresa používaná pro fakturaci</value>
   <value column="Help" original="" />
   <value column="Placeholder" original="" />
   <value column="PO_Description" original="" />
@@ -18791,8 +18791,8 @@ Pokud není poměr ani množství 0, množství se vypočítá na základě pom�
   <value column="PO_PrintName" original="" />
  </row>
  <row id="2505" trl="N">
-  <value column="Name" original="Invoice Contact Name">Fakt Kont. Jméno</value>
-  <value column="PrintName" original="Invoice Contact Name">Fakt Kont. Jméno</value>
+  <value column="Name" original="Invoice Contact Name">Kontaktní jméno na faktuře</value>
+  <value column="PrintName" original="Invoice Contact Name">Kontaktní jméno na faktuře</value>
   <value column="Description" original="" />
   <value column="Help" original="" />
   <value column="Placeholder" original="" />
@@ -18802,8 +18802,8 @@ Pokud není poměr ani množství 0, množství se vypočítá na základě pom�
   <value column="PO_PrintName" original="" />
  </row>
  <row id="2506" trl="N">
-  <value column="Name" original="Invoice Name">Fakt Jméno</value>
-  <value column="PrintName" original="Invoice Name">Fakt Jméno</value>
+  <value column="Name" original="Invoice Name">Faktura Jméno</value>
+  <value column="PrintName" original="Invoice Name">Faktura Jméno</value>
   <value column="Description" original="" />
   <value column="Help" original="" />
   <value column="Placeholder" original="" />
@@ -18813,8 +18813,8 @@ Pokud není poměr ani množství 0, množství se vypočítá na základě pom�
   <value column="PO_PrintName" original="" />
  </row>
  <row id="2507" trl="N">
-  <value column="Name" original="Invoice Name2">Fakt Jméno2</value>
-  <value column="PrintName" original="Invoice Name2">Fakt Jméno2</value>
+  <value column="Name" original="Invoice Name2">Faktura Jméno2</value>
+  <value column="PrintName" original="Invoice Name2">Faktura Jméno2</value>
   <value column="Description" original="" />
   <value column="Help" original="" />
   <value column="Placeholder" original="" />
@@ -18824,8 +18824,8 @@ Pokud není poměr ani množství 0, množství se vypočítá na základě pom�
   <value column="PO_PrintName" original="" />
  </row>
  <row id="2508" trl="N">
-  <value column="Name" original="Invoice Phone">Fakt Tel.</value>
-  <value column="PrintName" original="Invoice Phone">Fakt Tel.</value>
+  <value column="Name" original="Invoice Phone">Faktura Tel.</value>
+  <value column="PrintName" original="Invoice Phone">Faktura Tel.</value>
   <value column="Description" original="" />
   <value column="Help" original="" />
   <value column="Placeholder" original="" />
@@ -18846,8 +18846,8 @@ Pokud není poměr ani množství 0, množství se vypočítá na základě pom�
   <value column="PO_PrintName" original="" />
  </row>
  <row id="2510" trl="N">
-  <value column="Name" original="BP Name">BP Jméno</value>
-  <value column="PrintName" original="BP Name">BP Jméno</value>
+  <value column="Name" original="BP Name">OP Jméno</value>
+  <value column="PrintName" original="BP Name">OP Jméno</value>
   <value column="Description" original="" />
   <value column="Help" original="" />
   <value column="Placeholder" original="" />
@@ -18857,8 +18857,8 @@ Pokud není poměr ani množství 0, množství se vypočítá na základě pom�
   <value column="PO_PrintName" original="" />
  </row>
  <row id="2511" trl="N">
-  <value column="Name" original="BP Name2">BP Jméno2</value>
-  <value column="PrintName" original="BP Name2">BP Jméno2</value>
+  <value column="Name" original="BP Name2">OP Jméno2</value>
+  <value column="PrintName" original="BP Name2">OP Jméno2</value>
   <value column="Description" original="" />
   <value column="Help" original="" />
   <value column="Placeholder" original="" />
@@ -18868,10 +18868,10 @@ Pokud není poměr ani množství 0, množství se vypočítá na základě pom�
   <value column="PO_PrintName" original="" />
  </row>
  <row id="2512" trl="N">
-  <value column="Name" original="Best Response Amount">Nejlepší Odp. Částka</value>
-  <value column="PrintName" original="Best Response">Nejlepší Odp.</value>
-  <value column="Description" original="Best Response Amount">Nejlepší Odp. Částka</value>
-  <value column="Help" original="Filled by Rank Response Process">Vyplněno Rank Odp. Procesem</value>
+  <value column="Name" original="Best Response Amount">Částka nejlepší odpovědi</value>
+  <value column="PrintName" original="Best Response">Nejlepší odpověď</value>
+  <value column="Description" original="Best Response Amount">Částka nejlepší odpovědi</value>
+  <value column="Help" original="Filled by Rank Response Process">Vyplněno podle pořadí procesu odpovědi</value>
   <value column="Placeholder" original="" />
   <value column="PO_Description" original="" />
   <value column="PO_Help" original="" />
@@ -18879,8 +18879,8 @@ Pokud není poměr ani množství 0, množství se vypočítá na základě pom�
   <value column="PO_PrintName" original="" />
  </row>
  <row id="2513" trl="N">
-  <value column="Name" original="Check Complete">Kontrola Hotovo</value>
-  <value column="PrintName" original="Check Complete">Kontrola Hotovo</value>
+  <value column="Name" original="Check Complete">Kontrola kompletní</value>
+  <value column="PrintName" original="Check Complete">Kontrola kompletní</value>
   <value column="Description" original="" />
   <value column="Help" original="" />
   <value column="Placeholder" original="" />
@@ -18892,8 +18892,8 @@ Pokud není poměr ani množství 0, množství se vypočítá na základě pom�
  <row id="2514" trl="N">
   <value column="Name" original="Activity Tree">Aktivní Strom</value>
   <value column="PrintName" original="Activity Tree">Aktivní Strom</value>
-  <value column="Description" original="Trees are used for (financial) reporting">Stromy pro (finanční) reporty</value>
-  <value column="Help" original="Trees are used for (finanial) reporting">Stromy pro (finanční) reporty</value>
+  <value column="Description" original="Trees are used for (financial) reporting">Stromy se používají pro (finanční) hlášení</value>
+  <value column="Help" original="Trees are used for (finanial) reporting">Stromy se používají pro (finanční) hlášení</value>
   <value column="Placeholder" original="" />
   <value column="PO_Description" original="" />
   <value column="PO_Help" original="" />
@@ -18901,10 +18901,10 @@ Pokud není poměr ani množství 0, množství se vypočítá na základě pom�
   <value column="PO_PrintName" original="" />
  </row>
  <row id="2515" trl="N">
-  <value column="Name" original="Campaign Tree">Kampaň Strom</value>
-  <value column="PrintName" original="Campaign Tree">Kampaň Strom</value>
-  <value column="Description" original="Trees are used for (financial) reporting">Stromy pro (finanční) reporty</value>
-  <value column="Help" original="Trees are used for (finanial) reporting">Stromy pro (finanční) reporty</value>
+  <value column="Name" original="Campaign Tree">Strom kampaně</value>
+  <value column="PrintName" original="Campaign Tree">Strom kampaně</value>
+  <value column="Description" original="Trees are used for (financial) reporting">SStromy se používají pro (finanční) hlášení</value>
+  <value column="Help" original="Trees are used for (finanial) reporting">Stromy se používají pro (finanční) hlášení</value>
   <value column="Placeholder" original="" />
   <value column="PO_Description" original="" />
   <value column="PO_Help" original="" />
@@ -18923,8 +18923,8 @@ Pokud není poměr ani množství 0, množství se vypočítá na základě pom�
   <value column="PO_PrintName" original="" />
  </row>
  <row id="2517" trl="N">
-  <value column="Name" original="Default Counter Document">Výchozí Dokument</value>
-  <value column="PrintName" original="Default Counter Doc">Výchozí Dokument</value>
+  <value column="Name" original="Default Counter Document">Výchozí protidokument</value>
+  <value column="PrintName" original="Default Counter Doc">Výchozí protidok.</value>
   <value column="Description" original="The document type is the default counter document type">Výchozí typ dokumentu je typ výchozího dokladu.</value>
   <value column="Help" original="When using explicit documents for inter-org transaction (after linking a Business Partner to an Organization), you can determine what document type the counter document is based on the document type of the original transaction.  Example: when generating a Sales Order, use this Sales Order document type.&#10;This default can be overwritten by defining explicit counter document relationships.">Při použití explicitních dokumentů pro mezioddělovací transakce (po propojení obchodního partnera s organizací) můžete určit, jaký typ dokumentu bude protidokumentem založený na typu dokumentu původní transakce. Příklad: při vytváření prodejní objednávky použijte tento typ dokumentu prodejní objednávky. Toto výchozí nastavení lze přepsat definováním explicitních vztahů protidokumentů.</value>
   <value column="Placeholder" original="" />
@@ -18945,7 +18945,7 @@ Pokud není poměr ani množství 0, množství se vypočítá na základě pom�
   <value column="PO_PrintName" original="" />
  </row>
  <row id="2519" trl="N">
-  <value column="Name" original="Confirmation Type">Potvrzení Typ</value>
+  <value column="Name" original="Confirmation Type">Typ potvrzení</value>
   <value column="PrintName" original="Confirm Type">Potvrz Typ</value>
   <value column="Description" original="Type of confirmation">Typ Potvrzení</value>
   <value column="Help" original="" />
@@ -18967,10 +18967,10 @@ Pokud není poměr ani množství 0, množství se vypočítá na základě pom�
   <value column="PO_PrintName" original="" />
  </row>
  <row id="2521" trl="N">
-  <value column="Name" original="Pick/QA Confirmation">Potvrzení Pick/QA</value>
-  <value column="PrintName" original="Pick/QA Confirm">Pick/QA Potvrz.</value>
-  <value column="Description" original="Require Pick or QA Confirmation before processing">Vyžadovat Potvrz. Pick/QA před zpracováním</value>
-  <value column="Help" original="The processing of the Shipment (Receipt) requires Pick (QA) Confirmation. Note that shipments for automatic documents like POS/Warehouse Orders cannot have confirmations!">Zpracování Zásilky (Příjem) vyžaduje Potvrzení Pick (QA). Upozornění: Zásilky pro automatické dokumenty jako POS/Skladové objednávky nemohou mít potvrzení!</value>
+  <value column="Name" original="Pick/QA Confirmation">Potvrzení vyzv./QA</value>
+  <value column="PrintName" original="Pick/QA Confirm">Potvrz. vyzv./QA</value>
+  <value column="Description" original="Require Pick or QA Confirmation before processing">Požadavek na vyzvednutí nebo potvrzení QA před zpracováním</value>
+  <value column="Help" original="The processing of the Shipment (Receipt) requires Pick (QA) Confirmation. Note that shipments for automatic documents like POS/Warehouse Orders cannot have confirmations!">Zpracování zásilky (příjem) vyžaduje potvrzení o vyzvednutí (QA). Upozorňujeme, že zásilky pro automatické doklady, jako jsou pokladní/skladové objednávky, nemohou mít potvrzení!</value>
   <value column="Placeholder" original="" />
   <value column="PO_Description" original="" />
   <value column="PO_Help" original="" />
@@ -19091,7 +19091,7 @@ Pokud není poměr ani množství 0, množství se vypočítá na základě pom�
   <value column="Name" original="Approval Amount">Schválená částka</value>
   <value column="PrintName" original="Approval Amt">Schválená částka</value>
   <value column="Description" original="Document Approval Amount">Schválená částka dokladu</value>
-  <value column="Help" original="Approval Amount for Workflow">Schválená částka pro Workflow</value>
+  <value column="Help" original="Approval Amount for Workflow">Částka schválení pro pracovní postup</value>
   <value column="Placeholder" original="" />
   <value column="PO_Description" original="" />
   <value column="PO_Help" original="" />
@@ -20029,9 +20029,8 @@ Sekvence Město/Kraj/PSČ je určena formátem adresy."</value>
  <row id="2624" trl="N">
   <value column="Name" original="Document Value Logic">Logika Dok. Hodnoty</value>
   <value column="PrintName" original="Doc Value Logic">Logika Dok. Hod.</value>
-  <value column="Description" original="Logic to determine Workflow Start - If true, a workflow process is started for the document">Logika pro určení spuštění toku - Pokud je pravda, spustí se tok pro dokument</value>
-  <value column="Help" original="You can enter simple logic using variables like @Created@=@Updated@, which fires, when a record is created. If you need to evaluate also values of other records, you need to use SQL logic and need to prefix this logic with &quot;SQL=&quot;. Example: start a Order verify workflow, when a business partner ordered something and is over the credit limit  &quot;SQL=EXISTS (SELECT * FROM C_BPartner bp WHERE C_Order. C_BPartner_ID=bp. C_BPartner_ID AND SO_CreditUsed &gt; SO_CreditLimit)&quot;.&#10;Note that the SQL based logic checks for duplicate workflows (i.e. a workflow is started only once per record)." xml:space="preserve">"Můžete zadat jednoduchou logiku pomocí proměnných jako @Created@=@Updated@, která se spustí, když je záznam vytvořen. Pokud potřebujete vyhodnotit také hodnoty jiných záznamů, musíte použít SQL logiku a před tímto výrazem přidat "SQL=". Příklad: spustit tok pro ověření objednávky, když obchodní partner něco objednal a překročil kreditní limit "SQL=EXISTS (SELECT * FROM C_BPartner bp WHERE C_BPartner. C_BPartner=bp. C_BPartner AND C_BPartner &gt; C_BPartner)".
-Všimněte si, že SQL logika kontroluje duplicitní toky (tj. tok je spuštěn pouze jednou pro záznam)."</value>
+  <value column="Description" original="Logic to determine Workflow Start - If true, a workflow process is started for the document">Logika pro určení zahájení pracovního postupu - Pokud je to pravda, je pro dokument zahájen proces pracovního postupu.</value>
+  <value column="Help" original="You can enter simple logic using variables like @Created@=@Updated@, which fires, when a record is created. If you need to evaluate also values of other records, you need to use SQL logic and need to prefix this logic with &quot;SQL=&quot;. Example: start a Order verify workflow, when a business partner ordered something and is over the credit limit  &quot;SQL=EXISTS (SELECT * FROM C_BPartner bp WHERE C_Order. C_BPartner_ID=bp. C_BPartner_ID AND SO_CreditUsed &gt; SO_CreditLimit)&quot;.&#10;Note that the SQL based logic checks for duplicate workflows (i.e. a workflow is started only once per record)." xml:space="preserve">"Můžete zadat jednoduchou logiku pomocí proměnných jako @Created@=@Updated@, která se spustí, když je vytvořen záznam. Pokud potřebujete vyhodnotit i hodnoty jiných záznamů, musíte použít logiku SQL a tuto logiku musíte předřadit pomocí &quot;SQL=&quot;. Příklad: Spusťte pracovní postup Ověření objednávky, když obchodní partner něco objednal a je nad kreditním limitem &quot;SQL=EXISTS (SELECT * FROM C_BPartner bp WHERE C_Order. C_BPartner_ID=bp. C_BPartner_ID AND SO_CreditUsed &gt; SO_CreditLimit)&quot;.&#10;Všimněte si, že logika založená na SQL kontroluje, zda nedochází k duplicitě pracovních postupů (tj. pracovní postup je spuštěn pouze jednou na jeden záznam)." xml:space="preserve""</value>
   <value column="Placeholder" original="" />
   <value column="PO_Description" original="" />
   <value column="PO_Help" original="" />
@@ -20050,10 +20049,10 @@ Všimněte si, že SQL logika kontroluje duplicitní toky (tj. tok je spuštěn 
   <value column="PO_PrintName" original="" />
  </row>
  <row id="2626" trl="N">
-  <value column="Name" original="Workflow Type">Typ Toku</value>
-  <value column="PrintName" original="Workflow Type">Typ Toku</value>
-  <value column="Description" original="Type of Workflow">Typ Toku</value>
-  <value column="Help" original="The type of workflow determines how the workflow is started.">Typ toku určuje, jak je tok spuštěn.</value>
+  <value column="Name" original="Workflow Type">Typ pracovního postupu</value>
+  <value column="PrintName" original="Workflow Type">Typ pracovního postupu</value>
+  <value column="Description" original="Type of Workflow">Typ pracovního postupu</value>
+  <value column="Help" original="The type of workflow determines how the workflow is started.">Typ pracovního postupu určuje způsob jeho spuštění.</value>
   <value column="Placeholder" original="" />
   <value column="PO_Description" original="" />
   <value column="PO_Help" original="" />
@@ -20061,8 +20060,8 @@ Všimněte si, že SQL logika kontroluje duplicitní toky (tj. tok je spuštěn 
   <value column="PO_PrintName" original="" />
  </row>
  <row id="2627" trl="N">
-  <value column="Name" original="Create">Vytvoř.</value>
-  <value column="PrintName" original="Create">Vytvoř.</value>
+  <value column="Name" original="Create">Vytvořit</value>
+  <value column="PrintName" original="Create">Vytvořit</value>
   <value column="Description" original="Create from Replenishment">Vytvořit z doplnění</value>
   <value column="Help" original="" />
   <value column="Placeholder" original="" />
@@ -20084,7 +20083,7 @@ Všimněte si, že SQL logika kontroluje duplicitní toky (tj. tok je spuštěn 
  </row>
  <row id="2629" trl="N">
   <value column="Name" original="Last Alert">Poslední upozornění</value>
-  <value column="PrintName" original="Last Alert">PoslUpoz.</value>
+  <value column="PrintName" original="Last Alert">Poslední upozornění</value>
   <value column="Description" original="Date when last alert were sent">Datum posledního upozornění odesláno</value>
   <value column="Help" original="The last alert date is updated when a reminder email is sent">Datum posledního upozornění aktualizováno při odeslání připomínkové e-mailu</value>
   <value column="Placeholder" original="" />
@@ -20094,10 +20093,10 @@ Všimněte si, že SQL logika kontroluje duplicitní toky (tj. tok je spuštěn 
   <value column="PO_PrintName" original="" />
  </row>
  <row id="2630" trl="N">
-  <value column="Name" original="Due Date Tolerance">DatTol.</value>
-  <value column="PrintName" original="Due Date Tolerance">DatTol.</value>
-  <value column="Description" original="Tolerance in days between the Date Next Action and the date the request is regarded as overdue">DatTol. mezi DatNásled. a datem považováno za překročené</value>
-  <value column="Help" original="When the Date Next Action is passed, the Request becomes Due. After the Due Date Tolerance, the Request becomes Overdue.">Když je překročen datum následující akce, žádost se stává splatnou. Po toleranci dat splatnosti se žádost stává překročenou.</value>
+  <value column="Name" original="Due Date Tolerance">Tolerance data splatnosti</value>
+  <value column="PrintName" original="Due Date Tolerance">Tolerance data splatnosti</value>
+  <value column="Description" original="Tolerance in days between the Date Next Action and the date the request is regarded as overdue">Tolerance ve dnech mezi datem příští akce a datem, kdy je žádost považována za opožděnou.</value>
+  <value column="Help" original="When the Date Next Action is passed, the Request becomes Due. After the Due Date Tolerance, the Request becomes Overdue.">Jakmile uplyne Datum příští akce, požadavek se stane splatným. Po uplynutí Tolerance data splatnosti se požadavek stane Po splatnosti.</value>
   <value column="Placeholder" original="" />
   <value column="PO_Description" original="" />
   <value column="PO_Help" original="" />
@@ -20105,10 +20104,10 @@ Všimněte si, že SQL logika kontroluje duplicitní toky (tj. tok je spuštěn 
   <value column="PO_PrintName" original="" />
  </row>
  <row id="2631" trl="N">
-  <value column="Name" original="Reminder Days">PřipomínkaDny</value>
-  <value column="PrintName" original="Reminder Days">PřipomínkaDny</value>
-  <value column="Description" original="Days between sending Reminder Emails for a due or inactive Document">DnyPřipomínkaE-maily pro splatné nebo neaktivní Dokumenty</value>
-  <value column="Help" original="When a document is due for too long without activity, a reminder is sent. 0 means no reminders.&#10;The Remind Days are the days when the next email reminder is sent.">Když je dokument příliš dlouho splatný bez aktivity, je odesláno upozornění. 0 znamená žádné připomínky. Dny připomínání jsou dny, kdy je odeslána další e-mailová připomínka.</value>
+  <value column="Name" original="Reminder Days">Připomínkové dny</value>
+  <value column="PrintName" original="Reminder Days">Připomínkové dny</value>
+  <value column="Description" original="Days between sending Reminder Emails for a due or inactive Document">Dny mezi odesláním upomínacích e-mailů pro splatný nebo neaktivní dokument</value>
+  <value column="Help" original="When a document is due for too long without activity, a reminder is sent. 0 means no reminders.&#10;The Remind Days are the days when the next email reminder is sent.">Pokud je dokument příliš dlouho bez aktivity, je odeslána upomínka. 0 znamená žádné připomenutí.&#10;Dny připomenutí jsou dny, kdy se odešle další e-mailová upomínka.</value>
   <value column="Placeholder" original="" />
   <value column="PO_Description" original="" />
   <value column="PO_Help" original="" />
@@ -20127,10 +20126,10 @@ Všimněte si, že SQL logika kontroluje duplicitní toky (tj. tok je spuštěn 
   <value column="PO_PrintName" original="" />
  </row>
  <row id="2633" trl="N">
-  <value column="Name" original="EMail when Overdue">EmlPřiPřekr.</value>
-  <value column="PrintName" original="EMail when Overdue">EmlPřiPřekr.</value>
-  <value column="Description" original="Send EMail when Request becomes overdue">EmlPřiPřekr.</value>
-  <value column="Help" original="Send EMail when Request becomes overdue">EmlPřiPřekr.</value>
+  <value column="Name" original="EMail when Overdue">E-mail při splatnosti</value>
+  <value column="PrintName" original="EMail when Overdue">E-mail při splatnosti</value>
+  <value column="Description" original="Send EMail when Request becomes overdue">Odeslání e-mailu, když se požadavek stane opožděným</value>
+  <value column="Help" original="Send EMail when Request becomes overdue">Odeslání e-mailu, když se požadavek stane opožděným</value>
   <value column="Placeholder" original="" />
   <value column="PO_Description" original="" />
   <value column="PO_Help" original="" />
@@ -20138,10 +20137,10 @@ Všimněte si, že SQL logika kontroluje duplicitní toky (tj. tok je spuštěn 
   <value column="PO_PrintName" original="" />
  </row>
  <row id="2634" trl="N">
-  <value column="Name" original="Inactivity Alert Days">DnyUpozornění</value>
-  <value column="PrintName" original="Inactivity Alert Days">DnyUpozornění</value>
-  <value column="Description" original="Send Alert when there is no activity after days (0= no alert)">Upozornění při nečinnosti po dnech (0= žádné upozornění)</value>
-  <value column="Help" original="An email alert is sent when the request shows no activity for the number of days defined.">EmlPřiNečinnostiPoDnech.</value>
+  <value column="Name" original="Inactivity Alert Days">Dny upozornění na nečinnost</value>
+  <value column="PrintName" original="Inactivity Alert Days">Dny upozornění na nečinnost</value>
+  <value column="Description" original="Send Alert when there is no activity after days (0= no alert)">Odeslat upozorn., když po někol. dnech nedojde k žádné aktivitě (0 = žádné upoz.)</value>
+  <value column="Help" original="An email alert is sent when the request shows no activity for the number of days defined.">E-mailové upozornění se odešle, když požadavek nevykazuje žádnou aktivitu po dobu definovaného počtu dní..</value>
   <value column="Placeholder" original="" />
   <value column="PO_Description" original="" />
   <value column="PO_Help" original="" />
@@ -20149,10 +20148,10 @@ Všimněte si, že SQL logika kontroluje duplicitní toky (tj. tok je spuštěn 
   <value column="PO_PrintName" original="" />
  </row>
  <row id="2635" trl="N">
-  <value column="Name" original="Alert over Priority">UpozornPřesPředn.</value>
-  <value column="PrintName" original="Alert over Priority">UpozornPřesPředn.</value>
-  <value column="Description" original="Send alert email when over priority">EmlPřiPředn.</value>
-  <value column="Help" original="Send alert email when a suspended activity is over the  priority defined">EmlPřiPřerPřesPředn.</value>
+  <value column="Name" original="Alert over Priority">Upozornění nad prioritou</value>
+  <value column="PrintName" original="Alert over Priority">Upozornění nad prioritou</value>
+  <value column="Description" original="Send alert email when over priority">Odeslání upozornění e-mailem při překročení priority</value>
+  <value column="Help" original="Send alert email when a suspended activity is over the  priority defined">Odeslání upozornění e-mailem, když pozastavená aktivita překročí definovanou prioritu.</value>
   <value column="Placeholder" original="" />
   <value column="PO_Description" original="" />
   <value column="PO_Help" original="" />
@@ -20171,9 +20170,9 @@ Všimněte si, že SQL logika kontroluje duplicitní toky (tj. tok je spuštěn 
   <value column="PO_PrintName" original="" />
  </row>
  <row id="2637" trl="N">
-  <value column="Name" original="Dyn Priority Start">DynamPřednZačátek</value>
-  <value column="PrintName" original="Dyn Priority Start">DynamPřednZačátek</value>
-  <value column="Description" original="Starting priority before changed dynamically">DynamPřednZačátek</value>
+  <value column="Name" original="Dyn Priority Start">Dynamická změna priority</value>
+  <value column="PrintName" original="Dyn Priority Start">Dynamická změna priority</value>
+  <value column="Description" original="Starting priority before changed dynamically">Počáteční priorita před dynamickou změnou</value>
   <value column="Help" original="" />
   <value column="Placeholder" original="" />
   <value column="PO_Description" original="" />
@@ -20182,10 +20181,10 @@ Všimněte si, že SQL logika kontroluje duplicitní toky (tj. tok je spuštěn 
   <value column="PO_PrintName" original="" />
  </row>
  <row id="2638" trl="N">
-  <value column="Name" original="Dynamic Priority Unit">DynamPřednJedn.</value>
-  <value column="PrintName" original="Dyn Priority Unit">DynamPřednJedn.</value>
-  <value column="Description" original="Change of priority when Activity is suspended waiting for user">Změna předn. při pozastavení činnosti čekající na uživatele</value>
-  <value column="Help" original="Starting with the Process / Node priority level, the priority of the suspended activity can be changed dynamically. Example +5 every 10 minutes">Začátek Předn. činnosti / uzlu, předn. pozastavené činnosti lze dynamicky změnit. Příklad +5 každých 10 minut.</value>
+  <value column="Name" original="Dynamic Priority Unit">Jednotka dynamické priority.</value>
+  <value column="PrintName" original="Dyn Priority Unit">Jednotka dynamické priority</value>
+  <value column="Description" original="Change of priority when Activity is suspended waiting for user">Změna priority, když je činnost pozast. a čeká na uživ.</value>
+  <value column="Help" original="Starting with the Process / Node priority level, the priority of the suspended activity can be changed dynamically. Example +5 every 10 minutes">Počínaje úrovní priority procesu / uzlu lze prioritu pozastavené činnosti dynamicky měnit. Příklad: +5 každých 10 minut</value>
   <value column="Placeholder" original="" />
   <value column="PO_Description" original="" />
   <value column="PO_Help" original="" />
@@ -26643,8 +26642,8 @@ O - konfigurovatelný parametr organizace</value>
   <value column="PO_PrintName" original="" />
  </row>
  <row id="53235" trl="N">
-  <value column="Name" original="Workflow Node Product">Wf uzl prod</value>
-  <value column="PrintName" original="Workflow Node Product">Wf uzl prod</value>
+  <value column="Name" original="Workflow Node Product">Uzel pracovního postupu Produkt</value>
+  <value column="PrintName" original="Workflow Node Product">Uzel pracovního postupu Produkt</value>
   <value column="Description" original="" />
   <value column="Help" original="" />
   <value column="Placeholder" original="" />
@@ -26654,8 +26653,8 @@ O - konfigurovatelný parametr organizace</value>
   <value column="PO_PrintName" original="" />
  </row>
  <row id="53236" trl="N">
-  <value column="Name" original="Workflow Node Asset">Wf uzl maj</value>
-  <value column="PrintName" original="Workflow Node Asset">Wf uzl maj</value>
+  <value column="Name" original="Workflow Node Asset">Uzel pracovního postupu Asset</value>
+  <value column="PrintName" original="Workflow Node Asset">Uzel pracovního postupu Asset</value>
   <value column="Description" original="" />
   <value column="Help" original="" />
   <value column="Placeholder" original="" />
@@ -27049,17 +27048,7 @@ Použijte pole Skupina Zpětného Vytlačení pro seskupení komponent v metodě
   <value column="Name" original="Yield %">Výnos %</value>
   <value column="PrintName" original="Yield %">Výnos %</value>
   <value column="Description" original="The Yield is the percentage of a lot that is expected to be of acceptable wuality may fall below 100 percent">Výnos % je procento dávky, která se očekává být přijatelné kvality, může být nižší než 100 procent.</value>
-  <value column="Help" original="ADempiere Calculate the total yield for a product from the yield for each activity when the process Workflow Cost Roll-Up is executed.&#10;&#10;The expected yield for an Activity can be expressed as:&#10;&#10;Yield = Acceptable Units at Activity End x 100&#10;&#10;The Total manufacturing yield for a product is determined by multiplying the yied percentage for each activity.&#10;&#10;Manufacturing Yield = Yield % for Activity 10 x Yied % for Activity 20 , etc &#10;&#10;Take care when setting yield to anything but 100% particularly when yied is used for multiples activities&#10;&#10;">"ADempiere Vypočítá celkový výnos pro produkt z výnosu pro každou aktivitu při spuštění procesu Workflow Cost Roll-Up.
-
-Očekávaný výnos pro aktivitu může být vyjádřen jako:
-
-Výnos = Přijatelné jednotky na konci aktivity x 100
-
-Celkový výrobní výnos pro produkt je určen násobením procentuálního výnosu pro každou aktivitu.
-
-Výrobní výnos = Výnos % pro aktivitu 10 x Výnos % pro aktivitu 20, atd.
-
-Buďte opatrní při nastavování výnosu na cokoliv jiného než 100%, zejména pokud se výnos používá pro více aktivit."</value>
+  <value column="Help" original="ADempiere Calculate the total yield for a product from the yield for each activity when the process Workflow Cost Roll-Up is executed.&#10;&#10;The expected yield for an Activity can be expressed as:&#10;&#10;Yield = Acceptable Units at Activity End x 100&#10;&#10;The Total manufacturing yield for a product is determined by multiplying the yied percentage for each activity.&#10;&#10;Manufacturing Yield = Yield % for Activity 10 x Yied % for Activity 20 , etc &#10;&#10;Take care when setting yield to anything but 100% particularly when yied is used for multiples activities&#10;&#10;">iDempiere Výpočet celkového výtěžku pro výrobek z výtěžku pro každou činnost při provádění procesu Pracovní postup nákladů Roll-Up.&#10;&#10;Očekávaný výtěžek pro činnost lze vyjádřit takto:&#10;&#10;Výtěžek = přijatelné jednotky na konci činnosti x 100&#10;&#10;Celkový výrobní výtěžek pro výrobek se určí vynásobením procenta yied pro každou činnost. &#10;&#10;Výrobní výtěžnost = % výtěžnosti pro činnost 10 x % yied pro činnost 20 , atd &#10;&#10;&#10;Dávejte pozor při nastavení výtěžnosti na jinou hodnotu než 100 %, zejména pokud se yied používá pro více činností&#10;&#10;"</value>
   <value column="Placeholder" original="" />
   <value column="PO_Description" original="" />
   <value column="PO_Help" original="" />
@@ -27068,7 +27057,7 @@ Buďte opatrní při nastavování výnosu na cokoliv jiného než 100%, zejmén
  </row>
  <row id="53274" trl="N">
   <value column="Name" original="Low Level">Nízká Úroveň</value>
-  <value column="PrintName" original="Low Level">Niž.Úr.</value>
+  <value column="PrintName" original="Low Level">Nízká Úroveň</value>
   <value column="Description" original="The Low Level is used to calculate the material plan and determines if a net requirement should be exploited">Niž.Úr. se používá k výpočtu materiálového plánu a určuje, zda by mělo být využito neto požadavku</value>
   <value column="Help" original="" />
   <value column="Placeholder" original="" />
@@ -27078,8 +27067,8 @@ Buďte opatrní při nastavování výnosu na cokoliv jiného než 100%, zejmén
   <value column="PO_PrintName" original="" />
  </row>
  <row id="53275" trl="N">
-  <value column="Name" original="Manufacturing Order BOM Line">Výr. Obj. BOM řádek</value>
-  <value column="PrintName" original="Manufacturing Order BOM Line">Výr.Obj.BOM řádek</value>
+  <value column="Name" original="Manufacturing Order BOM Line">Výrobní objednávka řádky kusovníku</value>
+  <value column="PrintName" original="Manufacturing Order BOM Line">Výrobní objednávka řádky kusovníku</value>
   <value column="Description" original="" />
   <value column="Help" original="" />
   <value column="Placeholder" original="" />
@@ -27089,9 +27078,9 @@ Buďte opatrní při nastavování výnosu na cokoliv jiného než 100%, zejmén
   <value column="PO_PrintName" original="" />
  </row>
  <row id="53276" trl="N">
-  <value column="Name" original="Manufacturing Order">Výr.Obj.</value>
-  <value column="PrintName" original="Manufacturing Order">Výr.Obj.</value>
-  <value column="Description" original="Manufacturing Order">Výr.Obj.</value>
+  <value column="Name" original="Manufacturing Order">Výrobní zakázka</value>
+  <value column="PrintName" original="Manufacturing Order">Výrobní zakázka</value>
+  <value column="Description" original="Manufacturing Order">Výrobní zakázka</value>
   <value column="Help" original="" />
   <value column="Placeholder" original="" />
   <value column="PO_Description" original="" />
@@ -27190,8 +27179,8 @@ Buďte opatrní při nastavování výnosu na cokoliv jiného než 100%, zejmén
  <row id="53285" trl="N">
   <value column="Name" original="Manufacturing Order Activity">Výr. Zak. Výr.</value>
   <value column="PrintName" original="Manufacturing Order Activity">Výr. Zak. Výr.</value>
-  <value column="Description" original="Workflow Node (activity), step or process">Workflow Node (activity), krok nebo proces</value>
-  <value column="Help" original="The Workflow Node indicates a unique step or process in a Workflow.">Workflow Node: Krok/proces v Workflowu</value>
+  <value column="Description" original="Workflow Node (activity), step or process">Uzel (činnost) pracovního postupu, krok nebo proces</value>
+  <value column="Help" original="The Workflow Node indicates a unique step or process in a Workflow.">Uzel pracovního postupu označuje jedinečný krok nebo proces v pracovním postupu.</value>
   <value column="Placeholder" original="" />
   <value column="PO_Description" original="" />
   <value column="PO_Help" original="" />
@@ -27199,8 +27188,8 @@ Buďte opatrní při nastavování výnosu na cokoliv jiného než 100%, zejmén
   <value column="PO_PrintName" original="" />
  </row>
  <row id="53286" trl="N">
-  <value column="Name" original="Manufacturing Order Workflow">Výr. Zak. Workflow</value>
-  <value column="PrintName" original="Manufacturing Order Workflow">Výr. Zak. Workflow</value>
+  <value column="Name" original="Manufacturing Order Workflow">Pracovní postup výrobní zakázky</value>
+  <value column="PrintName" original="Manufacturing Order Workflow">Pracovní postup výrobní zakázky</value>
   <value column="Description" original="" />
   <value column="Help" original="" />
   <value column="Placeholder" original="" />
@@ -31003,9 +30992,7 @@ Součet Akt. Cena Nákladů + Akt. Cena Níž. Úr. je celková cena výroby pro
   <value column="Name" original="Method Change Variance">Změna metody rozdílu</value>
   <value column="PrintName" original="Account for Method Change Variance">Zaúčtování změny metody rozdílu</value>
   <value column="Description" original="The Method Change Variance account is the account used Manufacturing Order">Účet změny metody rozdílu je používán pro výrobní příkaz</value>
-  <value column="Help" original="The Method Change Variance is used in Standard Costing. It reflects the difference between the Standard BOM , Standard Manufacturing Workflow and Manufacturing BOM Manufacturing Workflow.&#10;&#10;If you change the method the manufacturing defined in BOM or Workflow Manufacturig then this variance is generate.">Metoda změny rozdílu se používá v standardním nákladovém účetnictví. Odráží rozdíl mezi standardním BOM, standardním výrobním postupem a výrobním BOM výrobním postupem.
-
-Pokud změníte metodu výroby definovanou v BOM nebo výrobním postupu, pak se tato odchylka vytvoří.</value>
+  <value column="Help" original="The Method Change Variance is used in Standard Costing. It reflects the difference between the Standard BOM , Standard Manufacturing Workflow and Manufacturing BOM Manufacturing Workflow.&#10;&#10;If you change the method the manufacturing defined in BOM or Workflow Manufacturig then this variance is generate.">Odchylka změny metody se používá při standardním účtování nákladů. Odráží rozdíl mezi standardním kusovníkem , standardním výrobním postupem a výrobním postupem kusovníku výroby.&#10;&#10;Pokud změníte metodu výroby definovanou v kusovníku nebo pracovním postupu výroby, pak se tato odchylka vygeneruje.</value>
   <value column="Placeholder" original="" />
   <value column="PO_Description" original="" />
   <value column="PO_Help" original="" />
@@ -31016,9 +31003,7 @@ Pokud změníte metodu výroby definovanou v BOM nebo výrobním postupu, pak se
   <value column="Name" original="Usage Variance">Využití Odchylka</value>
   <value column="PrintName" original="Account for Usage Variance">Zaúčtování Využití Odchylka</value>
   <value column="Description" original="The Usage Variance account is the account used Manufacturing Order">Účet Využití Odchylka je používán pro výrobní příkaz</value>
-  <value column="Help" original="The Usage Variance is used in Standard Costing. It reflects the difference between the  Quantities of Standard BOM  or Time Standard Manufacturing Workflow and Quantities of Manufacturing BOM or Time Manufacturing Workflow of Manufacturing Order.&#10;&#10;If you change the Quantities or Time  defined in BOM or Workflow Manufacturig then this variance is generate.">Využití Odchylka se používá v standardním nákladovém účetnictví. Odráží rozdíl mezi množstvím standardního BOM nebo časem standardního výrobního postupu a množstvím výrobního BOM nebo časem výrobního postupu výrobního příkazu.
-
-Pokud změníte množství nebo čas definovaný v BOM nebo výrobním postupu, pak se tato odchylka vytvoří.</value>
+  <value column="Help" original="The Usage Variance is used in Standard Costing. It reflects the difference between the  Quantities of Standard BOM  or Time Standard Manufacturing Workflow and Quantities of Manufacturing BOM or Time Manufacturing Workflow of Manufacturing Order.&#10;&#10;If you change the Quantities or Time  defined in BOM or Workflow Manufacturig then this variance is generate.">Odchylka využití se používá ve standardní kalkulaci nákladů. Vyjadřuje rozdíl mezi množstvím standardního kusovníku nebo časovým postupem výroby a množstvím výrobního kusovníku nebo časovým postupem výroby výrobního příkazu.&#10;&#10;Pokud změníte množství nebo čas definovaný v kusovníku nebo postupu výroby, pak se tato odchylka vygeneruje.</value>
   <value column="Placeholder" original="" />
   <value column="PO_Description" original="" />
   <value column="PO_Help" original="" />
@@ -31209,8 +31194,8 @@ Kredit účtu Práce v procesu</value>
   <value column="PO_PrintName" original="" />
  </row>
  <row id="53757" trl="N">
-  <value column="Name" original="ASP Workflow">ASP Workflow: ASP Workflow</value>
-  <value column="PrintName" original="ASP Workflow">ASP Workflow: ASP Workflow</value>
+  <value column="Name" original="ASP Workflow">Pracovní postup ASP</value>
+  <value column="PrintName" original="ASP Workflow">Pracovní postup ASP</value>
   <value column="Description" original="" />
   <value column="Help" original="" />
   <value column="Placeholder" original="" />
@@ -61901,8 +61886,8 @@ Sl. v Rodič Sl. Sl. nahradí klíčový sl.</value>
   <value column="PO_PrintName" original="" />
  </row>
  <row id="203132" trl="N">
-  <value column="Name" original="Workflow Activity Approver">Schv. schval. činnost</value>
-  <value column="PrintName" original="Workflow Activity Approver">Schv. schval. činnost</value>
+  <value column="Name" original="Workflow Activity Approver">Schvalovatel aktivit pracovních postupů</value>
+  <value column="PrintName" original="Workflow Activity Approver">Schvalovatel aktivit pracovních postupů</value>
   <value column="Description" original="" />
   <value column="Help" original="" />
   <value column="Placeholder" original="" />
