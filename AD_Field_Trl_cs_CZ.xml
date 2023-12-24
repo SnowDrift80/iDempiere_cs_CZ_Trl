@@ -1,0 +1,1002 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 10_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community-->
+<!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="cs_CZ" table="AD_Field">
+ <row id="1546" trl="N">
+  <value column="Name" original="Link Column">Odkaz Sloupec</value>
+  <value column="Description" original="Link Column for Multi-Parent tables">Odkaz Sloupec pro Více-Rodičovské tabulky</value>
+  <value column="Help" original="The Link Column indicates which column is the primary key for those situations where there is more than one parent.  Only define it, if the table has more than one parent column (e.g. AD_User_Roles).">Odkazový sloupec označuje, který sloupec je primárním klíčem pro situace, kdy existuje více rodičů. Definujte pouze, pokud tabulka má více než jeden rodičovský sloupec (např. AD_User_Roles).</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="2124" trl="N">
+  <value column="Name" original="Language">Jazyk</value>
+  <value column="Description" original="Language for this Business Partner if Multi-Language enabled">Jazyk pro tohoto obchodního partnera, pokud je povoleno vícejazyčné prostředí</value>
+  <value column="Help" original="The Language identifies the language to use for display and formatting documents. It requires, that on Tenant level, Multi-Lingual documents are selected and that you have created/loaded the language.">Jazyk určuje jazyk pro zobrazení a formátování dokumentů. Vyžaduje, aby na úrovni mandanta byly vybrány vícejazyčné dokumenty a že jste vytvořili/nahráli jazyk.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="3665" trl="N">
+  <value column="Name" original="Start Node">Začátek</value>
+  <value column="Description" original="Workflow Node, step or process">Uzel pracovního postupu, krok nebo proces</value>
+  <value column="Help" original="The Workflow Node indicates a unique step or process in a Workflow.">Uzel pracovního postupu označuje jedinečný krok nebo proces v pracovním postupu.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="4055" trl="N">
+  <value column="Name" original="Tax Amount">DPH Částka</value>
+  <value column="Description" original="Tax Amount for Credit Card transaction">DPH pro transakci kreditní kartou</value>
+  <value column="Help" original="The Tax Amount displays the total tax amount. The tax amount is only used for credit card processing.">DPH Částka: Celková částka DPH. Částka DPH se používá pouze pro zpracování kreditních karet.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="4121" trl="N">
+  <value column="Name" original="Account Conversion Date">Dat. převodu účtu</value>
+  <value column="Description" original="Accounting Conversion Date">Dat. převodu účtu</value>
+  <value column="Help" original="The Accounting Date indicates the date to be used on the General Ledger account entries generated from this document. It is also used for any currency conversion.&#10;The Accounting Date on Bank/Cash Statement Line is used for currency conversion and reporting purposes, the accounting is posted using the header date account.">Dat. účtování: Datum, které se použije pro účtování výpisu základní knihy vygenerovaného z tohoto dokumentu. Používá se také pro převod měny. Dat. účtování na řádku výpisu banky/pokladny se používá pro převod měny a účely zpráv, účtování se provádí pomocí účtovacího data v záhlaví.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="4462" trl="N">
+  <value column="Name" original="Business Partner / Sales Rep">Obchodní partner / Prodejní zástupce</value>
+  <value column="Description" original="Identifies a Business Partner (Sales Rep) receiving the Commission">Obchodní partner (Prodejní zástupce) pro provizi</value>
+  <value column="Help" original="The Business Partner should be a vendor and may be a Sales Representative">Obchodní partner jako dodavatel, může být také prodejní zástupce</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="4725" trl="N">
+  <value column="Name" original="Acknowledge">Potvrdit</value>
+  <value column="Description" original="System Notice acknowledged">Systém potvrzen</value>
+  <value column="Help" original="The Acknowledged checkbox indicates if this notice does not need to be retained.">Potvrzeno políčko označuje, zda je třeba tuto zprávu uchovat.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="5092" trl="N">
+  <value column="Name" original="Driving Column">Řídící sloupec</value>
+  <value column="Description" original="Column which controls all tabs in the workbench">Řídící sloupec pro záložky v pracovním prostředí</value>
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="5899" trl="N">
+  <value column="Name" original="System Name">Systém jméno</value>
+  <value column="Description" original="Name your iDempiere System installation, e.g. Joe Block, Inc.">Název vaší instalace iDempiere systému, např. Joe Block, Inc.</value>
+  <value column="Help" original="The name if the system to differentiate support contracts">Název systému pro rozlišení smluv podpory</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="6344" trl="N">
+  <value column="Name" original="Attribute Set Instance">Atributová sada</value>
+  <value column="Description" original="Product Attribute Values">Hodnoty atributů produktu</value>
+  <value column="Help" original="The values of the actual Product Attributes. Product Instance attributes are defined in the actual transactions.">Hodnoty aktuálních atributů produktu. Atributy instance produktu jsou definovány v aktuálních transakcích.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="8985" trl="N">
+  <value column="Name" original="Document No">Číslo dok.</value>
+  <value column="Description" original="Document sequence number of the document">Číslo dokladu</value>
+  <value column="Help" original="The document number is usually automatically generated by the system and determined by the document type of the document. If the document is not saved, the preliminary number is displayed in &quot;&lt;&gt;&quot;.&#10;&#10;If the document type of your document has no automatic document sequence defined, the field is empty if you create a new document. This is for documents which usually have an external number (like vendor invoice).  If you leave the field empty, the system will generate a document number for you. The document sequence used for this fallback number is defined in the &quot;Maintain Sequence&quot; window with the name &quot;DocumentNo_&lt;TableName&gt;&quot;, where TableName is the actual name of the table (e.g. C_Order)." xml:space="preserve">Číslo dokladu je obvykle automaticky generováno systémem a určeno typem dokladu. Pokud není doklad uložen, zobrazí se předběžné číslo v "&lt;&gt;". 
+
+Pokud typ vašeho dokladu nemá definovanou automatickou posloupnost dokladů, pole bude prázdné při vytváření nového dokladu. Toto platí pro doklady, které obvykle mají externí číslo (např. faktura od dodavatele). Pokud pole ponecháte prázdné, systém pro vás vygeneruje číslo dokladu. Posloupnost dokladů použitá pro toto fallback číslo je definována v okně "Udržovat posloupnost" pod názvem "DocumentNo_&lt;TableName&gt;", kde TableName je aktuální název tabulky (např. C_Order).</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="9615" trl="N">
+  <value column="Name" original="Representative/Agent">Zástupce</value>
+  <value column="Description" original="Sales Representative or Company Agent">Prodejní zástupce nebo agent firmy</value>
+  <value column="Help" original="The Sales Representative indicates the Sales Rep for this Region.  Any Sales Rep must be a valid internal user.">Prodejní zástupce pro tuto oblast. Každý zástupce musí být platným interním uživatelem.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="10089" trl="N">
+  <value column="Name" original="Wait Time">Čekací doba</value>
+  <value column="Description" original="Time in minutes to wait (sleep)">Čekací doba (spát)</value>
+  <value column="Help" original="Time in minutes to be suspended (sleep).  A value of -1 means to wait and execute after the commit of the workflow transaction.">Doba pozastavení (spánku) v minutách.  Hodnota -1 znamená, že se má čekat a provést až po odevzdání transakce pracovního postupu.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="10097" trl="N">
+  <value column="Name" original="Value">Hodnota</value>
+  <value column="Description" original="Condition Value">Podmínka hodnota</value>
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="10769" trl="N">
+  <value column="Name" original="Schema Type">Typ schématu</value>
+  <value column="Description" original="Type of trade schema calculation">Typ výpočtu obchodního schématu</value>
+  <value column="Help" original="Type of procedure used to calculate the trade schema percentage">Typ výpočtu procent obchodního schématu</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="10886" trl="N">
+  <value column="Name" original="Overwrite Project">Přepsat projekt</value>
+  <value column="Description" original="Overwrite the account segment Project with the value specified">Přepsat účetní segment Projekt s určenou hodnotou</value>
+  <value column="Help" original="If not overwritten, the value of the original account combination is used. If selected, but not specified, the segment is set to null.">Pokud není přepsáno, použije se hodnota původní kombinace účtu. Pokud je vybráno, ale není určeno, segment je nastaven na null.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="11264" trl="N">
+  <value column="Name" original="Column SQL">Sloupec SQL</value>
+  <value column="Description" original="Virtual Column (r/o)">Virtuální sloupec (r/o)</value>
+  <value column="Help" original="You can define virtual columns (not stored in the database). If defined, the Column name is the synonym of the SQL expression defined here. The SQL expression must be valid.&lt;br&gt;&#10;Example: &quot;Updated-Created&quot; would list the age of the entry in days.&lt;br&gt;&#10;It is not recommended to add complex queries in virtual columns as the impact on the database performance can be too expensive.&lt;br&gt;&#10;However, you can use the prefix @SQLFIND= for virtual columns that can be used for queries and reports, they have less impact on the database, but as a field they don't show values.&lt;br&gt;&#10;Additionally, the prefix @SQL= allows to define a virtual UI column, this is calculated on the fly and can use context variables in the query, virtual UI columns are shown in grid just on the current row, they are not searchable, and not shown in reports." xml:space="preserve">"Můžete definovat virtuální sloupce (neukládané v databázi). Pokud jsou definovány, název sloupce je synonymem pro SQL výraz definovaný zde. SQL výraz musí být platný.&lt;br&gt;
+Příklad: "Aktualizováno-Vytvořeno" by zobrazil věk záznamu v dnech.&lt;br&gt;
+Není doporučeno přidávat složité dotazy do virtuálních sloupců, protože to může mít negativní vliv na výkon databáze.&lt;br&gt;
+Nicméně můžete použít prefix @SQLFIND= pro virtuální sloupce, které mohou být použity pro dotazy a reporty, mají menší vliv na databázi, ale jako pole nezobrazují hodnoty.&lt;br&gt;
+Navíc prefix @SQL= umožňuje definovat virtuální UI sloupec, který je vypočítán dynamicky a může používat proměnné kontextu v dotazu, virtuální UI sloupce jsou zobrazeny v mřížce pouze na aktuálním řádku, nejsou vyhledávatelné a nejsou zobrazeny v reportech."</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="11799" trl="N">
+  <value column="Name" original="Attribute Set Instance">Inst. atrib. sady</value>
+  <value column="Description" original="Product Attribute Values">Hodnoty atributů produktu</value>
+  <value column="Help" original="The values of the actual Product Attributes. Product Instance attributes are defined in the actual transactions.">Hodnoty aktuálních atributů produktu. Atributy instancí produktu jsou definovány v aktuálních transakcích.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="12249" trl="N">
+  <value column="Name" original="Validation code">Kód validace</value>
+  <value column="Description" original="Validation Code">Kód validace</value>
+  <value column="Help" original="The Validation Code displays the date, time and message of the error.&#10;&#10;You can add advanced SQL queries to your searches by filling this field with @SQL=[WHERE CLAUSE].&#10;Do not include the WHERE statement and use Fully qualified SQL statements. F.e:&#10;&#10;@SQL=C_Order.isActive='Y' AND SalesRep_ID=@AD_User_ID@ &#10;&#10;will filter orders by active and where the sales representative is the current user.">Kód validace zobrazuje datum, čas a zprávu o chybě.
+
+Můžete přidat pokročilé SQL dotazy do vašich vyhledávání vyplněním tohoto pole s @SQL=[WHERE CLAUSE].
+Nepřidávejte WHERE výraz a používejte plně kvalifikované SQL příkazy. Např.:
+
+@SQL=C_Order.isActive='Y' AND C_Order=@C_Order@
+
+filtrovat objednávky podle aktivních a kde je prodejní zástupce aktuální uživatel.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="12732" trl="N">
+  <value column="Name" original="Language">Jazyk</value>
+  <value column="Description" original="Language for this Business Partner if Multi-Language enabled">Jazyk pro tohoto obchodního partnera, pokud je povoleno vícejazyčné prostředí</value>
+  <value column="Help" original="The Language identifies the language to use for display and formatting documents. It requires, that on Tenant level, Multi-Lingual documents are selected and that you have created/loaded the language.">Jazyk určuje jazyk pro zobrazení a formátování dokumentů. Vyžaduje, aby na úrovni mandanta byly vybrány vícejazyčné dokumenty a že jste vytvořili/nahráli jazyk.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="13179" trl="N">
+  <value column="Name" original="UserName">UživJmé</value>
+  <value column="Description" original="UserName / Login to use for login">UživJmé / Přihlášení pro přihlášení</value>
+  <value column="Help" original="UserName / Login to use for the login&#10;Email of the responsible person for the system (registered in WebStore)">UživJmé / Přihlášení pro přihlášení
+Email odpovědné osoby pro systém (registrovaný v WebStore)</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="13424" trl="N">
+  <value column="Name" original="Mandatory Overwrite">Přepsat povinně</value>
+  <value column="Description" original="Overwrite Field Mandatory status">Přepsat pole Povinný stav</value>
+  <value column="Help" original="The field must have a value for the record to be saved to the database.">Pole musí mít hodnotu pro záznam, aby bylo uloženo do databáze.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="13425" trl="N">
+  <value column="Name" original="Reference Overwrite">Přepsat odkaz</value>
+  <value column="Description" original="System Reference - optional Overwrite">Systém Odkaz - nepovinně Přepsat</value>
+  <value column="Help" original="You can overwrite the Display Type, but only use this if you aware of the consequences.">Můžete přepsat typ zobrazení, ale použijte pouze pokud jste si vědomi následků.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="13755" trl="N">
+  <value column="Name" original="Search Key">Hledat klíč</value>
+  <value column="Description" original="Search key for the record in the format required">Hledat klíč pro záznam ve vyžadovaném formátu</value>
+  <value column="Help" original="7 bit lower case alpha numeric - max length 8 - can be used for operating system names.">7 bit malá alfanumerická - max délka 8 - může být použito pro názvy operačních systémů.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="50066" trl="N">
+  <value column="Name" original="AD_Package_Exp_ID">AD_Package_Exp_ID</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="50067" trl="N">
+  <value column="Name" original="Processed">Zpracováno</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="50068" trl="N">
+  <value column="Name" original="IsActive">Aktivní</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="50069" trl="N">
+  <value column="Name" original="Tenant">Mandant</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="50070" trl="N">
+  <value column="Name" original="Organization">Organizace</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="50071" trl="N">
+  <value column="Name" original="Name of Package">Název balíčku</value>
+  <value column="Description" original="Name of Package">Název balíčku</value>
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="50075" trl="N">
+  <value column="Name" original="Creation Directory">Vytvoření adresáře</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="50076" trl="N">
+  <value column="Name" original="Created By">Vytvořeno od</value>
+  <value column="Description" original="User who created the package">Vytvořil uživatel balíček</value>
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="50077" trl="N">
+  <value column="Name" original="Create Date">Vytvoření datum</value>
+  <value column="Description" original="Date when Package was created">Datum vytvoření balíčku</value>
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="50080" trl="N">
+  <value column="Name" original="Processed By">Zpracováno od</value>
+  <value column="Description" original="User who Processed the package">Zpracováno od uživatele</value>
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="50081" trl="N">
+  <value column="Name" original="Processed Date">Zpracováno datum</value>
+  <value column="Description" original="Date when the package was processed">Datum zpracování balíčku</value>
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="50082" trl="N">
+  <value column="Name" original="Description of Package">Popis balíčku</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="50085" trl="N">
+  <value column="Name" original="Export Package">Export balíček</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="50086" trl="N">
+  <value column="Name" original="AD_Package_Exp_Detail_ID">AD_Package_Exp_Detail_ID</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="50087" trl="N">
+  <value column="Name" original="Item Name">Název položky</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="50088" trl="N">
+  <value column="Name" original="Processing">Zpracování</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="50089" trl="N">
+  <value column="Name" original="IsActive">Aktivní</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="50090" trl="N">
+  <value column="Name" original="Processed">Zpracováno</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="50091" trl="N">
+  <value column="Name" original="Package Build ID">Balíček ID sestavení</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="50092" trl="N">
+  <value column="Name" original="Tenant">Mandant</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="50093" trl="N">
+  <value column="Name" original="Organization">Organizace</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="50096" trl="N">
+  <value column="Name" original="Type">Typ</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="50097" trl="N">
+  <value column="Name" original="Menu">Menu</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="50099" trl="N">
+  <value column="Name" original="Source File Directory">Zdrojový adresář</value>
+  <value column="Description" original="Current location of source file">Aktuální umístění zdrojového souboru</value>
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="50103" trl="N">
+  <value column="Name" original="Table">Tabulka</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="50108" trl="N">
+  <value column="Name" original="Form">Form</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="50109" trl="N">
+  <value column="Name" original="Process">Zpracov.</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="50110" trl="N">
+  <value column="Name" original="Workflow">Pracovní postup</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="50117" trl="N">
+  <value column="Name" original="Notes">Poznámky</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="50166" trl="N">
+  <value column="Name" original="Configured Value">Nastavená hodnota</value>
+  <value column="Description" original="Value for the configuration key">Hodnota pro konfigurační klíč</value>
+  <value column="Help" original="You can check the valid variables and values at http://wiki.idempiere.org/en/System_Configurator_(Window_ID-50006)">Můžete zkontrolovat platné proměnné a hodnoty na adrese http://wiki.idempiere.org/en/System_Configurator_(System_Configurator_-50006)</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="53360" trl="N">
+  <value column="Name" original="Value">Hodnota</value>
+  <value column="Description" original="Condition Value">Podmínka hodnota</value>
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="53375" trl="N">
+  <value column="Name" original="Resource">Zdroj</value>
+  <value column="Description" original="Resource">Zdroj</value>
+  <value column="Help" original="Select the manufacturing resource (previously defined) where you want to execute the operation. For the product costing, the Resource rate is taken from the cost element introduced in the window Product Costing.">Vyberte výrobní zdroj (předem definovaný), kde chcete provést operaci. Pro nákladové kalkulace se sazba zdroje bere z nákladové položky zadané v okně Nákladové kalkulace.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="53378" trl="N">
+  <value column="Name" original="Business Partner ">Obchodní partner</value>
+  <value column="Description" original="Identifies a Business Partner to Subcontrating">Identifikuje obchodního partnera pro subdodavatele</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">Obchodní partner je kdokoliv, s kým obchodujete. Může to být dodavatel, zákazník, zaměstnanec nebo obchodní zástupce.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="53380" trl="N">
+  <value column="Name" original="Valid from">Platné od</value>
+  <value column="Description" original="Valid from including this date (first day)">Platné od (první den)</value>
+  <value column="Help" original="The Valid From date indicates the first day of a date range.&#10;When you enter dates in the fields Valid From - To we give the the period of time where this operation will have to be considered for the elaboration of the product.">Platí od: První den rozsahu dat. Při zadání dat do polí Platí od - Do udáváme období, ve kterém se bude operace zohledňovat při zpracování produktu.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="53381" trl="N">
+  <value column="Name" original="Valid to">Platné do</value>
+  <value column="Description" original="Valid to including this date (last day)">Platné do (poslední den)</value>
+  <value column="Help" original="The Valid To date indicates the last day of a date range&#10;When you enter dates in the fields Valid From - To we give the the period of time where this operation will have to be considered for the elaboration of the product.">Platí do: Poslední den rozsahu dat. Při zadání dat do polí Platí od - Do udáváme období, ve kterém se bude operace zohledňovat při zpracování produktu.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="53449" trl="N">
+  <value column="Name" original="Start Node">Začátek</value>
+  <value column="Description" original="Workflow Node step or process">Krok nebo proces</value>
+  <value column="Help" original="The Workflow Node indicates a unique step or process in a Workflow.">Uzel pracovního postupu označuje jedinečný krok nebo proces v pracovním postupu.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="53480" trl="N">
+  <value column="Name" original="Copy BOM Lines From">Kopírovat BOM z</value>
+  <value column="Description" original="Copy BOM Lines from an exising BOM">Kopírovat BOM z existujícího BOM</value>
+  <value column="Help" original="Copy BOM Lines from an exising BOM. The BOM being copied to, must not have any existing BOM Lines.">Kopírovat BOM z existujícího BOM. BOM, do kterého se kopíruje, nesmí mít žádné existující BOM řádky.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="53490" trl="N">
+  <value column="Name" original="Valid from">Platí od</value>
+  <value column="Description" original="Valid from including this date (first day)">Platí od (první den)</value>
+  <value column="Help" original="The Valid From date indicates the first day of a date range&#10;&#10;The Valid From and Valid To dates indicate the valid time period to use the BOM in a Manufacturing Order.">Platí od: První den rozsahu dat. Platí od a Platí do udávají platné období pro použití BOM v pracovním příkazu.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="53512" trl="N">
+  <value column="Name" original="Warehouse">Sklad</value>
+  <value column="Description" original="Storage Warehouse and Service Point">Sklad a servisní místo</value>
+  <value column="Help" original="The Warehouse identifies a unique Warehouse where products are stored or Services are provided.&#10;&#10;Warehouse place where you locate and control the products">Sklad: Unikátní sklad, kde jsou skladovány produkty nebo poskytovány služby. Sklad pro umístění a kontrolu produktů.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="53513" trl="N">
+  <value column="Name" original="Resource">Zdroj</value>
+  <value column="Description" original="Resource">Zdroj</value>
+  <value column="Help" original="A manufacturing resource is a place where a product will be made.">Výrobní zdroj je místo, kde bude výrobek vyroben.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="53517" trl="N">
+  <value column="Name" original="BOM &amp; Formula" xml:space="preserve">BOM a vzorec</value>
+  <value column="Description" original="" />
+  <value column="Help" original="The name BOM/Formula that you introduce in this window will be considered the default BOM to produce the product in this Organization-Plant-Warehouse. If you do not fill this field the default BOM &amp; Formula for the entity will be the BOM/Formula which has the same name as the product." xml:space="preserve">Název BOM/Vzorec, který zde zadáte, bude považován za výchozí BOM pro výrobu produktu v této organizaci-závodě-skladu. Pokud toto pole nevyplníte, výchozím BOM a vzorcem pro entitu bude BOM/Vzorec se stejným názvem jako produkt.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="53518" trl="N">
+  <value column="Name" original="Workflow">Pracovní postupy</value>
+  <value column="Description" original="Workflow or combination of tasks">Pracovní postup nebo kombinace úkolů</value>
+  <value column="Help" original="The Workflow field identifies a unique Workflow in the system.&#10;&#10;The Workflow you introduce in this window will be considered the default Workflow to produce the product in this Organization-Plant-Warehouse. If you do not fill this field the defaul Workflow for the entity will be the Workflow with the same name as the product.">Pole Pracovní postup identifikuje jedinečný pracovní postup v systému.&#10;&#10;Pracovní postup, který zavedete v tomto okně, bude považován za výchozí pracovní postup pro výrobu produktu v této organizaci - plánu - skladu. Pokud toto pole nevyplníte, bude výchozím pracovním postupem pro tuto entitu pracovní postup se stejným názvem jako výrobek."</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="53523" trl="N">
+  <value column="Name" original="Promised Delivery Time">Čas dodání</value>
+  <value column="Description" original="Promised days between order and delivery">Čas mezi objednáním a dodáním</value>
+  <value column="Help" original="The Promised Delivery Time indicates the number of days between the order date and the date that delivery was promised.&#10;&#10;You must enter the average number of days to receive the product in the warehouse since you approve the requisition or manufacturing order until you receive the material in the warehouse . If the product is bought you must register the calendar days required since you make the PO until you receive the material in the warehouse. If the product is manufactured in your plant you must register the number of working days since you release the MO until you receive the material in the warehouse.">Čas dodání udává počet dní mezi datem objednání a datem, kdy bylo dodání slíbeno.
+
+Musíte zadat průměrný počet dní, které trvá, než produkt dorazí do skladu od schválení požadavku nebo výrobní objednávky, až do přijetí materiálu do skladu. Pokud je produkt zakoupen, musíte zaznamenat kalendářní dny potřebné od vytvoření objednávky (PO) až po přijetí materiálu do skladu. Pokud je produkt vyroben ve vaší továrně, musíte zaznamenat počet pracovních dní od uvolnění výrobní objednávky (MO) až po přijetí materiálu do skladu.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="53533" trl="N">
+  <value column="Name" original="Working Time">Pracovní čas</value>
+  <value column="Description" original="Workflow Simulation Execution Time">Doba provádění simulace pracovního postupu</value>
+  <value column="Help" original="Amount of time the performer of the activity needs to perform the task in Duration Unit&#10;&#10;In the field Working Time you enter the accumulated time (using the Promising Delivery Time) in the critical path of the BOM for this product. It is the required time to produce the product as if you would not have any component on hand.">Doba, kterou potřebuje výkonný subjekt k provedení úkolu v jednotce trvání.
+
+V poli Pracovní doba zadáváte akumulovaný čas (pomocí slíbeného času dodání) v kritické cestě BOM pro tento produkt. Je to požadovaný čas pro výrobu produktu, jako byste neměli žádnou součást na skladě.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="53653" trl="N">
+  <value column="Name" original="Acknowledge">Potvrdit</value>
+  <value column="Description" original="System Notice acknowledged">Systém potvrzen</value>
+  <value column="Help" original="The Acknowledged checkbox indicates if this notice does not need to be retained.">Zaškrtnutím políčka Potvrzeno se označí, zda je třeba tuto poznámku uchovat.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="53742" trl="N">
+  <value column="Name" original="Accumulated Qty">Kumulováno</value>
+  <value column="Description" original="Total Quantity">Celkem množství</value>
+  <value column="Help" original="Sum of the quantities&#10;&#10;This field shows the sum of the quantities of the product that have had movements.">"Součet množství
+
+Toto pole ukazuje součet množství produktu, které měly pohyby."</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="53744" trl="N">
+  <value column="Name" original="Accumulated Amt">Kumulováno částka</value>
+  <value column="Description" original="Total Amount">Celková částka</value>
+  <value column="Help" original="Sum of all amounts&#10;&#10;This field shows the sum of the amounts of the product that have had movements.">"Součet všech částek
+
+Toto pole ukazuje součet částek produktu, které měly pohyby."</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="53904" trl="N">
+  <value column="Name" original="Version No">Verze č.</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="54035" trl="N">
+  <value column="Name" original="Ordered Quantity">Objednáno množství</value>
+  <value column="Description" original="Ordered Quantity">Objednáno množství</value>
+  <value column="Help" original="The Ordered Quantity indicates the quantity of a product that was ordered.">Objednáno množství: Množství objednaného produktu.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="54038" trl="N">
+  <value column="Name" original="Instance">Instance</value>
+  <value column="Description" original="Product Attribute Set Instance">Inst. atrib. sady produktu</value>
+  <value column="Help" original="The values of the actual Product Attribute Instances.  The product level attributes are defined on Product level.">Hodnoty aktuálních instancí atributů produktu. Atributy na úrovni produktu jsou definovány na úrovni produktu.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="54039" trl="N">
+  <value column="Name" original="Instance To">Inst. na</value>
+  <value column="Description" original="Target Product Attribute Set Instance">Cíl atrib. sady produktu</value>
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="54133" trl="N">
+  <value column="Name" original="Resource/Plant">Zdroj/Planta</value>
+  <value column="Description" original="Resource/Plant">Zdroj/Planta</value>
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="54139" trl="N">
+  <value column="Name" original="Date Ordered">Datum objednávky</value>
+  <value column="Description" original="Date of Order">Datum objednávky</value>
+  <value column="Help" original="Indicates the Date an item was ordered.&#10;Date Ordered is the date when the order was generated. If the MO is created manually the default date ordered is the system date. If the MO was generated by MRP the default date ordered is the day of the MRP process.">Datum objednání: Datum, kdy byla položka objednána.
+Datum objednávky je datum, kdy byla objednávka vygenerována. Pokud je MO vytvořena ručně, výchozí datum objednávky je systémové datum. Pokud byla MO vygenerována pomocí MRP, výchozí datum objednávky je den procesu MRP.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="54140" trl="N">
+  <value column="Name" original="Date Promised">Datum slíbeno</value>
+  <value column="Description" original="Date Order was promised">Datum slíbeno</value>
+  <value column="Help" original="The Date Promised indicates the date, if any, that an Order was promised for.&#10;Date Promised Is the date we commit to give the order to the warehouse. If the MO is created manually the default date promised is the system date. If the MO was generated by MRP this date is filled automatically using its algorithm calculation.">Datum slíbeno: Datum, pokud existuje, kdy byla objednávka slíbena.
+Datum slíbeno je datum, kdy slibujeme, že objednávku předáme skladu. Pokud je MO vytvořena ručně, výchozí datum slíbeno je systémové datum. Pokud byla MO vygenerována pomocí MRP, toto datum je automaticky vyplněno pomocí výpočtu algoritmu.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="54145" trl="N">
+  <value column="Name" original="Date Start">Datum začátku</value>
+  <value column="Description" original="Indicate the real date to start">Datum začátku</value>
+  <value column="Help" original="It is the date when the first manufacturing order movement is reported, this movement can be an inventory or labor movement.">Datum prvního hlášení pohybu výrobního příkazu, může být pohyb zásob nebo práce.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="54146" trl="N">
+  <value column="Name" original="Finish Date">Datum dokončení</value>
+  <value column="Description" original="Finish or (planned) completion date">Datum dokončení</value>
+  <value column="Help" original="The finish date is used to indicate when the project is expected to be completed or has been completed.&#10;&#10;To Manufacturing Order is the date when the last manufacturing order movement is reported, It is the closing order date.">Datum dokončení se používá k označení data, kdy se očekává dokončení nebo kdy bylo dokončeno.
+Datum MO je datum posledního hlášení pohybu výrobního příkazu, je to datum uzavření příkazu.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="54196" trl="N">
+  <value column="Name" original="Company Agent">Společnostní zástupce</value>
+  <value column="Description" original="Company Agent">Spol. zástupce</value>
+  <value column="Help" original="Company Agent to Distribution Order">Spol. zást. k Distribuční obj.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="54205" trl="N">
+  <value column="Name" original="Transit Warehouse">Tranzitní sklad</value>
+  <value column="Description" original="Storage Warehouse and Service Point">Sklad a servisní bod</value>
+  <value column="Help" original="The Warehouse identifies a unique Warehouse where products are stored or Services are provided.">Sklad identifikuje jedinečný sklad, kde jsou produkty skladovány nebo poskytovány služby.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="54381" trl="N">
+  <value column="Name" original="Target Warehouse">Cílový sklad</value>
+  <value column="Description" original="Target Warehouse and Service Point">Cílový sklad a servisní bod</value>
+  <value column="Help" original="The Warehouse identifies a unique Warehouse where products are stored or Services are provided.">Sklad identifikuje jedinečný sklad, kde jsou produkty skladovány nebo poskytovány služby.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="55187" trl="N">
+  <value column="Name" original="Create from a Window">Vytvořit z okna</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="56011" trl="N">
+  <value column="Name" original="Current Period">Aktuální období</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="56190" trl="N">
+  <value column="Name" original="Period 1 %">Období 1 %</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="56191" trl="N">
+  <value column="Name" original="Period 2 %">Období 2 %</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="56192" trl="N">
+  <value column="Name" original="Period 3 %">Období 3 %</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="56193" trl="N">
+  <value column="Name" original="Period 4 %">Období 4 %</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="56194" trl="N">
+  <value column="Name" original="Period 5 %">Období 5 %</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="56195" trl="N">
+  <value column="Name" original="Period 6 %">Období 6 %</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="56196" trl="N">
+  <value column="Name" original="Period 7 %">Období 7 %</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="56197" trl="N">
+  <value column="Name" original="Period 8 %">Období 8 %</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="56198" trl="N">
+  <value column="Name" original="Period 9 %">Období 9 %</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="56199" trl="N">
+  <value column="Name" original="Period 10 %">Období 10 %</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="56200" trl="N">
+  <value column="Name" original="Period 11 %">Období 11 %</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="56201" trl="N">
+  <value column="Name" original="Period 12 %">Období 12 %</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="56202" trl="N">
+  <value column="Name" original="Period 13 %">Období 13 %</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="56203" trl="N">
+  <value column="Name" original="Period 14 %">Období 14 %</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="56207" trl="N">
+  <value column="Name" original="Script">Skript</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="56210" trl="N">
+  <value column="Name" original="Name">Jméno</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="57331" trl="N">
+  <value column="Name" original="Acknowledge">Potvrdit</value>
+  <value column="Description" original="System Notice acknowledged">Systém potvrzen</value>
+  <value column="Help" original="The Acknowledged checkbox indicates if this notice does not need to be retained.">Potvrzení políčka označuje, zda je třeba tento oznámení uchovat.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="57761" trl="N">
+  <value column="Name" original="Customer Return">Vrácení zákazníka</value>
+  <value column="Description" original="Customer Return Document">Vrácení zákazníka</value>
+  <value column="Help" original="The Customer Return">Vrácení zákazníka</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="57900" trl="N">
+  <value column="Name" original="Return to Vendor">Vrácení dodavateli</value>
+  <value column="Description" original="Return to Vendor Document">Vrácení dodavateli</value>
+  <value column="Help" original="The Return to Vendor">Vrácení dodavateli</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="57987" trl="N">
+  <value column="Name" original="Search Key">Hledat klíč</value>
+  <value column="Description" original="Search key for the record in the format required">Hledat klíč pro záznam ve formátu požadovaném</value>
+  <value column="Help" original="7 bit lower case alpha numeric - max length 8 - can be used for operating system names.">7 bit malé alfanumerické - max délka 8 - může být použito pro názvy operačních systémů.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="58101" trl="N">
+  <value column="Name" original="Copy BOM Lines From">Kopírovat BOM z</value>
+  <value column="Description" original="Copy BOM Lines from an exising BOM">Kopírovat BOM z existujícího BOM</value>
+  <value column="Help" original="Copy BOM Lines from an exising BOM. The BOM being copied to, must not have any existing BOM Lines.">Kopírovat BOM řádky z existujícího BOM. BOM, do kterého se kopíruje, nesmí mít žádné existující BOM řádky.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="58114" trl="N">
+  <value column="Name" original="Valid from">Platné od</value>
+  <value column="Description" original="Valid from including this date (first day)">Platné od (první den)</value>
+  <value column="Help" original="The Valid From date indicates the first day of a date range&#10;&#10;The Valid From and Valid To dates indicate the valid time period to use the BOM in a Manufacturing Order.">Platí od udává první den rozsahu dat. Platí od a Platí do udávají platné období pro použití BOM v výrobním příkazu.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="58771" trl="N">
+  <value column="Name" original="Import Product Planning Data">Import plánování produktů</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="59028" trl="N">
+  <value column="Name" original="Account Date">Datum účtu</value>
+  <value column="Description" original="Accounting Date">Datum účtování</value>
+  <value column="Help" original="The Accounting Date indicates the date to be used on the General Ledger account entries generated from this document. It is also used for any currency conversion.">Datum účtování udává datum, které se použije pro účtování výpisů z hlavní knihy vygenerovaných z tohoto dokumentu. Také se používá pro převod měn.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="59306" trl="N">
+  <value column="Name" original="ID">ID</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="59449" trl="N">
+  <value column="Name" original="Import Inventory Move">Import Pohyb skladu</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="59499" trl="N">
+  <value column="Name" original="Import Fixed Asset">Import OSP</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="59500" trl="N">
+  <value column="Name" original="Processed">Zpracováno</value>
+  <value column="Description" original="The document has been processed">Zpracováno</value>
+  <value column="Help" original="The Processed checkbox indicates that a document has been processed.">Zpracováno: Dokument byl zpracován.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="59822" trl="N">
+  <value column="Name" original="Attribute Set Instance">AS Instance</value>
+  <value column="Description" original="Product Attribute Values">Hodnoty atributů produktu</value>
+  <value column="Help" original="The values of the actual Product Attributes. Product Instance attributes are defined in the actual transactions.">Hodnoty aktuálních atributů produktu. Atributy instance produktu jsou definovány v aktuálních transakcích.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="60944" trl="N">
+  <value column="Name" original="Copy From Cash Plan">Kopírovat z plánu hotovosti</value>
+  <value column="Description" original="Copy From Another Cash Plan">Kopírovat z jiného plánu hotovosti</value>
+  <value column="Help" original="Copy From Another Cash Plan">Kopírovat z jiného plánu hotovosti</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="62015" trl="N">
+  <value column="Name" original="Create/Update Production lines">Vytvořit/aktualizovat výrobní linky</value>
+  <value column="Description" original="Process which will create production lines based on BOM, or recreate with an optional adjusted quantity">Vytvořit výrobní linky na základě BOM nebo znovu vytvořit s volitelným upraveným množstvím</value>
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="62016" trl="N">
+  <value column="Name" original="Complete Production">Dokončit výrobu</value>
+  <value column="Description" original="Complete Production">Dokončit výrobu</value>
+  <value column="Help" original="Indication that this is complete">Dokončeno</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="62236" trl="N">
+  <value column="Name" original="Sales Rep Name">Jméno prodejce</value>
+  <value column="Description" original="Sales Representative Name">Jméno prodejce</value>
+  <value column="Help" original="The name of the sales rep that this dashboard relates to.">Jméno prodejce pro tento přehled.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="62779" trl="N">
+  <value column="Name" original="Language">Jazyk</value>
+  <value column="Description" original="Language for this Business Partner if Multi-Language enabled">Jazyk pro tohoto obchodního partnera, pokud je povoleno vícejazyčné prostředí</value>
+  <value column="Help" original="The Language identifies the language to use for display and formatting documents. It requires, that on Tenant level, Multi-Lingual documents are selected and that you have created/loaded the language.">Jazyk určuje jazyk pro zobrazení a formátování dokumentů. Vyžaduje, aby na úrovni mandantu byly vybrány vícejazyčné dokumenty a že jste vytvořili/nahráli jazyk.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="62991" trl="N">
+  <value column="Name" original="Expected Close">Očekáváno</value>
+  <value column="Description" original="Expected Close">Očekáváno</value>
+  <value column="Help" original="The Expected Close Date indicates the expected last or final date">Očekávané datum ukončení označuje očekávané poslední nebo konečné datum</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="200585" trl="N">
+  <value column="Name" original="Only Currency">Pouze měna</value>
+  <value column="Description" original="Restrict accepting only this currency">Omezitěte přijímání pouze této měny</value>
+  <value column="Help" original="The Only Currency field indicates that this bank account accepts only the currency identified here.">Pouze měna pro tento bankovní účet.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="200723" trl="N">
+  <value column="Name" original="Void It">Zrušit</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="200816" trl="N">
+  <value column="Name" original="Only Currency">Pouze měna</value>
+  <value column="Description" original="Restrict accepting only this currency">Omezitěte přijímání pouze této měny</value>
+  <value column="Help" original="The Only Currency field indicates that this bank account accepts only the currency identified here.">Pouze měna pro tento bankovní účet.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="200858" trl="N">
+  <value column="Name" original="Reference Overwrite">Přepsat referenci</value>
+  <value column="Description" original="System Reference - optional Overwrite">Systémová reference - přepsat volitelně</value>
+  <value column="Help" original="You can overwrite the Display Type, but only use this if you aware of the consequences.">Můžete přepsat typ zobrazení, ale použijte pouze pokud jste si vědomi následků.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="200948" trl="N">
+  <value column="Name" original="Attachment Store">Příloha sklad</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="201245" trl="N">
+  <value column="Name" original="Ship Date (For FedEx only)">Datum odeslání (pouze FedEx)</value>
+  <value column="Description" original="Shipment Date/Time">Datum odeslání</value>
+  <value column="Help" original="Actual Date/Time of Shipment (pick up)">Skutečné datum/čas odeslání (výběr)</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="201255" trl="N">
+  <value column="Name" original="Duties Shipper Account (For FedEx only)">Poplatky odesílatele (pouze FedEx)</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="201256" trl="N">
+  <value column="Name" original="Partner Location (For UPS only)">Místo partnera (pouze UPS)</value>
+  <value column="Description" original="Identifies the (ship to) address for this Business Partner">Identifikuje (doručovací) adresu pro tohoto obchodního partnera</value>
+  <value column="Help" original="The Partner address indicates the location of a Business Partner">Adresa partnera označuje umístění obchodního partnera</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="201262" trl="N">
+  <value column="Name" original="Future Day Shipment (For FedEx only)">Budoucí den odeslání (pouze FedEx)</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="201264" trl="N">
+  <value column="Name" original="Home Delivery Premium Type (For FedEx only)">Typ domácího doručení (pouze FedEx)</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="201265" trl="N">
+  <value column="Name" original="Phone Number (For FedEx only)">Tel. (pouze FedEx)</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="201266" trl="N">
+  <value column="Name" original="Date (For FedEx only)">Datum (pouze FedEx)</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="201267" trl="N">
+  <value column="Name" original="Hazardous Materials (For FedEx only)">Nebezpečné látky (pouze FedEx)</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="201268" trl="N">
+  <value column="Name" original="Dot Hazard Class or Division (For FedEx only)">Třída nebezpečí Dot nebo divize (pouze FedEx)</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="201269" trl="N">
+  <value column="Name" original="Cargo Aircraft Only (For FedEx only)">Pouze nákladní letadlo (pouze FedEx)</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="201270" trl="N">
+  <value column="Name" original="Accessible (For FedEx only)">Přístupné (pouze FedEx)</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="201271" trl="N">
+  <value column="Name" original="Dry Ice (For FedEx only)">Suchý led (pouze FedEx)</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="201272" trl="N">
+  <value column="Name" original="Dry Ice Weight (For FedEx only)">Hmotnost suchého ledu (pouze FedEx)</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="201273" trl="N">
+  <value column="Name" original="Hold At Location (For FedEx only)">Pozdržet na místě (pouze FedEx)</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="201274" trl="N">
+  <value column="Name" original="Hold Address (For FedEx only)">Pozdržet Adresu (pouze FedEx)</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="201354" trl="N">
+  <value column="Name" original="Added Handling (For UPS only)">Přidáno ošetření (pouze UPS)</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="201355" trl="N">
+  <value column="Name" original="Delivery Confirmation Type (For FedEx only)">Potvrzení doručení (pouze FedEx)</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="201358" trl="N">
+  <value column="Name" original="Verbal Confirmation (For UPS only)">Ústní potvrzení (pouze UPS)</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="202210" trl="N">
+  <value column="Name" original="Index Validate">Kontrola indexu</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="202234" trl="N">
+  <value column="Name" original="Sql WHERE">Sql Kde</value>
+  <value column="Description" original="Fully qualified SQL WHERE clause">Plně kvalifikovaná SQL Kde klauzule</value>
+  <value column="Help" original="The Where Clause indicates the SQL WHERE clause to use for record selection. It must include the WHERE itself. Fully qualified means &quot;tablename.columnname&quot;.">Kde klauzule určuje SQL Kde klauzuli pro výběr záznamů. Musí obsahovat samotné Kde. Plně kvalifikovaná znamená "názevtabulky.názevsloupce".</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="202235" trl="N">
+  <value column="Name" original="Sql FROM">Sql OD</value>
+  <value column="Description" original="SQL FROM clause">Sql OD klauzule</value>
+  <value column="Help" original="The Select Clause indicates the SQL FROM clause to use for selecting the record for a measure calculation. It can have JOIN clauses. It must include the FROM itself.">Klaule Vybrat určuje SQL OD klauzuli pro výběr záznamu pro výpočet míry. Může obsahovat JOIN klauzule. Musí obsahovat OD samotné.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="202252" trl="N">
+  <value column="Name" original="View Validate">Zobrazit ověření</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="202325" trl="N">
+  <value column="Name" original="Cost Adjustment">Nákladní úprava</value>
+  <value column="Description" original="Inventory Cost Adjustment">Nákladní úprava zásob</value>
+  <value column="Help" original="The Inventory Cost Adjustment document allows user to enter cost adjustment for products">Dokument Nákladní úprava zásob umožňuje uživateli zadat úpravu nákladů pro produkty</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="202443" trl="N">
+  <value column="Name" original="Purchase Order Line">Objednávka řádek</value>
+  <value column="Description" original="Purchase Order Line">Obj. řádek nákupu</value>
+  <value column="Help" original="The Purchase Order Line is a unique identifier for a line in an order.">Obj. řádek nákupu je jedinečný identifikátor pro řádek v objednávce.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="203108" trl="N">
+  <value column="Name" original="ViewID Column">ViewID sloupec</value>
+  <value column="Description" original="Name of unique column in a view. value of this column will save to t_selection table">Jméno jedinečného sloupce v pohledu. Hodnota tohoto sloupce bude uložena do tabulky t_selection</value>
+  <value column="Help" original="Column to resolve issue in https://idempiere.atlassian.net/browse/IDEMPIERE-1970">Sloupec k vyřešení problému v https://idempiere.atlassian.net/browse/IDEMPIERE-1970</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="203325" trl="N">
+  <value column="Name" original="Country Group">Skupina zemí</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="203326" trl="N">
+  <value column="Name" original="To">Na</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="205154" trl="N">
+  <value column="Name" original="Tenant">Mandant</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="205174" trl="N">
+  <value column="Name" original="Tenant">Mandant</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="205705" trl="N">
+  <value column="Name" original="To Business Partner ">K obchodnímu partneru</value>
+  <value column="Description" original="Identifies a Business Partner">Identifikuje obchodního partnera</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">Obchodní partner je kdokoliv, s kým obchodujete. To může zahrnovat dodavatele, zákazníka, zaměstnance nebo obchodního zástupce.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="205898" trl="N">
+  <value column="Name" original="Display Search Key">Zobrazit klíč hledání</value>
+  <value column="Description" original="Displays Search Key in the tree">Zobrazit klíč stromu</value>
+  <value column="Help" original="The Display Search Key checkbox indicates if the Search Key will display in the tree before the Name">Zobrazit klíč hledání před názvem ve stromu</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="206305" trl="N">
+  <value column="Name" original="Validation code">Kód validace</value>
+  <value column="Description" original="Validation Code">Kód validace</value>
+  <value column="Help" original="The Validation Code displays the date, time and message of the error.&#10;&#10;You can add advanced SQL queries to your searches by filling this field with @SQL=[WHERE CLAUSE].&#10;Do not include the WHERE statement and use Fully qualified SQL statements. F.e:&#10;&#10;@SQL=C_Order.isActive='Y' AND SalesRep_ID=@AD_User_ID@ &#10;&#10;will filter orders by active and where the sales representative is the current user.">Kód validace zobrazuje datum, čas a zprávu o chybě.
+
+Pokud chcete do svých vyhledávání přidat pokročilé SQL dotazy, vyplňte toto pole s @SQL=[WHERE CLAUSE].
+Nepoužívejte WHERE výraz a použijte plně kvalifikované SQL příkazy. Např.:
+
+@SQL=C_Order.isActive='Y' AND C_Order=@C_Order@
+
+filtrovat objednávky podle aktivních a kde je prodejní zástupce aktuální uživatel.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="206515" trl="N">
+  <value column="Name" original="Invoice Contact">Kontakt faktury</value>
+  <value column="Description" original="Business Partner Invoice/Bill Contact">Obchodní partner faktury</value>
+  <value column="Help" original="If the Invoice Contact is selected, the contact is used to send notifications about invoices to a customer or a vendor.">Pokud je vybrán kontakt faktury, kontakt se používá k odesílání oznámení o fakturách zákazníkovi nebo dodavateli.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="206516" trl="N">
+  <value column="Name" original="Ship Contact">Kontakt dodání</value>
+  <value column="Description" original="Business Partner Shipment Contact">Obchodní partner kontakt dodání</value>
+  <value column="Help" original="If the Ship Contact is selected, the contact is used for notification.">Pokud je vybrán kontakt dodání, kontakt se používá pro oznámení.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="206517" trl="N">
+  <value column="Name" original="Ship Contact">Kontakt dodání</value>
+  <value column="Description" original="Business Partner Shipment Contact">Obch. partner kontakt dodání</value>
+  <value column="Help" original="If the Ship Contact is selected, the contact is used for notification.">Pokud je vybrán kontakt dodání, kontakt se používá pro oznámení.</value>
+  <value column="Placeholder" original="" />
+ </row>
+ <row id="206518" trl="N">
+  <value column="Name" original="Invoice Contact">Kontakt faktury</value>
+  <value column="Description" original="Business Partner Invoice/Bill Contact">Obch. partner faktury</value>
+  <value column="Help" original="If the Invoice Contact is selected, the contact is used to send notifications about invoices to a customer or a vendor.">Pokud je vybrán kontakt faktury, kontakt se používá k odesílání oznámení o fakturách zákazníkovi nebo dodavateli.</value>
+  <value column="Placeholder" original="" />
+ </row>
+</idempiereTrl>

@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 10_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community-->
+<!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="cs_CZ" table="AD_Process_Para">
+ <row id="133" trl="N">
+  <value column="Name" original="Warehouse">Sklad</value>
+  <value column="Description" original="Storage Warehouse and Service Point">Sklad a Servisní Bod</value>
+  <value column="Help" original="The Warehouse identifies a unique Warehouse where products are stored or Services are provided.">Sklad identifikuje jedinečný sklad, kde jsou produkty skladovány nebo poskytovány služby.</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="134" trl="N">
+  <value column="Name" original="Movement Type">PohybTyp</value>
+  <value column="Description" original="Method of moving the inventory">Způsob pohybu skladu</value>
+  <value column="Help" original="The Movement Type indicates the type of movement (in, out, to production, etc)">Typ pohybu určuje typ pohybu (vstup, výstup, do výroby, atd.)</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="139" trl="N">
+  <value column="Name" original="Product">Produkt</value>
+  <value column="Description" original="Product, Service, Item">Produkt, Služba, Položka</value>
+  <value column="Help" original="Identifies an item which is either purchased or sold in this organization.">Identifikuje položku, která je buď nakupována nebo prodávána v této organizaci.</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="161" trl="N">
+  <value column="Name" original="Business Partner ">Obchodní Partner</value>
+  <value column="Description" original="Identifies a Business Partner">Identifikuje Obchodní Partner</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">Obchodní Partner je kdokoliv, s kým obchodujete. Může to být Dodavatel, Zákazník, Zaměstnanec nebo Obchodní zástupce.</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="163" trl="N">
+  <value column="Name" original="Business Partner ">Obchodní Partner</value>
+  <value column="Description" original="Identifies a Business Partner">Identifikuje Obchodní Partner</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">Obchodní Partner je kdokoliv, s kým obchodujete. Může to být Dodavatel, Zákazník, Zaměstnanec nebo Obchodní zástupce.</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="172" trl="N">
+  <value column="Name" original="Business Partner ">Obchodní Partner</value>
+  <value column="Description" original="Identifies a Business Partner">Identifikuje Obchodní Partner</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">Obchodní Partner je kdokoliv, s kým obchodujete. Může to být Dodavatel, Zákazník, Zaměstnanec nebo Obchodní zástupce.</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="174" trl="N">
+  <value column="Name" original="Business Partner ">Obchodní Partner</value>
+  <value column="Description" original="Identifies a Business Partner">Identifikuje Obchodní Partner</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">Obchodní Partner je kdokoliv, s kým obchodujete. Může to být Dodavatel, Zákazník, Zaměstnanec nebo Obchodní zástupce</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="176" trl="N">
+  <value column="Name" original="Business Partner ">Obchodní Partner</value>
+  <value column="Description" original="Identifies a Business Partner">Identifikuje Obchodní Partner</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">Obchodní Partner je kdokoliv, s kým obchodujete. Může to být Dodavatel, Zákazník, Zaměstnanec nebo Obchodní zástupce</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="178" trl="N">
+  <value column="Name" original="Business Partner ">Obchodní Partner</value>
+  <value column="Description" original="Identifies a Business Partner">Identifikuje Obchodní Partner</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">Obchodní Partner je kdokoliv, s kým obchodujete. Může to být Dodavatel, Zákazník, Zaměstnanec nebo Obchodní zástupce</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="179" trl="N">
+  <value column="Name" original="Product Category">Kategorie produktu</value>
+  <value column="Description" original="Category of a Product">Kategorie produktu</value>
+  <value column="Help" original="Identifies the category which this product belongs to.  Product categories are used for pricing and selection.">Identifikuje kategorii, do které tento produkt patří. Kategorie produktů se používají pro ceny a výběr.</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="180" trl="N">
+  <value column="Name" original="Product">Produkt</value>
+  <value column="Description" original="Product, Service, Item">Produkt, Služba, Položka</value>
+  <value column="Help" original="Identifies an item which is either purchased or sold in this organization.">Identifikuje položku, která je buď nakupována nebo prodávána v této organizaci.</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="189" trl="N">
+  <value column="Name" original="Product Category">Kategorie produktu</value>
+  <value column="Description" original="Category of a Product">Kategorie produktu</value>
+  <value column="Help" original="Identifies the category which this product belongs to.  Product categories are used for pricing and selection.">Identifikuje kategorii, do které produkt patří. Kategorie se používají pro ceny a výběr.</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="190" trl="N">
+  <value column="Name" original="Business Partner ">Obchodní Partner</value>
+  <value column="Description" original="Identifies a Business Partner">Identifikuje Obchodní Partner</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">Obchodní Partner je kdokoliv, s kým obchodujete. Může to být Dodavatel, Zákazník, Zaměstnanec nebo Prodejce.</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="223" trl="N">
+  <value column="Name" original="Tenant">Mandant</value>
+  <value column="Description" original="Tenant for this installation.">Mandant pro tuto instalaci.</value>
+  <value column="Help" original="A Tenant is a company or a legal entity. You cannot share data between Tenants.">Mandant je společnost nebo právnická osoba. Data nelze sdílet mezi mandanty.</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="225" trl="N">
+  <value column="Name" original="Tenant">Mandant</value>
+  <value column="Description" original="Tenant for this installation.">Mandant pro tuto instalaci.</value>
+  <value column="Help" original="A Tenant is a company or a legal entity. You cannot share data between Tenants.">Mandant je společnost nebo právnická osoba. Nelze sdílet data mezi mandanty.</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="227" trl="N">
+  <value column="Name" original="Delete existing Accounting Entries">Smazat účtování</value>
+  <value column="Description" original="The selected accounting entries will be deleted!  DANGEROUS !!!">Vybrané účtování bude smazáno! NEBEZPEČNÉ !!!</value>
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="233" trl="N">
+  <value column="Name" original="Pricelist Version">Verze ceníku</value>
+  <value column="Description" original="Only used if Price List is used to set future/standard cost price">Pouze pokud se ceník používá k nastavení budoucích/standardních nákladových cen</value>
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="240" trl="N">
+  <value column="Name" original="Business Partner ">Obchodní partner</value>
+  <value column="Description" original="Identifies a Business Partner">Identifikuje obchodního partnera</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">Obchodní partner je kdokoliv, s kým obchodujete. Může to být dodavatel, zákazník, zaměstnanec nebo obchodní zástupce.</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="241" trl="N">
+  <value column="Name" original="Product">Produkt</value>
+  <value column="Description" original="Product, Service, Item">Produkt, Služba, Položka</value>
+  <value column="Help" original="Identifies an item which is either purchased or sold in this organization.">Identifikuje položku, která je buď nakupována nebo prodávána v této organizaci.</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="302" trl="N">
+  <value column="Name" original="Overwrite Payment Rule">Přepsat platbu</value>
+  <value column="Description" original="Overwrite how to pay the invoice">Přepsat platbu faktury</value>
+  <value column="Help" original="The Payment Rule indicates how the incoice will be settled - you can overwrite the value from the invoice.">Platba určuje, jak bude faktura vyřízena - můžete přepsat hodnotu z faktury.</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="315" trl="N">
+  <value column="Name" original="From User">Od Uživatele</value>
+  <value column="Description" original="Send EMail from user">Poslat EMail od uživatele</value>
+  <value column="Help" original="The email is sent from the user selected - otherwise it is sent from the request email address of the tenant">Email je odeslán od vybraného uživatele - jinak je odeslán z e-mailové adresy žádosti mandanta</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="452" trl="N">
+  <value column="Name" original="Maintenance Mode">Režim údržby</value>
+  <value column="Description" original="Language Maintenance Mode">Režim údržby jazyka</value>
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="467" trl="N">
+  <value column="Name" original="Existing Organization">Stávající Organizace</value>
+  <value column="Description" original="Organizational entity within tenant - set to empty if you want to create a new organization">Organizační entita v rámci mandanta - nastavte na prázdné, pokud chcete vytvořit novou organizaci</value>
+  <value column="Help" original="An organization is a unit of your tenant or legal entity - examples are store, department. You can share data between organizations.">Organizace je jednotka vašeho mandanta nebo právnické osoby - příklady jsou obchod, oddělení. Můžete sdílet data mezi organizacemi.</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="469" trl="N">
+  <value column="Name" original="Limit Access to Role">Omezit Přístup k Rolím</value>
+  <value column="Description" original="If no Role is selected, grant access to all (non-manual) roles of the Tenant">Pokud není vybrána žádná role, udělte přístup ke všem (ne-manuálním) rolím mandanta</value>
+  <value column="Help" original="The Role determines security and access a user who has this Role will have in the System.">Role určuje bezpečnost a přístup uživatele, který má tuto roli, v systému.</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="493" trl="N">
+  <value column="Name" original="New User/Contact">Nový Uživatel/Kontakt</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Uživatel v systému - Interní nebo obchodní partner kontakt</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">Uživatel identifikuje jedinečného uživatele v systému. Může to být interní uživatel nebo obchodní partner kontakt</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="494" trl="N">
+  <value column="Name" original="New Workflow Responsible">Nový Řídící Workflow</value>
+  <value column="Description" original="Responsible for Workflow Execution">Řídící Workflow</value>
+  <value column="Help" original="The ultimate responsibility for a workflow is with an actual user. The Workflow Responsible allows to define ways to find that actual User.">Konečná odpovědnost za workflow leží na skutečném uživateli. Řídící workflow umožňuje definovat způsoby, jak najít tohoto uživatele.</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="496" trl="N">
+  <value column="Name" original="New User/Contact">Nový Uživatel/Kontakt</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">Uživatel v systému - Interní nebo Obchodní Partner Kontakt</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">Uživatel identifikuje jedinečného uživatele v systému. Může to být interní uživatel nebo obchodní partner kontakt</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="497" trl="N">
+  <value column="Name" original="New Workflow Responsible">Nový Řídící Workflow</value>
+  <value column="Description" original="Responsible for Workflow Execution">Řídící Workflow</value>
+  <value column="Help" original="The ultimate responsibility for a workflow is with an actual user. The Workflow Responsible allows to define ways to find that actual User.">Konečná odpovědnost za workflow leží na skutečném uživateli. Řídící workflow umožňuje definovat způsoby, jak najít tohoto uživatele.</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="523" trl="N">
+  <value column="Name" original="Default Sales Rep">Výchozí Prodejní Zástupce</value>
+  <value column="Description" original="If not defined on Business Partner Level">Pokud není definováno na úrovni obchodního partnera</value>
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="524" trl="N">
+  <value column="Name" original="Dunning Currency">Vymáhací Měna</value>
+  <value column="Description" original="Currency to create Dunning Letters">Měna pro vytvoření Vymáhacích Dopisů</value>
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="50001" trl="N">
+  <value column="Name" original="Role To">Role K</value>
+  <value column="Description" original="Responsibility Role">Odpovědnost Role</value>
+  <value column="Help" original="The Role determines security and access a user who has this Role will have in the System.">Role určuje bezpečnost a přístup uživatele, který má tuto roli, v systému.</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="50002" trl="N">
+  <value column="Name" original="Role From">Role Od</value>
+  <value column="Description" original="Responsibility Role">Odpovědnost Role</value>
+  <value column="Help" original="The Role determines security and access a user who has this Role will have in the System.">Role určuje bezpečnost a přístup uživatele s touto rolí v systému.</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="50008" trl="N">
+  <value column="Name" original="IMAP Password">Heslo_IMAP</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="50009" trl="N">
+  <value column="Name" original="Request Folder">Žádost Adr.</value>
+  <value column="Description" original="After take email form inbox folder, and process it success, email will move to this folder">Po úspěšném zpracování e-mailu z adresáře doručených zpráv se přesune do tohoto adresáře.</value>
+  <value column="Help" original="folder can define as hierarchy, use &quot;\&quot; to separate folder. example customer\vietnam&#10;will read email from folder vietnam under folder customer&#10;after take email form inbox folder, and process it success, email will move to this folder">"Adresář lze definovat jako hierarchii, použijte "\" pro oddělení složky. Příklad: zákazník\vietnam
+Bude číst e-mail z adresáře vietnam v adresáři zákazník
+Po úspěšném zpracování e-mailu z adresáře doručených zpráv se přesune do tohoto adresáře."</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="50010" trl="N">
+  <value column="Name" original="Inbox Folder">Adr. Doruč.</value>
+  <value column="Description" original="Mail folder, where process will take email and make request">Adr. pro zpracování e-mailu a vytvoření žádosti</value>
+  <value column="Help" original="folder can define as hierarchy, use &quot;\&quot; to separate folder. example customer\vietnam&#10;will read email from folder vietnam under folder customer">"Adresář lze definovat jako hierarchii, použijte "\" pro oddělení složky. Příklad: zákazník\vietnam
+Bude číst e-mail z adresáře vietnam v adresáři zákazník"</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="50011" trl="N">
+  <value column="Name" original="Error Folder">Chyba Adr.</value>
+  <value column="Description" original="Mail folder to push unsuccess email  ">Adr. pro neúspěšné e-maily</value>
+  <value column="Help" original="folder can define as hierarchy, use &quot;\&quot; to separate folder. example customer\error\vietnam&#10;will puss email can't process to folder vietnam under folder error under folder customer">"Adresář lze definovat jako hierarchii, použijte "\" pro oddělení složky. Příklad: zákazník\chyba\vietnam
+Bude posílat e-maily, které nelze zpracovat, do adresáře vietnam v adresáři chyba v adresáři zákazník."</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="50019" trl="N">
+  <value column="Name" original="Shipment Date">Datum dodání</value>
+  <value column="Description" original="Date printed on shipment">Datum dodání na zásilce</value>
+  <value column="Help" original="The Shipment Date indicates the date printed on the shipment.">Datum dodání na zásilce.</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="53011" trl="N">
+  <value column="Name" original="Print Unprocessed Entries Only">Tisk pouze nezpracovaných položek</value>
+  <value column="Description" original="Print the unprocessed (unprinted) entries of the dunning run only.">Tisknout pouze nezpracované (netisknuté) položky výzvy.</value>
+  <value column="Help" original="Print the unprocessed (unprinted) entries of the dunning run only. This allows you to reprint only certain dunning entries.">Tisknout pouze nezpracované (netisknuté) položky výzvy. Tímto lze znovu vytisknout pouze určité položky výzvy.</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="53025" trl="N">
+  <value column="Name" original="Purchase Price List Version">Nákupní ceník verze</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="53030" trl="N">
+  <value column="Name" original="New Product">Nový produkt</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="53032" trl="N">
+  <value column="Name" original="Action">Akce</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="53066" trl="N">
+  <value column="Name" original="Is Print Pack &amp; Tools List" xml:space="preserve">Tisk balíčku &amp; nástrojů</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="53068" trl="N">
+  <value column="Name" original="Is Print Pick List">Je tisknout výběrový seznam</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="53069" trl="N">
+  <value column="Name" original="Is Print Workflow">Je tisknout workflow</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="53127" trl="N">
+  <value column="Name" original="Generate Fields">Vytvořit pole</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="53131" trl="N">
+  <value column="Name" original="Scripts Path">Skripty cesta</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="53142" trl="N">
+  <value column="Name" original="Includes only the Tabs that Insert records">Pouze zahrnuje záložky pro vkládání záznamů</value>
+  <value column="Description" original="Generated Export Format for the Tabs with Insert Record is Yes">Vygenerovaný exportní formát pro záložky s vkládáním záznamů je Ano</value>
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="53143" trl="N">
+  <value column="Name" original="Includes only the mandatory columns">Pouze povinné sloupce</value>
+  <value column="Description" original="Generated an Export Format Line  if the column is mandatory ">Vygenerováno exportní formát řádku, pokud je sloupec povinný</value>
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="53219" trl="N">
+  <value column="Name" original="Based in DRP Demand">Založeno na DRP poptávce</value>
+  <value column="Description" original="Based in DRP Demand">Založeno na DRP popt.</value>
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="53232" trl="N">
+  <value column="Name" original="Bank Account From">Banka Z účtu</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="53233" trl="N">
+  <value column="Name" original="Bank Account To">Banka Na</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="53243" trl="N">
+  <value column="Name" original="Valid from">Platí od</value>
+  <value column="Description" original="Valid from including this date (first day)">Platí od (první den)</value>
+  <value column="Help" original="The Valid From date indicates the first day of a date range">Platí od (první den)</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="53246" trl="N">
+  <value column="Name" original="Bank Account From">Banka Z účtu</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="53247" trl="N">
+  <value column="Name" original="Bank Account To">Banka Na</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="53263" trl="N">
+  <value column="Name" original="Account Date">Dat. účtu</value>
+  <value column="Description" original="Optional account date range">Volný dat. rozsah</value>
+  <value column="Help" original="Only documents within this date range which are also in open periods will be reset.">Pouze dokumenty v tomto rozsahu dat, které jsou také v otevřených obdobích, budou resetovány.</value>
+  <value column="Placeholder" original="From">Z</value>
+  <value column="Placeholder2" original="To">Na</value>
+ </row>
+ <row id="53282" trl="N">
+  <value column="Name" original="Tenant Name">Mandant jméno</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="53284" trl="N">
+  <value column="Name" original="Administrative User Name">Admin. jméno uživatele</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="53285" trl="N">
+  <value column="Name" original="Normal User Name">Norm. jméno uživatele</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="53289" trl="N">
+  <value column="Name" original="City Name">Město jméno</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="53291" trl="N">
+  <value column="Name" original="BP Accounting">BP Účetnictví</value>
+  <value column="Description" original="Use BP accounting dimension">Použít BP účetní rozměr</value>
+  <value column="Help" original="Define if this tenant will use business partner accounting dimension.  This can be changed later in Accounting Schema window of the tenant.">Určete, zda tento mandant bude používat účetní rozměr obchodního partnera. Toto lze později změnit v okně Účetního schématu mandantu.</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="53292" trl="N">
+  <value column="Name" original="Product Accounting">Produkt Účetnictví</value>
+  <value column="Description" original="Use Product accounting dimension">Použít produkt účetní rozměr</value>
+  <value column="Help" original="Define if this tenant will use product accounting dimension.  This can be changed later in Accounting Schema window of the tenant.">Určete, zda tento mandant bude používat produkt účetní rozměr. Toto lze později změnit v okně Účetního schématu mandantu.</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="53293" trl="N">
+  <value column="Name" original="Project Accounting">Projekt Účetnictví</value>
+  <value column="Description" original="Use Project accounting dimension">Použít projekt účetní rozměr</value>
+  <value column="Help" original="Define if this tenant will use project accounting dimension.  This can be changed later in Accounting Schema window of the tenant.">Určete, zda tento mandant bude používat projekt účetní rozměr. Toto lze později změnit v okně Účetního schématu mandantu.</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="53294" trl="N">
+  <value column="Name" original="Campaign Accounting">Kampaň Účetnictví</value>
+  <value column="Description" original="Use Campaign accounting dimension">Použít kampaň účetní rozměr</value>
+  <value column="Help" original="Define if this tenant will use campaign accounting dimension.  This can be changed later in Accounting Schema window of the tenant.">Určete, zda tento mandant bude používat kampaň účetní rozměr. Toto lze později změnit v okně Účetního schématu mandantu.</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="53295" trl="N">
+  <value column="Name" original="Sales Region Accounting">Prodej Účetnictví</value>
+  <value column="Description" original="Use Sales Region accounting dimension">Použít prodej účetní rozměr</value>
+  <value column="Help" original="Define if this tenant will use sales region accounting dimension.  This can be changed later in Accounting Schema window of the tenant.">Určete, zda tento mandant bude používat prodej účetní rozměr. Toto lze později změnit v okně Účetního schématu mandantu.</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="53296" trl="N">
+  <value column="Name" original="Chart of Accounts File">Účetní plán soubor</value>
+  <value column="Description" original="Location of the chart of accounts to be used with this tenant.  At this stage just the default accounts will be created.">Účetní plán pro tento mandant. V této fázi budou vytvořeny pouze výchozí účty.</value>
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="53314" trl="N">
+  <value column="Name" original="Full rebuild">Plná obnova</value>
+  <value column="Description" original="Delete all existing summary data and recalculate.">Smazeni data a přepočítat.</value>
+  <value column="Help" original="If not selected, only those periods with recently posted accounting facts will be recalculated.">Pokud není vybráno, budou přepočítány pouze období s nedávno zaúčtovanými účetními skutečnostmi.</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="53316" trl="N">
+  <value column="Name" original="Force">Vynutit</value>
+  <value column="Description" original="Force rebuild of cube even if locked.">Vynutit kostkou i když uzamčeno.</value>
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="53485" trl="N">
+  <value column="Name" original="Periodicity">Periodicita</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="53486" trl="N">
+  <value column="Name" original="Repetitions">Opakování</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="53516" trl="N">
+  <value column="Name" original="Recreate">Obnovit</value>
+  <value column="Description" original="Overwrite existing production lines">Přepsat výrobní linky</value>
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="53517" trl="N">
+  <value column="Name" original="Production Quantity">Výrobní množství</value>
+  <value column="Description" original="Quantity of products to produce">Množství k výrobě</value>
+  <value column="Help" original="The Production Quantity identifies the number of products to produce">Výrobní množství identifikuje počet vyráběných produktů</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="53526" trl="N">
+  <value column="Name" original="Is Kanban">Je Kanban</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="53582" trl="N">
+  <value column="Name" original="CreateOpportunity">VytvořitPříležitost</value>
+  <value column="Description" original="Create Opportunity">Vytvořit Příležitost</value>
+  <value column="Help" original="Create a new Sales Opportunity when converting a lead">Vytvořit novou příležitost pro prodej při převodu zájemce</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="200000" trl="N">
+  <value column="Name" original="Project">Projekt</value>
+  <value column="Description" original="Financial Project">Finanční projekt</value>
+  <value column="Help" original="A Project allows you to track and control internal or external activities.">Projekt umožňuje sledovat a řídit interní nebo externí aktivity.</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="200005" trl="N">
+  <value column="Name" original="New EMail Confirm">Nový E-mail Potvrdit</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="200007" trl="N">
+  <value column="Name" original="Reset Existing Access">Reset Přístup</value>
+  <value column="Description" original="Reset Existing Access">Reset Přístup</value>
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="200055" trl="N">
+  <value column="Name" original="Product">Produkt</value>
+  <value column="Description" original="Please enter the product (component) you wish to search for">Zadejte hledaný produkt (komponentu)</value>
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="200071" trl="N">
+  <value column="Name" original="Document Type">Typ dokumentu</value>
+  <value column="Description" original="Inventory Cost Adjustment Document Type">Typ dokumentu úpravy nákladů na skladové zásoby</value>
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="200074" trl="N">
+  <value column="Name" original="Administrative User Email">Admin Email</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="200075" trl="N">
+  <value column="Name" original="Normal User Email">Norm. Uživ. Email</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="200077" trl="N">
+  <value column="Name" original="Created Since">Vytvořeno od</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="200084" trl="N">
+  <value column="Name" original="Use Default CoA">Použít výchozí ÚčO</value>
+  <value column="Description" original="Use Default Chart of Accounts">Použít výchozí ÚčO</value>
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="200085" trl="N">
+  <value column="Name" original="Activity Accounting">Aktivní Účtování</value>
+  <value column="Description" original="Use Activity accounting dimension">Použít Aktivní Účtování</value>
+  <value column="Help" original="Define if this tenant will use activity accounting dimension.  This can be changed later in Accounting Schema window of the tenant.">Určete, zda tento mandant bude používat aktivní účtovací rozměr. Toto lze později změnit v okně Účetního schématu mandantu.</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="200086" trl="N">
+  <value column="Name" original="Inactivate Defaults">Deaktivovat Výchozí</value>
+  <value column="Description" original="Inactivate Defaults after Created">Deaktivovat Výchozí po Vytvoření</value>
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="200102" trl="N">
+  <value column="Name" original="Cost Adjustment Document Type">Typ Dokumentu Úpravy Nákladů</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="200121" trl="N">
+  <value column="Name" original="Inbox As Root Folder">Schránka Jako Kořenový Adresář</value>
+  <value column="Description" original="True if other folder (request, error,..) occupy in inbox folder">Obsazeno-li jiným adresářem (žádost, chyba, ...) v adresáři schránky</value>
+  <value column="Help" original="Some email server as outlook, every folder occupy in inbox, with web mail as google, we easy create my folder outside inbox folder.&#10;this field define where request, error,.. occupy.">Některý e-mailový server jako outlook, každý adresář obsazuje v schránce, s webovou poštou jako google, snadno vytvoříme můj adresář mimo adresář schránky. Toto pole určuje, kde jsou žádosti, chyby, ... obsazeny.</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="200226" trl="N">
+  <value column="Name" original="Folder">Adresář</value>
+  <value column="Description" original="Path on the server where the pack in files are located">Cesta na serveru kde jsou umístěny soubory balíčku</value>
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="200287" trl="N">
+  <value column="Name" original="Tenant">Mandant</value>
+  <value column="Description" original="Tenant for this installation.">Mandant pro tuto instalaci.</value>
+  <value column="Help" original="A Tenant is a company or a legal entity. You cannot share data between Tenants.">Mandant je společnost nebo právnická osoba. Data nelze sdílet mezi mandanty.</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="200293" trl="N">
+  <value column="Name" original="Delete old/existing files">Smazat staré/současné soubory</value>
+  <value column="Description" original="Delete the records from the old storage provider after moved">Smazat záznamy ze starého poskytovatele úložiště po přesunu</value>
+  <value column="Help" original="WARNING!  This option cannot be rolled back!  Be cautious, take backups.  If not enabled, the system administrator can/must remove manually the old files from the previous storage provider later.">UPOZORNĚNÍ! Tato možnost nemůže být vrácena zpět! Buďte opatrní, udělejte zálohy. Pokud není povoleno, systémový administrátor může/povinně odstranit staré soubory ze starého poskytovatele úložiště později ručně.</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="200359" trl="N">
+  <value column="Name" original="Create 'Value' column">Vytvořit sloupec 'Hodnota'</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="200360" trl="N">
+  <value column="Name" original="Create 'Name' column">Vytvořit sloupec 'Název'</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="200361" trl="N">
+  <value column="Name" original="Create KeyColumn">Vytvořit KlíčSloupec</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="200362" trl="N">
+  <value column="Name" original="Create a Workflow">Vytvořit Workflow</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="200363" trl="N">
+  <value column="Name" original="Create a Translation Table">Vytvořit Překladovou Tabulku</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="200364" trl="N">
+  <value column="Name" original="Create 'Description' column">Vytvořit sloupec 'Popis'</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="200365" trl="N">
+  <value column="Name" original="Create 'Help' column">Vytvořit sloupec 'Nápověda'</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="200366" trl="N">
+  <value column="Name" original="Create 'DocumentNo' column">Vytvořit sloupec 'DocumentNo'</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="200367" trl="N">
+  <value column="Name" original="Create 'DocAction' column">Vytvořit sloupec 'DocAction'</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="200368" trl="N">
+  <value column="Name" original="Create 'DocStatus' column">Vytvořit sloupec 'DocStatus'</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="200369" trl="N">
+  <value column="Name" original="Create 'Processed' column">Vytvořit sloupec 'Zpracováno'</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="200370" trl="N">
+  <value column="Name" original="Create 'ProcessedOn' column">Vytvořit sloupec 'ZpracovánoDne'</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="200371" trl="N">
+  <value column="Name" original="Create 'Processing' column">Vytvořit sloupec 'Zpracování'</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="200372" trl="N">
+  <value column="Name" original="Create 'C_DocTypeTarget_ID' column">Vytvořit sloupec 'C_DocTypeTarget_ID'</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="200373" trl="N">
+  <value column="Name" original="Create 'C_DocType_ID' column">Vytvořit sloupec 'C_DocType_ID'</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="200374" trl="N">
+  <value column="Name" original="Create 'C_Currency_ID' column">Vytvořit sloupec 'C_Currency_ID'</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="200375" trl="N">
+  <value column="Name" original="Create 'DateTrx' column">Vytvořit sloupec 'DateTrx'</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="200376" trl="N">
+  <value column="Name" original="Create 'DateAcct' column">Vytvořit sloupec 'DateAcct'</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="200377" trl="N">
+  <value column="Name" original="Create 'Posted' column">Vytvořit sloupec 'Zaúčtováno'</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="200378" trl="N">
+  <value column="Name" original="Create 'IsApproved' column">Vytvořit sloupec 'Schváleno'</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="200379" trl="N">
+  <value column="Name" original="Create 'SalesRep_ID' column">Vytvořit sloupec 'SalesRep_ID'</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="200380" trl="N">
+  <value column="Name" original="Create 'AD_User_ID' column">Vytvořit sloupec 'AD_User_ID'</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="200384" trl="N">
+  <value column="Name" original="Also Without Postings">Také bez zaúčtování</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="200392" trl="N">
+  <value column="Name" original="Shipment Date">Datum dodání</value>
+  <value column="Description" original="Date printed on shipment">Datum tisku zásilky</value>
+  <value column="Help" original="The Shipment Date indicates the date printed on the shipment.">Datum dodání zásilky.</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="200393" trl="N">
+  <value column="Name" original="Orders with unconfirmed Shipments">Objednávky s nezkontrolovanými zásilkami</value>
+  <value column="Description" original="Generate shipments for Orders with open delivery confirmations?">Vytvořit zásilky pro objednávky s otevřenými potvrzeními dodání?</value>
+  <value column="Help" original="You can also include orders who have outstanding confirmations (e.g. ordered=10 - not confirmed shipments=4 - would create a new shipment of 6 if available).">Můžete také zahrnout objednávky, které mají nevyřízená potvrzení (např. objednáno=10 - nepotvrzené zásilky=4 - vytvoří novou zásilku 6, pokud je k dispozici).</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="200417" trl="N">
+  <value column="Name" original="AD_Language">AD_Language</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+ <row id="200418" trl="N">
+  <value column="Name" original="Date To">Datum Do</value>
+  <value column="Description" original="Last Date to verify Change Log">Poslední datum pro ověření změn v protokolu</value>
+  <value column="Help" original="The change log is verified until this date (useful for example to exclude the application of some 2Packs)">Poslední datum pro ověření změn v protokolu (užitečné například pro vyloučení aplikace některých 2Packs)</value>
+  <value column="Placeholder" original="" />
+  <value column="Placeholder2" original="" />
+ </row>
+</idempiereTrl>

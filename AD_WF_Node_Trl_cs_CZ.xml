@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 10_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community-->
+<!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="cs_CZ" table="AD_WF_Node">
+ <row id="116" trl="N">
+  <value column="Name" original="Accounting Schema">Účetní schéma</value>
+  <value column="Description" original="Project as Account Segment">Projekt jako Účetní Segment</value>
+  <value column="Help" original="To enable accounting reporting of projects, create and enable a project segment in the account elements.">Pro zapnutí účetního hlášení projektů vytvořte a povolte projektový segment v účetních prvcích.</value>
+ </row>
+ <row id="118" trl="N">
+  <value column="Name" original="System Elements">Systém Prvky</value>
+  <value column="Description" original="Translate System Elements">Přeložit Systém Prvky</value>
+  <value column="Help" original="System Elements are used to centrally define field labels, description and help. When translating an Element, the appropriate information of Fields in Windows, Parameters and Reports are translated (overwritten)">Systémové prvky se používají k centrálnímu definování popisků polí, popisu a nápovědy. Při překladu prvku se překládají (přepisují) příslušné informace polí v oknech, parametrech a výkazech.</value>
+ </row>
+ <row id="119" trl="N">
+  <value column="Name" original="Messages">Zprávy</value>
+  <value column="Description" original="Translate Messages">Přeložit Zprávy</value>
+  <value column="Help" original="Translate the messages used in Windows, Forms and Processes">Přeložit zprávy používané v oknech, formulářích a procesech</value>
+ </row>
+ <row id="120" trl="N">
+  <value column="Name" original="Reference">Odkaz</value>
+  <value column="Description" original="Translate References">Přeložit Odkazy</value>
+  <value column="Help" original="References are used as prefedined selection lists.  You only need to translate the List Elements !!">Odkazy se používají jako předdefinované výběrové seznamy. Překládat je potřeba pouze Prvky Seznamu!!</value>
+ </row>
+ <row id="121" trl="N">
+  <value column="Name" original="Window &amp; Tab" xml:space="preserve">Okno &amp; Tab</value>
+  <value column="Description" original="Translate Windows and Tabs">Přeložit Okna a Tab.</value>
+  <value column="Help" original="Translate the Name, Description and Help for Windows and Tabs.  Most of the Fields are already translated, if they are centrally maintained.">Přeložte Název, Popis a Nápovědu pro Okna a Tabulky. Většina Polí je již přeložena, pokud jsou centrálně spravována.</value>
+ </row>
+ <row id="122" trl="N">
+  <value column="Name" original="Form">Form</value>
+  <value column="Description" original="Translate Forms">Přeložit Formuláře</value>
+  <value column="Help" original="Forms are special Windows and you need to translate its name, description and Help.">Formy jsou speciální okna a je potřeba přeložit jejich název, popis a nápovědu.</value>
+ </row>
+ <row id="123" trl="N">
+  <value column="Name" original="Report &amp; Process" xml:space="preserve">Report &amp; Proces</value>
+  <value column="Description" original="Translate Reports and Processes">Přeložit Reporty a Procesy</value>
+  <value column="Help" original="Translate the Name, Description and Help for Processes and Reports. You don't need to translate the Parameters, if they are centrally maintained.">Přeložte Název, Popis a Nápovědu pro Procesy a Reporty. Parametry není potřeba překládat, pokud jsou centrálně spravovány.</value>
+ </row>
+ <row id="140" trl="N">
+  <value column="Name" original="User">Uživ</value>
+  <value column="Description" original="Define Sales Representative as User">Definujte Zástupce pro prodej jako Uživatele</value>
+  <value column="Help" original="Users can log into the system and have access to functionality via one or more roles. Select the Business Partner you just set up. This enables the user to be treated as sales rep in the system.">Uživatelé se mohou přihlásit do systému a mít přístup k funkcím prostřednictvím jedné nebo více rolí. Vyberte obchodního partnera, kterého jste právě nastavili. To umožní uživateli být v systému považován za zástupce pro prodej.</value>
+ </row>
+ <row id="141" trl="N">
+  <value column="Name" original="Business Partner">Obchodní partner</value>
+  <value column="Description" original="Set up Sales Representative as Business Partner">Nastavit Zástupce pro prodej jako Obchodního partnera</value>
+  <value column="Help" original="Set up the sales representative as Employee and Sales Representative in the Employee tab.  Also set up the Vendor part, if you want to create payments.">Nastavit zástupce pro prodej jako Zaměstnance a Zástupce pro prodej v záložce Zaměstnanec. Také nastavte část Dodavatel, pokud chcete vytvořit platby.</value>
+ </row>
+ <row id="146" trl="N">
+  <value column="Name" original="Workflow">Pracovní postup</value>
+  <value column="Description" original="Translate Workflows">Přeložit pracovní postup</value>
+  <value column="Help" original="Translate Name, Description and Help of Workflows and their Nodes.  You only need to translate the List Elements !!">Přeložit název, popis a nápovědu pracovních postupů a jejich uzlů.  Stačí přeložit pouze prvky seznamu !!</value>
+ </row>
+ <row id="152" trl="N">
+  <value column="Name" original="Check Tenant Setup">Kontrola Mandantu</value>
+  <value column="Description" original="Check Tenant setup for Requests">Kontrola Mandantu pro Požadavky</value>
+  <value column="Help" original="You need to have a mail server and an email address from which the requets an notifications are sent.  Optionally, if you define a mail user and password, requests are read from the mail users's folder and imported into the system.">Musíte mít mailový server a emailovou adresu, ze které jsou odesílány požadavky a upozornění. Volitelně, pokud definujete uživatele a heslo pro mail, jsou požadavky čteny z jeho složky a importovány do systému.</value>
+ </row>
+ <row id="153" trl="N">
+  <value column="Name" original="Check Users">Kontrola Uživatelů</value>
+  <value column="Description" original="Check users for Request processing">Kontrola uživatelů pro zpracování požadavků</value>
+  <value column="Help" original="Please ensure that users have a email address and supervisor assigned.">Ujistěte se, že uživatelé mají přiřazenou emailovou adresu a nadřízeného.</value>
+ </row>
+ <row id="155" trl="N">
+  <value column="Name" original="Check Business Partners">Kontrola Partnerů</value>
+  <value column="Description" original="Check Business Partners for Request processing">Kontrola Partnerů pro zpracování požadavků</value>
+  <value column="Help" original="You can send EMails to businbess partners.  Make sure, that the business partners and/or the Contacts have email addresses.">Můžete posílat e-maily obchodním partnerům. Ujistěte se, že obchodní partneři a/nebo kontakty mají emailové adresy.</value>
+ </row>
+ <row id="166" trl="N">
+  <value column="Name" original="Tax Category">Daňová kategorie</value>
+  <value column="Description" original="Maintain Tax Categories">Udržovat Daň. Kategorie</value>
+  <value column="Help" original="The Tax Category Window is used to enter and maintain Tax Categories.  Each product is associated with a tax category which facilitates reacting changing tax rates.">Okno Daňové kategorie slouží k zadávání a udržování daňových kategorií. Každý produkt je spojen s daňovou kategorií, což usnadňuje reakci na změny daňových sazeb.</value>
+ </row>
+ <row id="167" trl="N">
+  <value column="Name" original="Product">Produkt</value>
+  <value column="Description" original="Maintain Products">Udržovat Produkty</value>
+  <value column="Help" original="The Product Window defines all products used by an organization.  These products include those sold to customers, used in the manufacture of products sold to customers and products purchased by an organization.">Okno Produktu definuje všechny produkty používané organizací. Tyto produkty zahrnují ty prodávané zákazníkům, používané při výrobě produktů prodávaných zákazníkům a produkty nakupované organizací.</value>
+ </row>
+ <row id="168" trl="N">
+  <value column="Name" original="Charge">Poplatek</value>
+  <value column="Description" original="Maintain Charges">Udržovat Poplatky</value>
+  <value column="Help" original="The Charges Window defines the different charges that may be incurred.  These can include Bank Charges, Vendor Charges and Handling Charges.">Okno Poplatků definuje různé poplatky, které mohou vzniknout. Ty mohou zahrnovat bankovní poplatky, poplatky dodavatele a manipulační poplatky.</value>
+ </row>
+ <row id="169" trl="N">
+  <value column="Name" original="Tax Rate">Daň. Sazba</value>
+  <value column="Description" original="Maintain Taxes and their Rates">Udržovat Daně a jejich Sazby</value>
+  <value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.">Okno Daň. Sazba definuje různé daně používané pro každou daňovou kategorii. Například prodejní daň musí být definována pro každý stát, ve kterém se používá.</value>
+ </row>
+ <row id="170" trl="N">
+  <value column="Name" original="Accounting Schema">Účetní schéma</value>
+  <value column="Description" original="Maintain Accounting Schema - For changes to become effective you must re-login">Udržovat Účetní Schéma - Pro účinnost změn musíte znovu přihlásit.</value>
+  <value column="Help" original="The Accounting Schema Window defines an accounting method and the elements that will comprise an account structure. Create and activate elements for detailed accounting for Business Partners, Products, Locations, etc.&#10;Review and change the GL and Default accounts. The actual accounts used in transactions depend on the executing organization; Most of the information is derived from the context.">Okno Účetního Schématu definuje účetní metodu a prvky, které budou tvořit strukturu účtu. Vytvořte a aktivujte prvky pro podrobné účtování pro obchodní partnery, produkty, lokality, atd. Přezkoumejte a změňte účty GL a Výchozí. Skutečné účty použité v transakcích závisí na provádějící organizaci; Většina informací je odvozena z kontextu.</value>
+ </row>
+ <row id="50000" trl="N">
+  <value column="Name" original="Manufacturing Workflow Setup">Nastavení Výrobního Procesu</value>
+  <value column="Description" original="Setup Manufacturing Workflow">Nastavení Výrobního Procesu</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50001" trl="N">
+  <value column="Name" original="Discrete Manufacturing Setup">Nastavení Diskrétní Výroby</value>
+  <value column="Description" original="Setup Manufacturing Management">Nastavení Výrobního Řízení</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50002" trl="N">
+  <value column="Name" original="Bill of Material &amp; Formula Setup" xml:space="preserve">Nastavení BOM a Receptury</value>
+  <value column="Description" original="Setup Manufacturing Management">Nastavení Výrobního Řízení</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50003" trl="N">
+  <value column="Name" original="Warehouse &amp; Locators" xml:space="preserve">Sklad &amp; Lokátory</value>
+  <value column="Description" original="Warehouse &amp; Locators" xml:space="preserve">Sklad &amp; Lokátory</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50004" trl="N">
+  <value column="Name" original="Resource Type">Typ zdroje</value>
+  <value column="Description" original="Resource Type">Typ zdroje</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50005" trl="N">
+  <value column="Name" original="Manufacturing Workflows">Výrobní Procesy</value>
+  <value column="Description" original="Manufacturing Workflows">Výrobní Procesy</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50006" trl="N">
+  <value column="Name" original="Manufacturing Resource">Výrobní Zdroj</value>
+  <value column="Description" original="Manufacturing Resource">Výrobní Zdroj</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50007" trl="N">
+  <value column="Name" original="Unit of Measure">Jednotka Měření</value>
+  <value column="Description" original="Maintain Unit of Measure ">Udržovat Jednotku Měření</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50008" trl="N">
+  <value column="Name" original="Product">Produkt</value>
+  <value column="Description" original="Maintain Products">Udržovat Produkty</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50009" trl="N">
+  <value column="Name" original="Material Requirement Planning Setup">Nastavení MRP</value>
+  <value column="Description" original="Setup Material Requirement Planning">Nastavení MRP</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50010" trl="N">
+  <value column="Name" original="Capacity Requirement Planning Setup">Nastavení CRP</value>
+  <value column="Description" original="Setup Capacity Requirement Planning">Nastavení CRP</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50011" trl="N">
+  <value column="Name" original="Forecast">Předpověď</value>
+  <value column="Description" original="Forecast">Předpověď</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50012" trl="N">
+  <value column="Name" original="Manufacturing Management Setup">Nastavení řízení výroby</value>
+  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">MRP je soubor technik, který používá Seznamy Materiálů, Inventární Data a Hlavní Výrobní Plán k výpočtu potřeb materiálů.</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50013" trl="N">
+  <value column="Name" original="Notice">Poznámka</value>
+  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">MRP je soubor technik, který používá Seznamy Materiálů, Inventární Data a Hlavní Výrobní Plán k výpočtu potřeb materiálů.</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50014" trl="N">
+  <value column="Name" original="Discrete Manufacturing Setup">Nastavení diskretní výroby</value>
+  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">MRP je soubor technik, který používá Seznamy Materiálů, Inventární Data a Hlavní Výrobní Plán k výpočtu potřeb materiálů.</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50015" trl="N">
+  <value column="Name" original="Material Requirement Planning Setup">Nastavení MRP</value>
+  <value column="Description" original="Setup Material Requirement Planning">Nastavení MRP</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50016" trl="N">
+  <value column="Name" original="Manufacturing Workflow Setup">Nastavení výrobního procesu</value>
+  <value column="Description" original="Setup Manufacturing Workflow">Nastavení výrobního procesu</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50017" trl="N">
+  <value column="Name" original="Calculate Capacity Plan">Výpočet kapacitního plánu</value>
+  <value column="Description" original="Calculate Capacity Plan">Výpočet kapacit</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50018" trl="N">
+  <value column="Name" original="Resource Load View">Zdrojové zatížení</value>
+  <value column="Description" original="It shows graphically of the required and available time for each manufacturing resource.">Graficky zobrazuje požadovaný a dostupný čas pro každý výrobní zdroj.</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50019" trl="N">
+  <value column="Name" original="Material Requirement Planning Setup">Nastavení MRP</value>
+  <value column="Description" original="Setup Material Requirement Planning">Nastavení MRP</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50020" trl="N">
+  <value column="Name" original="Manufacturing Management Setup">Nastavení řízení výroby</value>
+  <value column="Description" original="Setup Manufacturing Management">Nastavení řízení výroby</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50021" trl="N">
+  <value column="Name" original="Distribution Management Setup">Nastavení řízení distribuce</value>
+  <value column="Description" original="Setup Distribution Management">Nastavení řízení distribuce</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50022" trl="N">
+  <value column="Name" original="Planned Order Approval">Schválení plán. obj.</value>
+  <value column="Description" original="Planned Order Approval">Schválení plán. obj.</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50023" trl="N">
+  <value column="Name" original="MRP Notice">MRP Upoz.</value>
+  <value column="Description" original="MRP Notice">MRP Upoz.</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50024" trl="N">
+  <value column="Name" original="MRP Info">MRP Info</value>
+  <value column="Description" original="MRP Info">MRP Info</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50025" trl="N">
+  <value column="Name" original="Calculate Distribution Plan">Vypočítat plán distribuce</value>
+  <value column="Description" original="Calculate Distribution Plan">Vypočítat plán distribuce</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50027" trl="N">
+  <value column="Name" original="(DocComplete)">(DokKompl)</value>
+  <value column="Description" original="(Standard Node)">(StdNode)</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50028" trl="N">
+  <value column="Name" original="(DocPrepare)">(Připravit)</value>
+  <value column="Description" original="(Standard Node)">(StdNode)</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50029" trl="N">
+  <value column="Name" original="(Start)">(Začátek)</value>
+  <value column="Description" original="(Standard Node)">(StdNode)</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50034" trl="N">
+  <value column="Name" original="Freight Category">PřepravaKategorie</value>
+  <value column="Description" original="Maintain Freight Categories">Udržovat PřepravaKategorie</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50035" trl="N">
+  <value column="Name" original="Inventory Move">PřesunSklad</value>
+  <value column="Description" original="Inventory Move">PřesunSklad</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50036" trl="N">
+  <value column="Name" original="Shipper">Dopravce</value>
+  <value column="Description" original="Maintain Shippers">Udržovat Dopravce</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50049" trl="N">
+  <value column="Name" original="Multi Level BOM &amp; Formula Detail" xml:space="preserve">Víceúrovňový BOM &amp; Detail vzorce</value>
+  <value column="Description" original="Shows in two different panels the parent-component relationship for the product entered in the Product field.">Zobrazuje v dvou různých panelych vztah mezi nadřazeným komponentem a výrobkem zadaným v poli Výrobek.</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50050" trl="N">
+  <value column="Name" original="BOM &amp; Formula Info" xml:space="preserve">BOM &amp; Info vzorce</value>
+  <value column="Description" original="Shows in two different panels the parent-component relationship for the product entered in the Product field.">Zobrazuje v dvou různých panelych vztah mezi nadřazeným komponentem a výrobkem zadaným v poli Výrobek.</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50051" trl="N">
+  <value column="Name" original="Bill of Materials &amp; Formula" xml:space="preserve">BOM &amp; Vzorec</value>
+  <value column="Description" original="Maintain Product Bill of Materials &amp; Formula " xml:space="preserve">Udržovat BOM &amp; Vzorec Výrobku</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50052" trl="N">
+  <value column="Name" original="Product Planning">Plánování výrobků</value>
+  <value column="Description" original="Product Planning">Plánování výrobků</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50053" trl="N">
+  <value column="Name" original="Calculate Low Level">Výpočet Nízké Úrovně</value>
+  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">MRP je soubor technik, který používá BOM, data o zásobách a hlavní plán výroby k výpočtu potřeb materiálu.</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50054" trl="N">
+  <value column="Name" original="Calculate Material Plan">Výpočet Plánu Materiálu</value>
+  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">MRP je soubor technik, který používá BOM, data o zásobách a hlavní plán výroby k výpočtu potřeb materiálu.</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50055" trl="N">
+  <value column="Name" original="Planned Order Approval">Schválení plán. objednávky</value>
+  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">MRP je soubor technik, který používá BOM, data o zásobách a hlavní plán výroby k výpočtu potřeb materiálu.</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50056" trl="N">
+  <value column="Name" original="MRP Info">MRP Info</value>
+  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">MRP je soubor technik, který používá BOM, data o zásobách a hlavní plán výroby k výpočtu potřeb materiálu.</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50057" trl="N">
+  <value column="Name" original="Print &amp; Release Order" xml:space="preserve">Tisk &amp; Uvolnit Obj.</value>
+  <value column="Description" original="Print &amp; Release Order" xml:space="preserve">Tisk &amp; Uvolnit Obj.</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50058" trl="N">
+  <value column="Name" original="Order Receipt &amp; Issue" xml:space="preserve">Příjem &amp; Vydání Obj.</value>
+  <value column="Description" original="Order Receipt &amp; Issue" xml:space="preserve">Příjem &amp; Vydání Obj.</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50059" trl="N">
+  <value column="Name" original="Manufacturing Order">Výr. Objednávka</value>
+  <value column="Description" original="Manufacturing Order">Výr. Objednávka</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50060" trl="N">
+  <value column="Name" original="Component Check">Komp. Kontrola</value>
+  <value column="Description" original="Component Check">Komp. Kontrola</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50061" trl="N">
+  <value column="Name" original="Generate Movement">Vytvořit Pohyb</value>
+  <value column="Description" original="Generate and print Movement from open Distribution Orders">Vytvořit a tisknout Pohyb z otevřených Distribučních Objednávek</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50062" trl="N">
+  <value column="Name" original="Generate Movement Manual">Vytvořit Pohyb Manuálně</value>
+  <value column="Description" original="Generate Movement to a Order Distribution">Vytvořit Pohyb k Distribuční Objednávce</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50063" trl="N">
+  <value column="Name" original="Distribution Order">Distrib. Obj.</value>
+  <value column="Description" original="Distribution Order allow create Order inter warehouse to supply a demand ">Distrib. Obj. umožňuje vytvořit Obj. mezi sklady pro uspokojení poptávky</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50064" trl="N">
+  <value column="Name" original="Import Proccesor">Import Procesor</value>
+  <value column="Description" original="Import Proccesor">Import Procesor</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50065" trl="N">
+  <value column="Name" original="Import Processor Type">Typ Importu</value>
+  <value column="Description" original="Import Processor Type">Typ Importu</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50066" trl="N">
+  <value column="Name" original="Export Format">Formát Exportu</value>
+  <value column="Description" original="Export Format">Formát Exportu</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50067" trl="N">
+  <value column="Name" original="Export Processor">Export Procesor</value>
+  <value column="Description" original="Export Processor">Export Procesor</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50068" trl="N">
+  <value column="Name" original="Export Processor Type">Typ Exportu</value>
+  <value column="Description" original="Export Processor Type">Typ Exportu</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50069" trl="N">
+  <value column="Name" original="Replication Strategy">Replikace Strategie</value>
+  <value column="Description" original="Replication Strategy">Replikace Strategie</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50081" trl="N">
+  <value column="Name" original="Payroll Action Notice">Platba Oznámení Akce</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="50099" trl="N">
+  <value column="Name" original="(DocAuto)">(DocAuto)</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="50100" trl="N">
+  <value column="Name" original="(DocComplete)">(DokKompletní)</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="50101" trl="N">
+  <value column="Name" original="(DocPrepare)">(Připravit)</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="50102" trl="N">
+  <value column="Name" original="(Start)">(Začátek)</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="50104" trl="N">
+  <value column="Name" original="(DocAuto)">(DocAuto)</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="50105" trl="N">
+  <value column="Name" original="(DocComplete)">(DokKompletní)</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="50106" trl="N">
+  <value column="Name" original="(DocPrepare)">(Připravit)</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="50107" trl="N">
+  <value column="Name" original="(Start)">(Začátek)</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="50108" trl="N">
+  <value column="Name" original="(DocAuto)">(DocAuto)</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="50109" trl="N">
+  <value column="Name" original="(DocComplete)">(DokKompletní)</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="50110" trl="N">
+  <value column="Name" original="(DocPrepare)">(Připravit)</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="50111" trl="N">
+  <value column="Name" original="(Start)">(Začátek)</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="50112" trl="N">
+  <value column="Name" original="(DocAuto)">(DokAuto)</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="50113" trl="N">
+  <value column="Name" original="(DocComplete)">DokKompletní</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="50114" trl="N">
+  <value column="Name" original="(DocPrepare)">(Připravit)</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="50115" trl="N">
+  <value column="Name" original="(Start)">(Začátek)</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="50116" trl="N">
+  <value column="Name" original="(Start)">(Začátek)</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="50117" trl="N">
+  <value column="Name" original="(DocAuto)">DokAuto</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="50118" trl="N">
+  <value column="Name" original="(DocComplete)">DokKompletní</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="50119" trl="N">
+  <value column="Name" original="(DocPrepare)">Připravit</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+</idempiereTrl>

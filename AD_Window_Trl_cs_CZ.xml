@@ -1,0 +1,1791 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 10_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community-->
+<!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="cs_CZ" table="AD_Window">
+ <row id="100" trl="N">
+  <value column="Name" original="Table and Column">Tabulka a Sloupec</value>
+  <value column="Description" original="Maintain Tables and Columns">Udržovat Tabulky a Sloupce</value>
+  <value column="Help" original="The Table and Column Window defines all tables with their columns">Okno Tabulky a Sloupce definuje všechny tabulky se svými sloupci</value>
+ </row>
+ <row id="101" trl="N">
+  <value column="Name" original="Reference">Odkaz</value>
+  <value column="Description" original="Maintain System References">Udržovat Odkazy Systému</value>
+  <value column="Help" original="The Reference Window defines field/display types and validations. This window is for System Admin use only.">Okno Odkazu definuje typy polí/zobrazení a validace. Toto okno je pouze pro použití Systémovým Administrátorem.</value>
+ </row>
+ <row id="102" trl="N">
+  <value column="Name" original="Window, Tab &amp; Field" xml:space="preserve">Okno, Tab &amp; Pole</value>
+  <value column="Description" original="Maintain Windows, Tabs &amp; Fields" xml:space="preserve">Udržovat Okna, Tab &amp; Pole</value>
+  <value column="Help" original="The Window, Tab &amp; Field Window defines the presentation of tables and columns within each window." xml:space="preserve">Okno, Tab &amp; Pole definuje zobrazení tabulek a sloupců v každém okně.</value>
+ </row>
+ <row id="103" trl="N">
+  <value column="Name" original="Validation Rules">Validační Pravidla</value>
+  <value column="Description" original="Maintain dynamic Validation Rules for columns and fields">Udržovat dynamická Validační Pravidla pro sloupce a pole</value>
+  <value column="Help" original="The Validation Rules Window defines all dynamic rules used when entering and maintaining columns and fields.  This window is for System Admin use only.">Okno Validačních Pravidel definuje všechna dynamická pravidla používaná při zadávání a udržování sloupců a polí. Toto okno je pouze pro použití Systémovým Administrátorem.</value>
+ </row>
+ <row id="104" trl="N">
+  <value column="Name" original="Message">Zpráva</value>
+  <value column="Description" original="Maintain Information and Error Messages">Udržovat Informace a Chybové Zprávy</value>
+  <value column="Help" original="The Message Window defines the Message Text and Message Tips for each system generated message.  It is for System Admin use only.">Okno Zpráv definuje Text Zprávy a Tipy Zprávy pro každou systémově generovanou zprávu. Pouze pro použití Systémovým Administrátorem.</value>
+ </row>
+ <row id="105" trl="N">
+  <value column="Name" original="Menu">Menu</value>
+  <value column="Description" original="Maintain Menu">Udržovat Menu</value>
+  <value column="Help" original="The Maintain Menu Window defines the Menu which will display.  It is for System Admin use only.  The menu items that each user will see depends upon the security defined.">Udržovat Okno Menu definuje Menu, které se zobrazí. Pouze pro použití Systémovým Administrátorem. Položky menu, které uvidí každý uživatel, závisí na definované bezpečnosti.</value>
+ </row>
+ <row id="106" trl="N">
+  <value column="Name" original="Language">Jazyk</value>
+  <value column="Description" original="Maintain Languages">Udržovat Jazyky</value>
+  <value column="Help" original="The Language Window allows you to define multiple parallel language for users. This allows users to access the same data but have the windows, tabs and fields appear in different languages.&#10;If a language is a System Language, you can change the User Interface to this language (after translation).  Otherwise the language is only used for printing documents.&#10;&#10;For the language code, we suggest using the Java convention of country and language (e.g. fr_CN - Canadian French).&#10;&#10;Verify the translation creates missing translation records. Start this process after creating a new language.">Okno Jazyka umožňuje definovat více paralelních jazyků pro uživatele. To umožňuje uživatelům přistupovat ke stejným datům, ale okna, záložky a pole se zobrazí v různých jazycích.
+Pokud je jazyk Systémovým Jazykem, můžete změnit uživatelské rozhraní na tento jazyk (po překladu). V opačném případě se jazyk používá pouze pro tisk dokumentů.
+
+Pro kód jazyka doporučujeme používat Java konvenci země a jazyka (např. fr_CN - Kanadská Francouzština).
+
+Ověřte, že překlad vytváří chybějící záznamy překladu. Spusťte tento proces po vytvoření nového jazyka.</value>
+ </row>
+ <row id="107" trl="N">
+  <value column="Name" original="Matched Invoices">Shodné Faktury</value>
+  <value column="Description" original="View Matched Invoices">Zobrazit Shodné Faktury</value>
+  <value column="Help" original="View detals of matched invoice lines to material receipt lines">Zobrazit detaily shodných řádků faktury k řádkům příjmu materiálu</value>
+ </row>
+ <row id="108" trl="N">
+  <value column="Name" original="User">Uživ</value>
+  <value column="Description" original="Maintain Users of the system">Udržovat Uživatele systému</value>
+  <value column="Help" original="The User Window allows you to maintain User of the system.  Users can log into the system and have access to functionality via one or more roles.  A user can also be a business partner contact.">Okno Uživatele umožňuje udržovat Uživatele systému. Uživatelé se mohou přihlásit do systému a mít přístup k funkcím prostřednictvím jedné nebo více rolí. Uživatel může být také kontaktem obchodního partnera.</value>
+ </row>
+ <row id="109" trl="N">
+  <value column="Name" original="Tenant">Mandant</value>
+  <value column="Description" original="Maintain Tenants">Udržovat Mandanty</value>
+  <value column="Help" original="The Tenant is the highest level of an independent business entity.  Each Tenant will have one or more Organizations reporting to it.  Each Tenant defines the accounting parameters (Accounting Schema, Tree definition, Non Monetary UOM's). To create new Tenants, run the Initial Tenant Setup with the System Administrator Role.&#10;Do not create a new tenant in this window, but use &quot;Initial Tenant Setup&quot; to set up the required security and access rules. If you create a new tenant here, you will not be able to view it and also the required tenant infrastructure would not have been set up.">"Mandant je nejvyšší úroveň nezávislého obchodního subjektu. Každý mandant bude mít jednu nebo více organizací, které mu podléhají. Každý mandant definuje účetní parametry (Účetní schéma, Definice stromu, Jednotky měření bez peněžní hodnoty). Pro vytvoření nových mandantů spusťte Počáteční nastavení mandantu s rolí Systémový administrátor.
+Nevytvářejte nového mandanta v tomto okně, ale použijte "Počáteční nastavení mandantu" pro nastavení požadovaných bezpečnostních a přístupových pravidel. Pokud zde vytvoříte nového mandanta, nebudete ho moci zobrazit a také nebude nastavena požadovaná infrastruktura mandanta."</value>
+ </row>
+ <row id="110" trl="N">
+  <value column="Name" original="Organization">Organizace</value>
+  <value column="Description" original="Maintain Organizations">Udržovat Organizace</value>
+  <value column="Help" original="The Organization Window allows you to define and maintain Organizational entities.  An Organization is often a legal entity or sub-unit for which documents and transactions are processed">Okno Organizace umožňuje definovat a udržovat organizační entity. Organizace je často právní subjekt nebo podjednotka, pro kterou jsou zpracovávány dokumenty a transakce.</value>
+ </row>
+ <row id="111" trl="N">
+  <value column="Name" original="Role">Rola</value>
+  <value column="Description" original="Maintain User Responsibilities">Udržovat Uživatelské Role</value>
+  <value column="Help" original="The Role Window allows you to define the different roles that users of this system will have.  Roles control access to windows, tasks, reports, etc. For a tenant an Administrator and User role are predefined. You may add additional roles to control access for specific functionality or data.&#10;You can add users to the role.&#10;Note that access information is cached and requires re-login or reset of cache.">Okno Role umožňuje definovat různé role, které budou mít uživatelé tohoto systému. Role řídí přístup k oknům, úkolům, reportům atd. Pro mandant jsou předdefinovány role Administrátor a Uživatel. Můžete přidat další role pro řízení přístupu k určitým funkcím nebo datům.
+Můžete přidat uživatele do role.
+Všimněte si, že informace o přístupu jsou ukládány do mezipaměti a vyžadují opětovné přihlášení nebo reset mezipaměti.</value>
+ </row>
+ <row id="112" trl="N">
+  <value column="Name" original="Document Sequence">Dok. Sekvence</value>
+  <value column="Description" original="Maintain System and Document Sequences">Udržovat Systém a Dok. Sekvence</value>
+  <value column="Help" original="The Sequence Window defines how document numbers will be sequenced.&#10;Change the way document numbers are generated. You may add a prefix or a suffix or change the current number.">Okno Sekvence definuje, jak budou čísla dokumentů seřazena.
+Změňte způsob generování čísel dokumentů. Můžete přidat předponu nebo příponu nebo změnit aktuální číslo.</value>
+ </row>
+ <row id="113" trl="N">
+  <value column="Name" original="Workflow">Postup</value>
+  <value column="Description" original="Maintain Workflow">Správa postupu</value>
+  <value column="Help" original="The Workflow Window defines Workflows in the system, the access level for the Workflow and the Nodes or Steps within the Workflow.">Okno Postup definuje Postupy v systému, úroveň přístupu pro Postup a Uzly nebo Kroky v rámci Postupu.</value>
+ </row>
+ <row id="114" trl="N">
+  <value column="Name" original="Task">Úkol</value>
+  <value column="Description" original="Maintain Tasks">Udržovat Úkoly</value>
+  <value column="Help" original="The Maintain Tasks window defines the different tasks used in workflows and the access level for those tasks.">Udržovat Úkoly definuje různé úkoly používané v postupech a úroveň přístupu pro tyto úkoly.</value>
+ </row>
+ <row id="115" trl="N">
+  <value column="Name" original="Currency">Měna</value>
+  <value column="Description" original="Maintain Currencies">Udržovat Měny</value>
+  <value column="Help" original="The Currency Window defines any currency which will be used in documents or reporting. You would define used currencies on System level and add currencies on Tenant level only for statistical currencies (e.g. for instable currencies) ">Okno Měna definuje jakoukoliv měnu, která bude použita v dokumentech nebo v reportech. Definujete používané měny na úrovni Systému a přidáváte měny pouze na úrovni Mandanta pro statistické měny (např. pro nestabilní měny).</value>
+ </row>
+ <row id="116" trl="N">
+  <value column="Name" original="Currency Rate">Měnový kurz</value>
+  <value column="Description" original="Maintain Currency Conversion Rates">Udržovat Kurzovní Převodní Kurzy</value>
+  <value column="Help" original="The Conversion Rates window is used to define the conversion rates that will be used when converting document amounts from one currency to another. Note that only the multiply rate is used; The divide rate is for visualization only.">Okno Kurzovních Převodních Kurzů se používá k definování kurzovních převodních kurzů, které se použijí při převodu částek dokumentů z jedné měny do druhé. Všimněte si, že se používá pouze násobící kurz; Dělící kurz slouží pouze pro vizualizaci.</value>
+ </row>
+ <row id="117" trl="N">
+  <value column="Name" original="Calendar Year and Period">Kalendář Rok a Období</value>
+  <value column="Description" original="Maintain Calendars Years Periods">Udržovat Kalendář Roky Období</value>
+  <value column="Help" original="The Calendar Year and Periods defines the calendars that will be used for period control and reporting. You can also define non-standard calendars (e.g. business year from July to June).">Kalendář Roky a Období definuje kalendáře, které se použijí pro kontrolu období a reportování. Můžete také definovat nestandardní kalendáře (např. obchodní rok od července do června).</value>
+ </row>
+ <row id="118" trl="N">
+  <value column="Name" original="Account Element">Účetní Prvek</value>
+  <value column="Description" original="Maintain Account Elements">Udržovat Účetní Prvky</value>
+  <value column="Help" original="The Account Element Window is used to define and maintain the Accounting Element and User Defined Elements. &#10;One of the account segments is your natural account segment (Chart of Account). You may add a new account element for parallel reporting or for user defined accounting segments.">Okno Účetního Prvku se používá k definování a udržování Účetního Prvku a Uživatelsky Definovaných Prvků. Jeden z účetních segmentů je váš přirozený účetní segment (Účetní Plán). Můžete přidat nový účetní prvek pro paralelní reportování nebo pro uživatelsky definované účetní segmenty.</value>
+ </row>
+ <row id="120" trl="N">
+  <value column="Name" original="Unit of Measure">Jednotka Měření</value>
+  <value column="Description" original="Maintain Unit of Measure ">Udržovat Jednotku Měření</value>
+  <value column="Help" original="The Unit of Measure Window is used to define non monetary units of measure.  It also defines if conversion between units of measure are allowed and how they are to be performed. The system provides some automatic conversions between units of measures (e.g. minute, hour, day, working day, etc.) if they are not explicitly defined here.&#10;Conversions need to be direct (i.e. if you have only a conversion between A-B and B-C, the system cannot convert A-C, you need to define it explicitly).">Okno Jednotky Měření se používá k definování nefinančních jednotek měření. Také definuje, zda jsou povoleny převody mezi jednotkami měření a jak mají být provedeny. Systém poskytuje některé automatické převody mezi jednotkami měření (např. minuta, hodina, den, pracovní den, atd.), pokud nejsou zde explicitně definovány. Převody musí být přímé (tj. pokud máte pouze převod mezi A-B a B-C, systém nemůže převést A-C, musíte jej explicitně definovat).</value>
+ </row>
+ <row id="121" trl="N">
+  <value column="Name" original="Location">Místo</value>
+  <value column="Description" original="Maintain Location Address">Udržovat Adresu Místa</value>
+  <value column="Help" original="The Location Window defines the address data within the system.  This window is for System Admin only.  Users would access location entries using the location button or tab on the appropriate window (i.e Order Entry or Business Partner)">Okno Místa definuje adresní údaje v systému. Toto okno je pouze pro správce systému. Uživatelé mohou přistupovat k položkám místa pomocí tlačítka nebo záložky místa na příslušném okně (např. Vstup Objednávky nebo Obchodní Partner).</value>
+ </row>
+ <row id="122" trl="N">
+  <value column="Name" original="Country Region and City">Země Region a Město</value>
+  <value column="Description" original="Maintain Countries Regions and Cities">Udržovat Země Regiony a Města</value>
+  <value column="Help" original="The Countries, Regions and Cities Window defines the different entities that can be used in any address field.  It defines the format of the address as well as associating Regions with Countries and Cities with Regions or Countries. &#10;&lt;p&gt;You would define Countries usually only on System level." xml:space="preserve">Okno Zemí, Regionů a Měst definuje různé entity, které lze použít v jakémkoli poli adresy. Definuje formát adresy a přiřazuje Regiony k Zemím a Města k Regionům nebo Zemím. Obvykle byste Země definovat pouze na úrovni Systému.</value>
+ </row>
+ <row id="123" trl="N">
+  <value column="Name" original="Business Partner">Obchodní Partner</value>
+  <value column="Description" original="Maintain Business Partners">Udržovat Obchodní Partnery</value>
+  <value column="Help" original="The Business Partner window allows you do define any party with whom you transact.  This includes customers, vendors and employees.  Prior to entering or importing products, you must define your vendors.  Prior to generating Orders you must define your customers.  This window holds all information about your business partner and the values entered will be used to generate all document transactions">Okno Obchodního Partnera umožňuje definovat jakoukoli stranu, se kterou obchodujete. To zahrnuje zákazníky, dodavatele a zaměstnance. Před vstupem nebo importem produktů musíte definovat své dodavatele. Před generováním Objednávek musíte definovat své zákazníky. Toto okno obsahuje všechny informace o vašem obchodním partnerovi a zadané hodnoty budou použity k vytvoření všech transakcí dokumentů.</value>
+ </row>
+ <row id="125" trl="N">
+  <value column="Name" original="Accounting Schema">Účetní Schéma</value>
+  <value column="Description" original="Maintain Accounting Schema - For changes to become effective you must re-login">Udržovat Účetní Schéma - Pro účinnost změn musíte znovu přihlásit</value>
+  <value column="Help" original="The Accounting Schema Window defines an accounting method and the elements that will comprise an account structure. Create and activate elements for detailed accounting for Business Partners, Products, Locations, etc.&#10;Review and change the GL and Default accounts. The actual accounts used in transactions depend on the executing organization; Most of the information is derived from the context.">Okno Účetního Schématu definuje účetní metodu a prvky, které budou tvořit strukturu účtu. Vytvořte a aktivujte prvky pro podrobné účtování pro Obchodní Partnery, Produkty, Místa atd. Přezkoumejte a změňte GL a Výchozí účty. Skutečné účty použité v transakcích závisí na provádějící organizaci; Většina informací je odvozena z kontextu.</value>
+ </row>
+ <row id="127" trl="N">
+  <value column="Name" original="Test">Test</value>
+  <value column="Description" original="Test Screen">Test Obrazovka</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="128" trl="N">
+  <value column="Name" original="Attachment">Příloha</value>
+  <value column="Description" original="Maintain Attachments">Udržovat Přílohy</value>
+  <value column="Help" original="For System Maintenance Only.  The Maintain Attachments window is used for diagnostic purposes to display the attributes of an attachment.">Pro údržbu systému pouze. Okno Udržování Příloh se používá pro diagnostické účely k zobrazení atributů přílohy.</value>
+ </row>
+ <row id="129" trl="N">
+  <value column="Name" original="Preference">Nastavení</value>
+  <value column="Description" original="Maintain System Tenant Org and User Preferences">Udržovat Nastavení Mandanta a Uživatele</value>
+  <value column="Help" original="System Admin use only.">Pro použití pouze pro správce.</value>
+ </row>
+ <row id="130" trl="N">
+  <value column="Name" original="Project">Projekt</value>
+  <value column="Description" original="Maintain Projects">Udržovat Projekty</value>
+  <value column="Help" original="The Project Window is used to define the projects which will can be tracked by phases and tasks.">Okno Projektů se používá k definování projektů, které lze sledovat pomocí fází a úkolů.</value>
+ </row>
+ <row id="131" trl="N">
+  <value column="Name" original="GL Category">GL Kategorie</value>
+  <value column="Description" original="Maintain General Ledger Categories">Udržovat GL Kategorie</value>
+  <value column="Help" original="The GL Category Window allows you to define categories to be used in journals.  These categories provide a method of optionally grouping and reporting on journals.">Okno GL Kategorie umožňuje definovat kategorie pro použití v účetních knihách. Tyto kategorie poskytují možnost volitelného seskupování a hlášení o účetních knihách.</value>
+ </row>
+ <row id="132" trl="N">
+  <value column="Name" original="GL Journal Batch">GL Účtování</value>
+  <value column="Description" original="Enter and change Manual Journal Entries">Zadat a změnit ruční účetní zápisy</value>
+  <value column="Help" original="The GL Journal Window allows you to enter and modify manual journal entries">Okno GL Účtování umožňuje zadávat a upravovat ruční účetní zápisy</value>
+ </row>
+ <row id="134" trl="N">
+  <value column="Name" original="Activity (ABC)">Aktivita (ABC)</value>
+  <value column="Description" original="Maintain Activities for Activity Based Costing">Udržovat Aktivity pro ABC</value>
+  <value column="Help" original="The Activity Based Costing Window defines the different activities for which you want to capture costs.">Okno Aktivity pro ABC definuje různé aktivity, pro které chcete zachytit náklady.</value>
+ </row>
+ <row id="135" trl="N">
+  <value column="Name" original="Document Type">Typ dokumentu</value>
+  <value column="Description" original="Maintain Document Types">Udržovat Typy Dokumentů</value>
+  <value column="Help" original="The Document Type Window defines any document to be used in the system.  Each document type provides the basis for processing of each document and controls the printed name and document sequence used.  ">Okno Typu Dokumentu definuje jakýkoli dokument používaný v systému. Každý typ dokumentu poskytuje základ pro zpracování a ovládá tisk jména a pořadí dokumentů.</value>
+ </row>
+ <row id="137" trl="N">
+  <value column="Name" original="Tax Rate">Daňová sazba</value>
+  <value column="Description" original="Maintain Taxes and their Rates">Udržovat daně a jejich sazby</value>
+  <value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.">Okno Daňové Sazby definuje různé daně používané pro každou daňovou kategorii. Například prodejní daň musí být definována pro každý stát, ve kterém se používá.</value>
+ </row>
+ <row id="138" trl="N">
+  <value column="Name" original="Tax Category">Daňová Kategorie</value>
+  <value column="Description" original="Maintain Tax Categories">Udržovat Daňové Kategorie</value>
+  <value column="Help" original="The Tax Category Window is used to enter and maintain Tax Categories.  Each product is associated with a tax category which facilitates reacting changing tax rates.">Okno Daňové Kategorie slouží k zadání a udržování Daňových Kategorií. Každý produkt je spojen s daňovou kategorií, což usnadňuje reakci na změny daňových sazeb.</value>
+ </row>
+ <row id="139" trl="N">
+  <value column="Name" original="Warehouse &amp; Locators" xml:space="preserve">Sklad &amp; Lokátory</value>
+  <value column="Description" original="Maintain Warehouses and Locators">Udržovat Sklady a Lokátory</value>
+  <value column="Help" original="The Warehouse and Locators Window defines each Warehouse, any Locators for that Warehouse and the Accounting parameters to be used for inventory in that Warehouse.">Okno Skladů a Lokátorů definuje každý sklad, jakékoliv lokátory pro tento sklad a účetní parametry pro skladování zásob v tomto skladu.</value>
+ </row>
+ <row id="140" trl="N">
+  <value column="Name" original="Product">Produkt</value>
+  <value column="Description" original="Maintain Products">Správa produktů</value>
+  <value column="Help" original="The Product Window defines all products used by an organization.  These products include those sold to customers, used in the manufacture of products sold to customers and products purchased by an organization.">Okno Produktů definuje všechny produkty používané organizací. Tyto produkty zahrnují ty prodávané zákazníkům, používané při výrobě produktů prodávaných zákazníkům a produkty nakupované organizací.</value>
+ </row>
+ <row id="141" trl="N">
+  <value column="Name" original="Payment Term">Podmínky platby</value>
+  <value column="Description" original="Maintain Payment Terms">Správa platebních podmínek</value>
+  <value column="Help" original="The Payment Terms Window defines the different payment terms that you offer your customers and that are offered to you by your vendors.  Each invoice must contain a Payment Term.  On the standard invoice, the Name and the Document Note of the Payment Term is printed.">Okno PlatbyTerm definuje různé platby, které nabízíte zákazníkům a které vám nabízejí dodavatelé. Každá faktura musí obsahovat PlatbuTerm. Na standardní faktuře je vytisknut název a poznámka k dokumentu PlatbyTerm.</value>
+ </row>
+ <row id="142" trl="N">
+  <value column="Name" original="Shipper">Přepravce</value>
+  <value column="Description" original="Maintain Shippers">Správa přepravců</value>
+  <value column="Help" original="The Shipper Window defines the different shipping provides used by an Organization.  When a delivery method of Shipper is used on an Order a predefined Shipper must be selected.">Okno Dopravce definuje různé dopravce používané organizací. Při použití způsobu dodání Dopravce na objednávce musí být vybrán předdefinovaný Dopravce.</value>
+ </row>
+ <row id="143" trl="N">
+  <value column="Name" original="Sales Order">Prodejní objednávka</value>
+  <value column="Description" original="Enter and change sales orders">Vstup a změna prodejních objednávek</value>
+  <value column="Help" original="The Order Window allows you to enter and modify Sales Orders.  ">Okno Objednávka umožňuje zadávat a upravovat objednávky prodeje.  </value>
+ </row>
+ <row id="144" trl="N">
+  <value column="Name" original="Product Category">Kategorie produktu</value>
+  <value column="Description" original="Maintain Product Categories">Správa kategorií produktů</value>
+  <value column="Help" original="The Product Category allows you to define different groups of products.  These groups can be used in generating Price Lists, defining margins and for easily assigning different accounting parameters for products.">Kategorie produktů umožňuje definovat různé skupiny produktů.  Tyto skupiny lze použít při generování Ceníků, definování marží a pro snadné přiřazení různých účetních parametrů výrobkům.</value>
+ </row>
+ <row id="146" trl="N">
+  <value column="Name" original="Price List">Ceník</value>
+  <value column="Description" original="Maintain Product Price Lists">Správa ceníků produktů</value>
+  <value column="Help" original="The Price List Window allows you to generate product price lists for your Business Partners.  Price lists determine currency and tax treatment.  Price list versions allow to maintain parallel lists for different date ranges.  The most current pricelist version is used based on the document date.&#10;&lt;BR&gt;&#10;All pricelists have three prices: List, Standard and Limit&#10;&lt;BR&gt;&#10;First step is to create a base price list.  You can manually add products and enter the prices or create them automatically.  The base price list is often the purchase price list with list price ('official' retail price), the standard price (your purchase price).  The limit price can be used to check your final purchase costs after discounts, rebates, etc.&#10;&lt;BR&gt; &#10;Pricelists can be calculated and copied.  To speed up the calculation, the parameters are stored an used when creating a new price list version." xml:space="preserve">Okno Ceník umožňuje vytvářet ceníky produktů pro obchodní partnery.  Ceníky určují měnu a daňové zacházení.  Verze ceníků umožňují vést paralelní ceníky pro různá datová rozmezí.  Podle data dokladu se použije nejaktuálnější verze ceníku.&#10;&lt;BR&gt;&#10;Všechny ceníky mají tři ceny: V prvním kroku je třeba vytvořit základní ceník, a to ceník ceníkový, ceník standardní a ceník limitní&#10;&lt;BR&gt;&#10;Základní ceník.  Můžete ručně přidat produkty a zadat ceny nebo je vytvořit automaticky.  Základní ceník je často nákupní ceník s ceníkovou cenou ("oficiální" maloobchodní cena), standardní cenou (vaše nákupní cena).  Limitní cenu můžete použít pro kontrolu konečných nákupních nákladů po slevách, rabatech apod.&#10;&lt;BR&gt; &#10;Ceníky lze vypočítat a kopírovat.  Pro urychlení výpočtu jsou parametry uloženy a použity při vytváření nové verze ceníku.</value>
+ </row>
+ <row id="147" trl="N">
+  <value column="Name" original="Invoice Schedule">Fakturační plán</value>
+  <value column="Description" original="Maintain Invoicing Schedule">Udržovat Fakturační plán</value>
+  <value column="Help" original="The Invoice Schedule Window defines the frequency and cut off dates for generating summary invoices.  If a customer requires a single invoice for multiple shipments you would define the appropriate invoice schedule and associate it with the Customer.">Okno Fakturačního plánu určuje frekvenci a termíny pro vytváření souhrnných faktur. Pokud zákazník požaduje jednu fakturu pro více zásilek, definujete příslušný fakturační plán a přiřadíte ho k zákazníkovi.</value>
+ </row>
+ <row id="149" trl="N">
+  <value column="Name" original="Marketing Campaign">Kampaň</value>
+  <value column="Description" original="Maintain Marketing Campaigns">Udržovat Kampaň</value>
+  <value column="Help" original="The Marketing Campaign Window defines the start and end date for a campaign.  It also gives a running balance of the invoice amounts which referred to this campaign.">Okno Kampaň určuje datum zahájení a ukončení kampaně. Také poskytuje běžný zůstatek částek faktur, které se odkazují na tuto kampaň.</value>
+ </row>
+ <row id="150" trl="N">
+  <value column="Name" original="Marketing Channel">Marketingový kanál</value>
+  <value column="Description" original="Maintain Marketing  Channels">Správa marketingových kanálů</value>
+  <value column="Help" original="The Marketing Channel Window defines the different channels used in Marketing Campaigns">Okno KanályKampaně určuje různé kanály používané v kampaních.</value>
+ </row>
+ <row id="151" trl="N">
+  <value column="Name" original="Element">Prvek</value>
+  <value column="Description" original="Maintain System Elements">Udržovat PrvkySystému</value>
+  <value column="Help" original="The System Element Window is the Central Repository for Field Names Descriptions and Help/Comments">Okno PrvkySystému je Centrální úložiště pro Názvy polí, Popisy a Nápovědu/Komentáře</value>
+ </row>
+ <row id="152" trl="N">
+  <value column="Name" original="Sales Region">Prodejní oblast</value>
+  <value column="Description" original="Maintain Sales Regions">Správa prodejních oblastí</value>
+  <value column="Help" original="The Sales Region Window defines the different regions where you do business.  You can generate reports based on Sales Regions">Okno ProdejníOblasti určuje různé oblasti, kde podnikáte. Můžete generovat zprávy na základě ProdejníchOblastí.</value>
+ </row>
+ <row id="153" trl="N">
+  <value column="Name" original="Account Combination">Kombinace účtů</value>
+  <value column="Description" original="Maintain Valid Account Combinations ">Správa platných kombinací účtů </value>
+  <value column="Help" original="The Account Combination Window defines and displays valid account combinations. ">Okno Kombinace účtů definuje a zobrazuje platné kombinace účtů. </value>
+ </row>
+ <row id="154" trl="N">
+  <value column="Name" original="GL Budget">GL Rozpočet</value>
+  <value column="Description" original="Maintain General Ledger Budgets">Udržovat GL Rozpočty</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="158" trl="N">
+  <value column="Name" original="Bank / Cash">Bank / Hot</value>
+  <value column="Description" original="Maintain Bank / Cash">Správa Bank / Hotovost</value>
+  <value column="Help" original="The Bank / Cash Window is used to define the banks and accounts associated with an organization or business partner">Okno Banka / Hotovost slouží k definování bank a účtů spojených s organizací nebo obchodním partnerem.</value>
+ </row>
+ <row id="159" trl="N">
+  <value column="Name" original="Dunning">Upomínky</value>
+  <value column="Description" original="Maintain Dunning Levels">Správa upomínkových úrovní</value>
+  <value column="Help" original="The Dunning Window defines the parameters that will be used when generating Dunning Letters.  Each customer can be associated with a Dunning Code.  ">Okno Upomínky definuje parametry, které se použijí při generování Dunning Letters.  Každému zákazníkovi lze přiřadit upomínkový kód.  </value>
+ </row>
+ <row id="161" trl="N">
+  <value column="Name" original="Charge">Poplatek</value>
+  <value column="Description" original="Maintain Charges">Správa Poplatek</value>
+  <value column="Help" original="The Charges Window defines the different charges that may be incurred.  These can include Bank Charges, Vendor Charges and Handling Charges.">Okno Poplatků určuje různé poplatky, které mohou vzniknout. Ty mohou zahrnovat bankovní poplatky, poplatky dodavatele a manipulační poplatky.</value>
+ </row>
+ <row id="162" trl="N">
+  <value column="Name" original="Accounting Fact Details">Účetní Fakta Podrobnosti</value>
+  <value column="Description" original="Query Accounting Facts">Dotazovat Účetní Fakta</value>
+  <value column="Help" original="Query the detail accounting transactions">Dotazování na podrobnosti účetních transakcí</value>
+ </row>
+ <row id="163" trl="N">
+  <value column="Name" original="Tree">Strom</value>
+  <value column="Description" original="Maintain Tree definition">Udržovat Definici Stromu</value>
+  <value column="Help" original="The Tree Window defines the descriptors and images that will be used when a Tree is displayed.">Okno Stromu určuje deskriptory a obrázky, které se použijí při zobrazení Stromu.</value>
+ </row>
+ <row id="165" trl="N">
+  <value column="Name" original="Report &amp; Process" xml:space="preserve">Report &amp; Proces</value>
+  <value column="Description" original="Maintain Reports &amp; Processes" xml:space="preserve">Udržovat Reporty &amp; Procesy</value>
+  <value column="Help" original="The Report &amp; Process Window is used to define the parameters and access rules for every Report and Process within the system.  This window is for System Admin use only." xml:space="preserve">Okno Reportů &amp; Procesů se používá k definování parametrů a přístupových pravidel pro každý Report a Proces v systému. Toto okno je pouze pro použití správcem systému.</value>
+ </row>
+ <row id="167" trl="N">
+  <value column="Name" original="Invoice (Customer)">Faktura (Zákazníkovy)</value>
+  <value column="Description" original="Customer Invoice Entry">Vstup zákaznické faktury</value>
+  <value column="Help" original="The Customer Invoice Window allows you to display and enter invoices for a customer.  Invoices can also be generated from Sales Orders or Delivery documents.">Okno Faktura (Zákazníkovy) umožňuje zobrazit a zadat faktury pro zákazníka. Faktury lze také generovat z objednávek nebo dodacích dokumentů.</value>
+ </row>
+ <row id="168" trl="N">
+  <value column="Name" original="Physical Inventory">Fyzický Inventář</value>
+  <value column="Description" original="Enter Physical Inventory">Vstup Fyzický Inventář</value>
+  <value column="Help" original="The Physical Inventory Window allows you to generate inventory count lists.  These counts can then be processed which will update the actual inventory with the new counts. Normally you would create inventory count lines automaticelly. If you create them manually, make sure that the book value is correct.">Okno Fyzického Inventáře umožňuje generovat seznamy inventárních počtů. Tyto počty lze poté zpracovat, což aktualizuje skutečný inventář novými počty. Obvykle byste automaticky vytvořili řádky inventárního počtu. Pokud je vytvoříte ručně, ujistěte se, že je správná knižní hodnota.</value>
+ </row>
+ <row id="169" trl="N">
+  <value column="Name" original="Shipment (Customer)">Zásilky (Zákazníkovy)</value>
+  <value column="Description" original="Customer Inventory Shipments Customer Returns">Zásily ze zásob zákazníka Vrácení zákazníkovy</value>
+  <value column="Help" original="The Shipment Window defines shipments made or to be made to a customer.  They are generated from an Customer Order.  The Shipment Document will generate the Customer Invoice.">Okno zásilky definuje zásilky, které byly nebo mají být odeslány zákazníkovi.  Jsou generovány z objednávky zákazníka.  Z dokladu zásilky se vygeneruje faktura pro zákazníka.</value>
+ </row>
+ <row id="170" trl="N">
+  <value column="Name" original="Inventory Move">Přesun Inventáře</value>
+  <value column="Description" original="Inventory Move">Přesun Inventáře</value>
+  <value column="Help" original="The Inventory Move Window allows you to move inventory from one location or warehouse to another.  After the appropriate lines are entered selecting the 'Process Movements' button will adjust the inventory.">Okno Přesunu Inventáře umožňuje přesunout inventář z jednoho místa nebo skladu na druhé. Po zadání příslušných řádků a vybrání tlačítka 'Zpracovat Pohyby' se inventář upraví.</value>
+ </row>
+ <row id="172" trl="N">
+  <value column="Name" original="Import Business Partner">Import Partner</value>
+  <value column="Description" original="Import Business Partner">Import Partner</value>
+  <value column="Help" original="The Import Business Partner Window is an interim table which is used when importing external data into the system.  Selecting the 'Process' button will either add or modify the appropriate records.">Okno Import Partner je dočasná tabulka, která se používá při importu externích dat do systému. Vybrání tlačítka 'Zpracovat' přidá nebo upraví příslušné záznamy.</value>
+ </row>
+ <row id="174" trl="N">
+  <value column="Name" original="Revenue Recognition">Uznání příjmů</value>
+  <value column="Description" original="Revenue Recognition Rules">Pravidla Uznání Příjmů</value>
+  <value column="Help" original="The Revenue Recognition Window defines the intervals at which revenue will be recognized. Alternatively, the revenue recognition may be linked to service levels provided.">Okno Uznání Příjmů definuje intervaly, ve kterých budou příjmy uznány. Případně může být uznání příjmů propojeno s poskytovanými úrovněmi služeb.</value>
+ </row>
+ <row id="176" trl="N">
+  <value column="Name" original="Vendor Details">Podrobnosti Dodavatele</value>
+  <value column="Description" original="Maintain Vendor Details">Udržovat Podr. Dodavatele</value>
+  <value column="Help" original="The Vendor Details Window allows you to display and maintain all products for a selected Vendor.">Okno Podr. Dodavatele umožňuje zobrazit a udržovat všechny produkty pro vybraného Dodavatele.</value>
+ </row>
+ <row id="178" trl="N">
+  <value column="Name" original="Greeting">Pozdrav</value>
+  <value column="Description" original="Maintain Greetings">Udržovat Pozdrav</value>
+  <value column="Help" original="The Greeting Window defines a greeting that is then associated with a Business Partner or Business Partner Contact.">Okno Pozdrav definuje pozdrav, který je pak spojen s Partnerem nebo Kontaktem Partnera.</value>
+ </row>
+ <row id="180" trl="N">
+  <value column="Name" original="Report View">Zpráva Pohled</value>
+  <value column="Description" original="Maintain Report Views">Udržovat Zprávy</value>
+  <value column="Help" original="The Report View Window defines the views used when generating reports.  This window is for System Admin use only.">Okno Zobrazení Zprávy definuje pohledy používané při generování zpráv. Toto okno je určeno pouze pro použití Systémovým Administrátorem.</value>
+ </row>
+ <row id="181" trl="N">
+  <value column="Name" original="Purchase Order">Objednávka</value>
+  <value column="Description" original="Manage Purchase Orders">Spravovat Objednávky</value>
+  <value column="Help" original="The Purchase Order Window defines a purchase order for an organization.  When a Purchase Order has been entered you can generate a Shipment Document or Invoice from this Purchase Order">Okno Objednávky definuje objednávku pro organizaci. Po zadání Objednávky můžete vygenerovat Doklad o Zásilce nebo Fakturu z této Objednávky.</value>
+ </row>
+ <row id="183" trl="N">
+  <value column="Name" original="Invoice (Vendor)">Faktura (Dodavatel)</value>
+  <value column="Description" original="Vendor Invoice Entry">Faktura Dodavatele</value>
+  <value column="Help" original="The Vendor Invoice Window allows you to display and enter Invoices from a Vendor.  Vendor Invoices can also be generated from Purchase Orders or Delivery Receipts.">Okno Faktury Dodavatele umožňuje zobrazit a zadat Faktury od Dodavatele. Faktury Dodavatele lze také generovat z Objednávek nebo Dodacích Listů.</value>
+ </row>
+ <row id="184" trl="N">
+  <value column="Name" original="Material Receipt">Příjem Materiálu</value>
+  <value column="Description" original="Vendor Shipments (Receipts)">Dodávky Dodavatele (Příjem)</value>
+  <value column="Help" original="The Vendor Shipment Window defines the receipt of product or material from a Vendor.  The Shipment may be manually entered or may be generated from a Purchase Order or Vendor Invoice.">Okno Dodávky Dodavatele definuje příjem produktu nebo materiálu od Dodavatele. Dodávka může být ručně zadána nebo může být vygenerována z Objednávky nebo Faktury Dodavatele.</value>
+ </row>
+ <row id="187" trl="N">
+  <value column="Name" original="Form">Form</value>
+  <value column="Description" original="Special Forms">Speciální Formy</value>
+  <value column="Help" original="The Forms Window defines any window which is not automatically generated.  For System Admin use only.">Okno Formuláře definuje jakékoliv okno, které není automaticky generováno. Pouze pro použití systémovým administrátorem.</value>
+ </row>
+ <row id="188" trl="N">
+  <value column="Name" original="Error Message">Chybová zpráva</value>
+  <value column="Description" original="Display Error Messages">Zobrazit Chyby</value>
+  <value column="Help" original="The Error Message Window displays all error messages generated.  This is for System Admin use only.  The records must be manually deleted.">Okno Chybových Zpráv zobrazuje všechny vygenerované chybové zprávy. Pouze pro použití systémovým administrátorem. Záznamy musí být ručně smazány.</value>
+ </row>
+ <row id="189" trl="N">
+  <value column="Name" original="Import Loader Format">Formát Importu</value>
+  <value column="Description" original="Maintain Import Loader Formats">Udržovat Formáty Importu</value>
+  <value column="Help" original="The Import Loader Format Window is used for defining the file layout for product information which will be imported.">Okno Formátu Importu se používá pro definování rozložení souboru pro informace o produktech, které budou importovány.</value>
+ </row>
+ <row id="192" trl="N">
+  <value column="Name" original="Business Partner Group">Obchodní Partner Skupina</value>
+  <value column="Description" original="Maintain Business Partner Groups">Udržovat Obchodní Partner Skupiny</value>
+  <value column="Help" original="The Business Partner Group window allows you to define the accounting parameters at a group level.  If you define the accounting parameters for a group any Business Partner entered using this group will have these accounting parameters automatically populated.  You can then make any modifications necessary at the Business Partner level.">Okno Obchodní Partner Skupiny umožňuje definovat účetní parametry na úrovni skupiny. Pokud definujete účetní parametry pro skupinu, jakýkoliv Obchodní Partner zadaný pomocí této skupiny bude mít tyto účetní parametry automaticky vyplněny. Poté můžete provést jakékoliv potřebné úpravy na úrovni Obchodního Partnera.</value>
+ </row>
+ <row id="193" trl="N">
+  <value column="Name" original="Notice">Pozor</value>
+  <value column="Description" original="View System Notices">Zobrazit Oznámení</value>
+  <value column="Help" original="The system creates messages while performing processes. In this window you can view them.">Systém vytváří zprávy při provádění procesů. V tomto okně si je můžete prohlédnout.</value>
+ </row>
+ <row id="194" trl="N">
+  <value column="Name" original="Bank/Cash Statement">Bank/Cash Výpis</value>
+  <value column="Description" original="Process Bank Statements">Zpracovat výpisy</value>
+  <value column="Help" original="The Process Bank Statements window allows you to reconcile your Bank Statements.  You can either enter the line items from the statement in the Statement Line tab or select the 'Create From' button to automatically generate the statement from all unreconciled payments to this bank account.  Once you have completed reconciling, select the 'Process Statement' button to mark the payments as reconciled and update the appropriate GL accounts.">Okno Zpracování Bankovních Výpisů vám umožňuje provést vyrovnání vašich Bankovních Výpisů. Můžete buď zadat řádkové položky z výpisu v záložce Řádek Výpisu nebo vybrat tlačítko 'Vytvořit Z' pro automatické vygenerování výpisu ze všech nevyrovnáných plateb na tento bankovní účet. Jakmile dokončíte vyrovnání, vyberte tlačítko 'Zpracovat Výpis' pro označení plateb jako vyrovnáno a aktualizaci příslušných účtů GL.</value>
+ </row>
+ <row id="195" trl="N">
+  <value column="Name" original="Payment">Platba</value>
+  <value column="Description" original="Process Payments and Receipts">Zpracovat Platby a Příjmy</value>
+  <value column="Help" original="The Process Payments Window allows you to enter payments and reaipts for invoices.  If the payment is for a single invoice then it can be processed here.  If it is for multiple invoices or is a partial payment then it should be processed in the Payment Allocation Window.">Okno Zpracování Platby vám umožňuje zadat platby a příjmy pro faktury. Pokud je platba pro jednu fakturu, může být zpracována zde. Pokud je pro více faktur nebo je částečná platba, měla by být zpracována v okně Přiřazení Platby.</value>
+ </row>
+ <row id="200" trl="N">
+  <value column="Name" original="Field Group">Skupina Pole</value>
+  <value column="Description" original="Define Field Group">Definovat Skupinu Pole</value>
+  <value column="Help" original="The Field Group Window allows you to define subsections in a tab.  For System Admin use only.">Okno Skupiny Pole umožňuje definovat podsekce v záložce. Pouze pro použití Systémovým Adminem.</value>
+ </row>
+ <row id="201" trl="N">
+  <value column="Name" original="Request">Požadavek</value>
+  <value column="Description" original="Work on your requests">Pracujte na svých požadavcích</value>
+  <value column="Help" original="The Request Window is used to define and track any request assigned to you.">Okno Požadavku se používá k definování a sledování jakéhokoli požadavku přiřazeného vám.</value>
+ </row>
+ <row id="203" trl="N">
+  <value column="Name" original="Request Processor">Žádost Zpracovatel</value>
+  <value column="Description" original="Define Request Processors">Definovat Žádost Zpracovatel</value>
+  <value column="Help" original="The Request Processor Window allows you to define different processes that you want to occur and the frequency and timing of these processes  A Request Processor can be just for a specific Request Type or for all.">Okno Žádost Zpracovatel umožňuje definovat různé procesy, které chcete, aby se vyskytovaly, a frekvenci a časování těchto procesů. Žádost Zpracovatel může být pouze pro konkrétní typ žádosti nebo pro všechny.</value>
+ </row>
+ <row id="204" trl="N">
+  <value column="Name" original="Mail Template">Šablona Mailu</value>
+  <value column="Description" original="Maintain Mail Template">Udržovat Šabl. Mailu</value>
+  <value column="Help" original="Mail templates can contain variables of the user, business partner or a general object.  The priority of parsing is User/Contact, Business Partner and then the underlying business object (like Request, Dunning, Workflow object).&lt;br&gt;&#10;So, @Name@ would resolve into the User name (if user is defined defined), then Business Partner name (if business partner is defined) and then the Name of the business object if it has a Name.&lt;br&gt;&#10;For Multi-Lingual systems, the template is translated based on the Business Partner's language selection." xml:space="preserve">"Šablony mailů mohou obsahovat proměnné uživatele, obchodního partnera nebo obecného objektu. Priorita zpracování je Uživatel/Kontakt, Obchodní partner a poté podkladový obchodní objekt (jako Požadavek, Výzva, Objekt toku prací).&lt;br&gt;
+Takže, @Name@ by se vyřešilo jako jméno uživatele (pokud je uživatel definován), pak jméno obchodního partnera (pokud je obchodní partner definován) a pak jméno obchodního objektu, pokud má jméno.&lt;br&gt;
+Pro vícejazyčné systémy je šablona přeložena na základě výběru jazyka obchodního partnera."</value>
+ </row>
+ <row id="205" trl="N">
+  <value column="Name" original="View Allocation">Zobrazit Přidělení</value>
+  <value column="Description" original="View and Reverse Allocations ">Zobrazit a Vrátit Přidělení</value>
+  <value column="Help" original="The Reverse Allocation Window allows you to view and reverse a payment allocation">Okno Vrácení Přidělení umožňuje zobrazit a vrátit přidělení platby</value>
+ </row>
+ <row id="206" trl="N">
+  <value column="Name" original="Payment Selection">Výběr platby</value>
+  <value column="Description" original="Select Invoices for Payment">Vybrat faktury k platbě</value>
+  <value column="Help" original="The Payment Selection Window allows you to select and process the invoices you want to pay.&#10;(a) You can create a Payment Selection and select the invoices manually or generate the suggestions based on criteria.  You can change the amount to be paid or delete invoices, you do not want to pay.&#10;&#10;(b) If you are happy with the Payment Selection, you create the payments.&#10;&#10;(c) You print or export your payments in the Window Payment Print/Export">Okno Výběr Platby umožňuje vybrat a zpracovat faktury, které chcete zaplatit.
+(a) Můžete vytvořit Výběr Platby a ručně vybrat faktury nebo vygenerovat návrhy na základě kritérií. Můžete změnit částku k zaplacení nebo smazat faktury, které nechcete platit.
+
+(b) Pokud jste spokojeni s Výběrem Platby, vytvoříte platby.
+
+(c) Můžete vytisknout nebo exportovat své platby v okně Tisk/Export Platby.</value>
+ </row>
+ <row id="207" trl="N">
+  <value column="Name" original="Commission">Provize</value>
+  <value column="Description" original="Maintain Commissions and Royalties">Udržovat Provize a Royalty</value>
+  <value column="Help" original="Define how and when you want the commissions to be calculated and to whom to pay it.&#10;The Commissions Window allows you define how commissions and royalties will be paid. You can pay multiple commissions for the same order or invoice (e.g. to the person entering the transaction, to the person responsible for sale of the product (category) and or business partner (group).">"Definujte, jak a kdy chcete, aby byly provize vypočítány a komu je vyplácet.
+Okno Provize umožňuje definovat, jak budou provize a royalty vypláceny. Můžete vyplácet více provizí pro stejnou objednávku nebo fakturu (např. osobě zadávající transakci, osobě odpovědné za prodej produktu (kategorie) a/nebo obchodnímu partnerovi (skupině)."</value>
+ </row>
+ <row id="208" trl="N">
+  <value column="Name" original="Project Reporting">Projekt Reportování</value>
+  <value column="Description" original="Maintain Project Reporting Cycles">Udržovat Projekt Reportovací Cykly</value>
+  <value column="Help" original="The Project Cycle Window defines the steps associated with a specific Project.&#10;You may want to define several Project cycles to differentiate the different types of projects. Project cycles may use all or a subset of the used Project Status (e.g. Your opportunity project cycle may include the steps from prospect to contract - the service cycle may include steps from installation to customer acceptance.">Okno Projektového Cyklu definuje kroky spojené s konkrétním projektem.
+Můžete definovat několik projektových cyklů pro rozlišení různých typů projektů. Projektové cykly mohou používat všechny nebo podmnožinu použitých stavů projektu (např. Váš projekt příležitosti může zahrnovat kroky od potenciálního zákazníka po smlouvu - cyklus služeb může zahrnovat kroky od instalace po přijetí zákazníka).</value>
+ </row>
+ <row id="210" trl="N">
+  <value column="Name" original="Commission Run">Provize Běh</value>
+  <value column="Description" original="Check and modify Commissions">Kontrola a úprava Provize</value>
+  <value column="Help" original="The Commission Run Window displays the results of processing commissions.  When the Generate Commission process is selected from the Commissions Window, the results are displayed here. If the result is satisfactory, generate an AP invoice to pay the commission.">Okno Provize Běh zobrazuje výsledky zpracování provizí. Když je z okna Provize vybrán proces Generovat Provizi, jsou výsledky zobrazeny zde. Pokud je výsledek uspokojivý, vygenerujte fakturu AP pro zaplacení provize.</value>
+ </row>
+ <row id="212" trl="N">
+  <value column="Name" original="Performance Goal">Výkon Cíl</value>
+  <value column="Description" original="Define Performance Goals">Definovat Výkon Cíle</value>
+  <value column="Help" original="The Performance Goal Window allows you to define performance goals or all, a role or a user">Okno Výkon Cíl umožňuje definovat výkonové cíle pro všechny, roli nebo uživatele</value>
+ </row>
+ <row id="213" trl="N">
+  <value column="Name" original="Performance Measure Calculation">Výpočet Výkonu</value>
+  <value column="Description" original="Define how you calculate your performance measures">Definujte výpočet výkonových měření</value>
+  <value column="Help" original="The Performance Measure Calculation defines how performance measures will be calculated.&#10;The sql needs to return a single value.  Please check examples.&lt;br&gt;&#10;The date restriction is defined in the Goal.&#10;Any restrictions for Organizations, Business Partners, Products, etc. are as Performance Goal Restrictions." xml:space="preserve">Výpočet Výkonu definuje, jak budou výkonová měření počítána.
+SQL musí vrátit jednu hodnotu. Prosím, zkontrolujte příklady.&lt;br&gt;
+Omezení data je definováno v Cíli.
+Jakákoliv omezení pro Organizace, Obchodní Partnery, Produkty, atd. jsou jako Omezení Výkonového Cíle.</value>
+ </row>
+ <row id="215" trl="N">
+  <value column="Name" original="Performance Measure">Výkonové Měření</value>
+  <value column="Description" original="Define your Performance Measures">Definujte Výkonová Měření</value>
+  <value column="Help" original="The Performance Measure Window allows you to define the rules and restrictions for performance measurement.  You can, for example, restrict performance measurement to sales for a certain product category for a defined time frame.">Okno Výkonového Měření umožňuje definovat pravidla a omezení pro měření výkonu. Například můžete omezit měření výkonu na prodej určité kategorie produktů v určitém časovém období.</value>
+ </row>
+ <row id="216" trl="N">
+  <value column="Name" original="Financial Report">Finanční Zpráva</value>
+  <value column="Description" original="Maintain Financial Reports">Udržovat Finanční Zprávy</value>
+  <value column="Help" original="Financial Reports are the combination of a Report Column Set and Line Set.">Finanční Zprávy jsou kombinací Sady Sloupců a Sady Řádků.</value>
+ </row>
+ <row id="217" trl="N">
+  <value column="Name" original="Report Column Set">Sada Sloupců</value>
+  <value column="Description" original="Maintain Financial Report Column Sets">Udržovat Sady Sloupců Finanční Zprávy</value>
+  <value column="Help" original="The Report Column Set defines what data is printed in the columns of a report.">Sada Sloupců definuje, jaká data jsou vytisknuta ve sloupcích zprávy.</value>
+ </row>
+ <row id="218" trl="N">
+  <value column="Name" original="Report Line Set">Sada Řádků</value>
+  <value column="Description" original="Maintain Financial Report Line Sets">Udržovat Sady Řádků Finanční Zprávy</value>
+  <value column="Help" original="The Line Set determines, which lines are printed in a Financial Report">Sada Řádků určuje, které řádky jsou vytisknuty ve Finanční Zprávě</value>
+ </row>
+ <row id="221" trl="N">
+  <value column="Name" original="Find (indirect use)">Najít (nepřímé použití)</value>
+  <value column="Description" original="Find Dialog (indirect use)">Najít Dialog (nepřímé použití)</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="223" trl="N">
+  <value column="Name" original="Material Transactions (indirect use)">Materiálové Transakce (nepřímé použití)</value>
+  <value column="Description" original="Material Transactions (indirect use)">Mater. Trans. (nepřímé použití)</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="224" trl="N">
+  <value column="Name" original="Print Form">Tisk Form</value>
+  <value column="Description" original="Maintain Print Forms (Invoices, Checks, ..) used">Udržovat Tisk Form (Faktury, Šeky, ..) použito</value>
+  <value column="Help" original="Define the documents you use for this Tenant/Organnization.  Note that the check format is defined in the Bank (Account) Window.&lt;p&gt;&#10;The highest priotity has the Print Format, you define on a Document Type (example specific Export Invoice format). The next level is the set of Print Formats, you defined for the organziation of the document printed. The default is the set of Print Formats defines for all organizations of the Tenant (Organization=*)." xml:space="preserve">Definujte dokumenty, které používáte pro tento Mandant/Organizaci. Všimněte si, že formát šeku je definován v okně Banka (Účet). &lt;p&gt; Nejvyšší prioritu má Tiskový Formát, který definujete pro typ dokumentu (např. specifický formát pro exportní fakturu). Další úroveň je sada Tiskových Formátů, které jste definovali pro organizaci tisknutého dokumentu. Výchozí je sada Tiskových Formátů definovaná pro všechny organizace Mandantu (Organizace=*).</value>
+ </row>
+ <row id="227" trl="N">
+  <value column="Name" original="System Image">Systém Obraz</value>
+  <value column="Description" original="Maintain Images and Icons">Udržovat Obrázky a Ikony</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="228" trl="N">
+  <value column="Name" original="Matched Purchase Orders">Shodné Objednávky</value>
+  <value column="Description" original="View Matched Purchase Orders">Zobrazit Shodné Objednávky</value>
+  <value column="Help" original="View detals of matched purchase order lines to invoice lines and material receipt lines">Zobrazit detaily shodných řádků objednávky k řádkům faktury a řádkům příjmu materiálu</value>
+ </row>
+ <row id="229" trl="N">
+  <value column="Name" original="Window Customization">Okno Upravit</value>
+  <value column="Description" original="Define Window Customization for Role/User">Definuj Okno Upravit pro Roli/Uživatele</value>
+  <value column="Help" original="The customization values defined here overwrite/replace the default system definition if defined.">Hodnoty přizpůsobení definované zde přepisují/nahrazují výchozí definici systému, pokud je definována.</value>
+ </row>
+ <row id="232" trl="N">
+  <value column="Name" original="Request (all)">Žádost (vše)</value>
+  <value column="Description" original="View and work on all requests">Zobrazit žádosti</value>
+  <value column="Help" original="This Request window is used to view all available requests">Toto okno Žádostí slouží k zobrazení všech dostupných žádostí</value>
+ </row>
+ <row id="233" trl="N">
+  <value column="Name" original="Discount Schema">Slevová Schéma</value>
+  <value column="Description" original="Maintain Trade Discount Schema">Udržovat Slevové Schéma</value>
+  <value column="Help" original="Trade discount schema calculates the trade discount percentage">Slevové schéma počítá procento obchodní slevy</value>
+ </row>
+ <row id="234" trl="N">
+  <value column="Name" original="Expense Type">Náklad Typ</value>
+  <value column="Description" original="Maintain Expense Report Types">Udržovat Typy Nákladů</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="235" trl="N">
+  <value column="Name" original="Expense Report">Nákladní Doklad</value>
+  <value column="Description" original="Time and Expense Report">Čas a Náklad Doklad</value>
+  <value column="Help" original="The time and expense report allows you to capture time spent on a project, billable time and to claim expenses.">Čas a nákladový doklad umožňuje zaznamenat čas strávený na projektu, fakturovatelný čas a nárokovat náklady.</value>
+ </row>
+ <row id="236" trl="N">
+  <value column="Name" original="Resource">Zdroj</value>
+  <value column="Description" original="Maintain Resources">Udržovat Zdroje</value>
+  <value column="Help" original="Maintain your Resources. The product for the resource is automatically created and synchronized. Update Name, Unit of Measure, etc. in the Resource and don't change it in the product.">Udržujte své Zdroje. Produkt pro zdroj je automaticky vytvořen a synchronizován. Aktualizujte Název, Jednotku Měření, atd. ve Zdroji a neupravujte jej v produktu.</value>
+ </row>
+ <row id="237" trl="N">
+  <value column="Name" original="Resource Type">Typ Zdroje</value>
+  <value column="Description" original="Maintain Resource Types">Udržovat Typy Zdrojů</value>
+  <value column="Help" original="Maintain Resource types and their principal availability. it is used to calculate the available time in a resource. It allows input of starting time and end time for the slot according to the working days.">Udržujte Typy Zdrojů a jejich hlavní dostupnost. Používá se k výpočtu dostupného času v zdroji. Umožňuje zadání začátečního a koncového času pro slot podle pracovních dnů.</value>
+ </row>
+ <row id="238" trl="N">
+  <value column="Name" original="Print Color">Tisk Barva</value>
+  <value column="Description" original="Maintain Print Color">Udržovat Tisk Barva</value>
+  <value column="Help" original="Colors used for printing">Tiskové barvy</value>
+ </row>
+ <row id="239" trl="N">
+  <value column="Name" original="Print Font">Tisk Font</value>
+  <value column="Description" original="Maintain Print Font">Udržovat Tisk Font</value>
+  <value column="Help" original="Font used for printing">Tisk Font</value>
+ </row>
+ <row id="240" trl="N">
+  <value column="Name" original="Print Format">Tisk Formát</value>
+  <value column="Description" original="Maintain Print Format">Udržovat Tisk Formát</value>
+  <value column="Help" original="The print format determines how data is rendered for print.">Tisk Formát určuje, jak jsou data zobrazena pro tisk.</value>
+ </row>
+ <row id="241" trl="N">
+  <value column="Name" original="Print Paper">Tisk Papír</value>
+  <value column="Description" original="Maintain Print Paper">Udržovat Tisk Papír</value>
+  <value column="Help" original="Printer Paper Size, Orientation and Margins">Tisk Papír Velikost, Orientace a Okraje</value>
+ </row>
+ <row id="242" trl="N">
+  <value column="Name" original="Expenses (to be invoiced)">Náklady (k fakturaci)</value>
+  <value column="Description" original="View expenses and charges not invoiced to customers">Zobrazit náklady a poplatky nezafakturované zákazníkům</value>
+  <value column="Help" original="Before invoicing to customers, check the expense lines to be invoiced">Před fakturací zákazníkům zkontrolujte řádky nákladů k fakturaci</value>
+ </row>
+ <row id="243" trl="N">
+  <value column="Name" original="Print Table Format">Formát tiskové tabulky</value>
+  <value column="Description" original="Define Report Table Format">Definice formátu tabulky reportu</value>
+  <value column="Help" original="The Print Table Format lets you define how table header, etc. is printed. Please note that the Report Table FOrmat is cached to improve performance.">Formát tisku tabulky umožňuje definovat způsob tisku záhlaví tabulky apod. Vezměte prosím na vědomí, že formát tabulky sestavy je pro zlepšení výkonu ukládán do mezipaměti.</value>
+ </row>
+ <row id="244" trl="N">
+  <value column="Name" original="Request Type">Typ žádosti</value>
+  <value column="Description" original="Maintain Request Types">Udržovat Typy žádostí</value>
+  <value column="Help" original="Request Types are used for processing and categorizing requests. Options are Account Inquiry, Warranty Issue, etc.">Typy žádostí se používají pro zpracování a kategorizaci žádostí. Možnosti jsou Dotaz na účet, Reklamace, atd.</value>
+ </row>
+ <row id="245" trl="N">
+  <value column="Name" original="Interest Area">Oblast zájmu</value>
+  <value column="Description" original="Interest Area or Topic">Oblast zájmu nebo téma</value>
+  <value column="Help" original="Interest Areas reflect interest in a topic by a contact. Interest areas can be used for marketing campaigns.">Zájmové oblasti odrážejí zájem o téma ze strany kontaktu. Zájmové oblasti lze použít pro marketingové kampaně.</value>
+ </row>
+ <row id="246" trl="N">
+  <value column="Name" original="System">Systém</value>
+  <value column="Description" original="System Definition">Systém Definice</value>
+  <value column="Help" original="Common System Definition - Only one Record - Do not add additional records.">Společná Systém Definice - Pouze jeden Záznam - Nepřidávat další záznamy.</value>
+ </row>
+ <row id="247" trl="N">
+  <value column="Name" original="Import Product">Import Produkt</value>
+  <value column="Description" original="Import Products">Import Produktů</value>
+  <value column="Help" original="The Import Products Window is an interim table which is used when importing external data into the system.  Selecting the 'Process' button will either add or modify the appropriate records.">Okno Import Produktů je dočasná tabulka, která se používá při importu externích dat do systému. Vybrání tlačítka 'Provést' buď přidá nebo upraví příslušné záznamy.</value>
+ </row>
+ <row id="248" trl="N">
+  <value column="Name" original="Import Account">Import Účet</value>
+  <value column="Description" original="Import Natural Account Values">Import Přír. Účt. Hodnoty</value>
+  <value column="Help" original="The Import Natural Account Window is an interim table which is used when importing external data into the system.  Selecting the 'Process' button will either add or modify the appropriate records.">Okno Import Přírodních Účtů je dočasná tabulka, která se používá při importu externích dat do systému. Vybrání tlačítka 'Provést' buď přidá nebo upraví příslušné záznamy.</value>
+ </row>
+ <row id="249" trl="N">
+  <value column="Name" original="Import Report Line Set">Import Sada řádků</value>
+  <value column="Description" original="Import Report Line Sets">Import Sada řádků</value>
+  <value column="Help" original="The Import Report Line Set Window is an interim table which is used when importing external data into the system.  Selecting the 'Process' button will either add or modify the appropriate records.">Okno Import Sada řádků je dočasná tabulka, která se používá při importu externích dat do systému. Vybrání tlačítka 'Provést' buď přidá nebo upraví příslušné záznamy.</value>
+ </row>
+ <row id="250" trl="N">
+  <value column="Name" original="System Translation Check">Kontrola překladu systému</value>
+  <value column="Description" original="Check System Language Translations">Kontrola překladu systému</value>
+  <value column="Help" original="Verify your language translations for selected entities. You should use Translation Export / Import for effective translation. This window allows you to check the translation of the main translation entities.">Ověřte překlady jazyka pro vybrané entity. Pro účinný překlad použijte Export / Import překladu. Toto okno vám umožní zkontrolovat překlad hlavních překladových entit.</value>
+ </row>
+ <row id="251" trl="N">
+  <value column="Name" original="Asset">Aktiv</value>
+  <value column="Description" original="Asset used internally or by customers">Vnitřní nebo zákaznický majetek</value>
+  <value column="Help" original="An asset is either created by purchasing or by delivering a product.  An asset can be used internally or be a customer asset.">Aktiv je vytvořen nákupem nebo dodáním produktu. Aktiv může být vnitřní nebo majetkem zákazníka.</value>
+ </row>
+ <row id="252" trl="N">
+  <value column="Name" original="Asset Group">Aktivní skupina</value>
+  <value column="Description" original="Group of Assets">Skupina aktiv</value>
+  <value column="Help" original="The group of assets determines default accounts.  If a asset group is selected in the product category, assets are created when delivering the asset.">Skupina aktiv určuje výchozí účty. Pokud je vybrána skupina aktiv v kategorii produktu, aktivum se vytvoří při dodání.</value>
+ </row>
+ <row id="254" trl="N">
+  <value column="Name" original="Expenses (not reimbursed)">Náklady (neúhrada)</value>
+  <value column="Description" original="View expenses and charges not reimbursed">Zobrazit náklady a poplatky neúhrada</value>
+  <value column="Help" original="Before reimbursing expenses, check the open expense items">Před úhradou nákladů zkontrolujte otevřené položky nákladů</value>
+ </row>
+ <row id="255" trl="N">
+  <value column="Name" original="Accounting Fact Balances">Účetní zůstatky</value>
+  <value column="Description" original="Query Accounting Daily Balances">Dotazník denních zůstatků účetnictví</value>
+  <value column="Help" original="Query daily account balances">Dotazník denních zůstatků účtu</value>
+ </row>
+ <row id="256" trl="N">
+  <value column="Name" original="Attribute Set">Vlastnostní sada</value>
+  <value column="Description" original="Maintain Product Attribute Set">Udržovat vlastnostní sadu produktu</value>
+  <value column="Help" original="Define Product Attribute Sets to add additional attributes and values to the product. You need to define a Attribute Set if you want to enable Serial and Lot Number tracking.">Definujte vlastnostní sady produktu pro přidání dalších vlastností a hodnot k produktu. Musíte definovat vlastnostní sadu, pokud chcete povolit sledování sériových a čísel dávek.</value>
+ </row>
+ <row id="257" trl="N">
+  <value column="Name" original="Lot">Ser</value>
+  <value column="Description" original="Product Lot Definition">Definice čísla produktu</value>
+  <value column="Help" original="Maintain the individual Lot of a Product">Udržovat číslo produktu</value>
+ </row>
+ <row id="258" trl="N">
+  <value column="Name" original="Lot Control">Kontrola šarže</value>
+  <value column="Description" original="Product Lot Control">Kontrola šarže produktu</value>
+  <value column="Help" original="Definition to create Lot numbers for Products">Definice čísel pro produkty</value>
+ </row>
+ <row id="259" trl="N">
+  <value column="Name" original="Serial No Control">SerKontrola</value>
+  <value column="Description" original="Product Serial Number Control">Kontrola čísla produktu</value>
+  <value column="Help" original="Definition to create Serial numbers for Products">Definice pro vytvoření čísel šarží pro produkt</value>
+ </row>
+ <row id="260" trl="N">
+  <value column="Name" original="Attribute">Vlastnost</value>
+  <value column="Description" original="Product Attribute">Vlastnost produktu</value>
+  <value column="Help" original="Product Attribute like Color, Size, etc.">Vlastnost produktu</value>
+ </row>
+ <row id="263" trl="N">
+  <value column="Name" original="Print Label">Tisknout</value>
+  <value column="Description" original="Print Label Format">Formát tiskového štítku</value>
+  <value column="Help" original="Maintain Format to print Labels">Správa formátu pro tisk štítků</value>
+ </row>
+ <row id="264" trl="N">
+  <value column="Name" original="Session Audit">Audit relace</value>
+  <value column="Description" original="Audit of User Sessions">Audit uživatelských relací</value>
+  <value column="Help" original="History of Online or Web Sessions">Historie online nebo webových relací</value>
+ </row>
+ <row id="265" trl="N">
+  <value column="Name" original="Project Type">Typ Projektu</value>
+  <value column="Description" original="Maintain Project Type and Phase">Správa Typu Projektu a Fáze</value>
+  <value column="Help" original="Maintain Project Types and their Phases with standard performance information">Udržování typů projektů a jejich fází se standardními výkonnostními informacemi.</value>
+ </row>
+ <row id="266" trl="N">
+  <value column="Name" original="Recurring">Opakující</value>
+  <value column="Description" original="Recurring Document">Opakující Dokument</value>
+  <value column="Help" original="Create new documents based on existing one">Vytvořit nový dokument z existujícího</value>
+ </row>
+ <row id="267" trl="N">
+  <value column="Name" original="Import Inventory">ImportSklad</value>
+  <value column="Description" original="Import Inventory Transactions">ImportTransSklad</value>
+  <value column="Help" original="Validate and Import Inventory Transactions">Ověřit a Importovat Transakce Skladu</value>
+ </row>
+ <row id="268" trl="N">
+  <value column="Name" original="Role Data Access">Přístup k datům role</value>
+  <value column="Description" original="Maintain Data Access Rules">Správa pravidel přístupu k datům</value>
+  <value column="Help" original="Maintain Data Access Roles of Roles/Responsibilties.&#10;Note that access information is cached and requires re-login or reset of cache.">Udržování rolí přístupu k datům rolí/odpovědností.&#10;Všimněte si, že přístupové informace jsou uloženy v mezipaměti a vyžadují opětovné přihlášení nebo obnovení mezipaměti.</value>
+ </row>
+ <row id="270" trl="N">
+  <value column="Name" original="Change Audit">Změna Audit</value>
+  <value column="Description" original="Audit of data changes">Změna dat Audit</value>
+  <value column="Help" original="Log of data changes">Změna dat Audit</value>
+ </row>
+ <row id="271" trl="N">
+  <value column="Name" original="Cost Type">Typ nákladů</value>
+  <value column="Description" original="Maintain Cost Types">Správa typů nákladů</value>
+  <value column="Help" original="You can define multiple cost types. A cost type selected in an Accounting Schema is used for accounting.">Můžete definovat více typů nákladů. Typ nákladů vybraný v účetním schématu se používá pro účtování.</value>
+ </row>
+ <row id="272" trl="N">
+  <value column="Name" original="Time Type">Typ času</value>
+  <value column="Description" original="Maintain Time Recording Type">Správa typu záznamu času</value>
+  <value column="Help" original="Maintain different types of time for reporting">Udržovat různé typy času pro reportování</value>
+ </row>
+ <row id="275" trl="N">
+  <value column="Name" original="Invoice Payment Schedule">Harmonogram úhrady faktur</value>
+  <value column="Description" original="Maintain Invoice Payment Schedule">Správa harmonogramu plateb faktur</value>
+  <value column="Help" original="Maintain Payment Schedule of unpaid invoices">Vedení platebního kalendáře nezaplacených faktur</value>
+ </row>
+ <row id="276" trl="N">
+  <value column="Name" original="Alert">Upozornění</value>
+  <value column="Description" original="iDempiere Alert">Upozornění iDempiere</value>
+  <value column="Help" original="iDempiere Alerts allow you define system conditions you want to be alerted of">Upozornění iDempiere umožňují definovat systémové podmínky, na které chcete být upozorněni.</value>
+ </row>
+ <row id="277" trl="N">
+  <value column="Name" original="Import Bank Statement">Import Výpis Banky</value>
+  <value column="Description" original="Import Bank Statements">Import Výpis Banky</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="278" trl="N">
+  <value column="Name" original="Import GL Journal">Import GL Zápis</value>
+  <value column="Description" original="Import General Ledger Journals">Import GL Zápisy</value>
+  <value column="Help" original="You way want to check the balance of the import with &quot;Validate Only&quot; before importing. &#10;Unbalanced Journals are imported; the handling is based on your settings for the posting process. The optional balance check checks the entire import, not individual batches and journals.">Možná budete chtít před importem ověřit rovnováhu pomocí "Pouze ověřit". Nevyvážené zápisy se importují; zpracování závisí na vašem nastavení pro účtovací proces. Volitelná kontrola rovnováhy ověřuje celý import, ne jednotlivé dávky a zápisy.</value>
+ </row>
+ <row id="279" trl="N">
+  <value column="Name" original="Import Invoice">Import Faktury</value>
+  <value column="Description" original="Import Invoices">Import Faktury</value>
+  <value column="Help" original="Import invoiced loaded">Import faktury načteny</value>
+ </row>
+ <row id="280" trl="N">
+  <value column="Name" original="Import Payment">Import Platba</value>
+  <value column="Description" original="Import Payments">Import Platby</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="281" trl="N">
+  <value column="Name" original="Import Order">Import Objednávka</value>
+  <value column="Description" original="Import Orders">Import Objednávky</value>
+  <value column="Help" original="Please set Y/N selections in the import loader format explicitly (e.g. as constants) and no not leave them NULL. A NULL value stands for &quot;don't know&quot;.&#10;In general, selection boxes are not selected if the value is not &quot;Y&quot; (i.e. could be null or any other value). All tests are made on &quot;Y&quot; or &quot;not Y&quot; - i.e. NULL values are not &quot;not Y&quot;, but NULL (don't know) - see SQL Language introductions.">Prosím nastavte výběry Y/N v importním formátu explicitně (např. jako konstanty) a nechte je prázdné. Prázdná hodnota znamená "neznámé". Obecně jsou výběrové políčka nevybraná, pokud hodnota není "Y" (tj. může být prázdná nebo jakákoli jiná hodnota). Všechny testy jsou prováděny na "Y" nebo "ne Y" - tj. prázdné hodnoty nejsou "ne Y", ale prázdné (neznámé) - viz úvod do SQL jazyka.</value>
+ </row>
+ <row id="282" trl="N">
+  <value column="Name" original="Freight Category">Doprava Kategorie</value>
+  <value column="Description" original="Maintain Freight Categories">Spravovat Kategorie Dopravy</value>
+  <value column="Help" original="Freight Categories are used to calculate the Freight for the Shipper selected">Kategorie dopravy se používají k výpočtu dopravy pro vybraného přepravce</value>
+ </row>
+ <row id="283" trl="N">
+  <value column="Name" original="Accounting Dimensions">Účetní Rozměry</value>
+  <value column="Description" original="Maintain Non-Account Dimension Trees">Spravovat Rozměry</value>
+  <value column="Help" original="Maintain Trees of non account segment trees.  Account segment trees (as well as user defined dimensions) are mainatained in the Account Element window. Please note that you will not be able to create new entities in this window if you have not default set for all manfatory values!">Spravovat stromy neúčetních segmentových stromů. Segmentové stromy účtů (stejně jako uživatelsky definované rozměry) jsou spravovány v okně Účetního prvku. Všimněte si, že nebudete moci vytvořit nové entity v tomto okně, pokud nemáte výchozí nastavení pro všechny povinné hodnoty!</value>
+ </row>
+ <row id="284" trl="N">
+  <value column="Name" original="Replication">Replikace</value>
+  <value column="Description" original="Maintain Data Replication Targets">Spravovat Cíle Replikace Dat</value>
+  <value column="Help" original="Data Replication Target Details. Set up your system completely on the central system, before setting up the replication. Define the Replication target here and export the database and import it on the remote system.&lt;p&gt;&#10;Before(!) entering transactions, Start the Replication Run to set up the remote system." xml:space="preserve">Detaily cíle replikace dat. Nastavte svůj systém úplně na centrálním systému, než nastavíte replikaci. Zde nastavte cíl replikace a exportujte databázi a importujte ji na vzdálený systém.&lt;p&gt;
+Před (!) zadáním transakcí spusťte replikační běh pro nastavení vzdáleného systému.</value>
+ </row>
+ <row id="285" trl="N">
+  <value column="Name" original="Replication Strategy">Replikace Strategie</value>
+  <value column="Description" original="Maintain Data Replication Strategy">Spravovat Replikaci Dat</value>
+  <value column="Help" original="The Data Replication Strategy determines which tables and how they are replicated. Note that the migration does not syncronize Application Dictionary items.">Strategie replikace dat určuje, které tabulky a jak jsou replikovány. Upozorněte, že migrace nesynchronizuje položky slovníku aplikací.</value>
+ </row>
+ <row id="286" trl="N">
+  <value column="Name" original="Project (Lines/Issues)">Projekt (Řádky/Záležitosti)</value>
+  <value column="Description" original="Maintain Sales Order and Work Order Details">Spravovat Detaily Prodejní Objednávky a Pracovní Objednávky</value>
+  <value column="Help" original="The Project Window is used to maintain details of Projects Lines and Issues accross Phases/Tasks">Okno projektu se používá k udržování detailů o řádcích a záležitostech projektů napříč fázemi/úkoly.</value>
+ </row>
+ <row id="291" trl="N">
+  <value column="Name" original="Business Partner Info">Info Partnera</value>
+  <value column="Description" original="Document Information of Business Partners">Info Dokumentu Partnerů</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="292" trl="N">
+  <value column="Name" original="Label Printer">Etiketa Tiskárna</value>
+  <value column="Description" original="Maintain Label Printer Definition">Spravovat Definici Tiskárny</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="293" trl="N">
+  <value column="Name" original="Sales Rep Info">Info Prodejce</value>
+  <value column="Description" original="Company Agent (Sales Rep) Information">Info Prodejce (Prodejní Zástupce)</value>
+  <value column="Help" original="This window allows you to view Company agent related information">Toto okno umožňuje zobrazit informace související s prodejcem společnosti.</value>
+ </row>
+ <row id="294" trl="N">
+  <value column="Name" original="UnPosted Documents">Nezaúčtováno</value>
+  <value column="Description" original="Unposted Documents">Nezaúčtováno</value>
+  <value column="Help" original="View unposted documents">Zobrazit nezaúčtováno</value>
+ </row>
+ <row id="295" trl="N">
+  <value column="Name" original="Currency Type">Typ Měny</value>
+  <value column="Description" original="Maintain Currency Conversion Rate Types">Spravovat Typy Kurzů</value>
+  <value column="Help" original="The Currency Conversion Rate Type lets you define different type of rates, e.g. Spot, Corporate and/or Sell/Buy rates.">Typ Kurzu Měny umožňuje definovat různé typy kurzů, např. Spot, Korporátní a/nebo Prodej/Nákup.</value>
+ </row>
+ <row id="296" trl="N">
+  <value column="Name" original="Import Currency Rate">Import Kurz Měny</value>
+  <value column="Description" original="Import Currency Conversion Rates">Import Kurz Konverze</value>
+  <value column="Help" original="The rates are imported after validation of currencies and conversion rate type as well as rates. The multiply rate is used. If a reciprocal rate is to be created, the divide rate is used. ">Kurzy jsou importovány po ověření měn a typu konverzního kurzu a kurzů. Používá se násobící kurz. Pokud má být vytvořen zpětný kurz, použije se dělící kurz.</value>
+ </row>
+ <row id="297" trl="N">
+  <value column="Name" original="Workflow Process">Pracovní postup</value>
+  <value column="Description" original="Monitor workflow processes">Sledovat Pracovní postup</value>
+  <value column="Help" original="View and Maintain Workflow Process Instance Information">Zobrazení a správa informací o instancích procesů pracovních postupů</value>
+ </row>
+ <row id="298" trl="N">
+  <value column="Name" original="Workflow Activities (all)">Aktivity toku (vše)</value>
+  <value column="Description" original="Monitor all Workflow activities">Sledovat Aktivity Toku</value>
+  <value column="Help" original="Maintain all Workflow activities">Spravovat Aktivity Toku</value>
+ </row>
+ <row id="299" trl="N">
+  <value column="Name" original="Workflow Responsible">Zodpovědní za pracovní postup</value>
+  <value column="Description" original="Responsible for Workflow Execution">Odpovědnost za provádění pracovního postupu</value>
+  <value column="Help" original="The ultimate responsibility for a workflow is with an actual user. The Workflow Responsible allows to define ways to find that actual User.">Konečnou odpovědnost za pracovní postup nese skutečný uživatel. Zodpovědní za pracovní postup umožňuje definovat způsoby, jak tohoto skutečného uživatele najít.</value>
+ </row>
+ <row id="300" trl="N">
+  <value column="Name" original="Registration Attributes">Reg. Atributy</value>
+  <value column="Description" original="Asset Registration Attributes">Reg. Atributy majetku</value>
+  <value column="Help" original="Define the individual values for the Asset Registration">Definovat hodnoty pro Reg. majetku</value>
+ </row>
+ <row id="301" trl="N">
+  <value column="Name" original="Registration">Registruj</value>
+  <value column="Description" original="User Asset Registration">Uživ. Reg. majetku</value>
+  <value column="Help" original="User Registration of an Asset">Uživ. Reg. majetku</value>
+ </row>
+ <row id="302" trl="N">
+  <value column="Name" original="Bank Statement Matcher">Bankovní výpis</value>
+  <value column="Description" original="Algorithm to match Bank Statement Info to Business Partners, Invoices and Payments">Algoritmus pro přiřazení informací z bankovního výpisu k obchodním partnerům, fakturám a platbám</value>
+  <value column="Help" original="An algorithm to find Business Partners, Invoices, Payments in imported Bank Statements">Algoritmus pro nalezení obchodních partnerů, faktur a plateb v importovaných bankovních výpisech</value>
+ </row>
+ <row id="303" trl="N">
+  <value column="Name" original="Payment Batch">Platba Batch</value>
+  <value column="Description" original="Process Payment Patches for EFT">Zpracovat platby pro EFT</value>
+  <value column="Help" original="Electronic Fund Transfer Payment Batch.">EFT Platba Batch</value>
+ </row>
+ <row id="304" trl="N">
+  <value column="Name" original="Organization Type">Typ organizace</value>
+  <value column="Description" original="Maintain Organization Types">Udržovat Typy Organizace</value>
+  <value column="Help" original="Organization Type allows you to categorize your organizations for reporting purposes">Typ organizace pro kategorizaci organizací pro účely reportingu</value>
+ </row>
+ <row id="305" trl="N">
+  <value column="Name" original="Scheduler">Plánovač</value>
+  <value column="Description" original="Maintain Schedule Processes and Logs">Udržovat Plánovací Procesy a Záznamy</value>
+  <value column="Help" original="Schedule processes to be executed asynchronously">Plánovat asynchronní spuštění procesů</value>
+ </row>
+ <row id="306" trl="N">
+  <value column="Name" original="Workflow Processor">Procesor pracovních postupů</value>
+  <value column="Description" original="Maintain Workflow Processor and Logs">Správa procesoru pracovních postupů a protokolů</value>
+  <value column="Help" original="Workflow Processor Server Parameters">Parametry serveru procesoru pracovních postupů</value>
+ </row>
+ <row id="311" trl="N">
+  <value column="Name" original="Accounting Processor">Účetní Procesor</value>
+  <value column="Description" original="Maintain Accounting Processor and Logs">Udržovat Účetní Procesor a Záznamy</value>
+  <value column="Help" original="Accounting Processor/Server Parameters and Logs">Účetní Procesor/Parametry Serveru a Záznamy</value>
+ </row>
+ <row id="312" trl="N">
+  <value column="Name" original="Alert Processor">Upozornění Procesor</value>
+  <value column="Description" original="Maintain Alert Processor/Server Parameter and Logs">Udržovat Upozornění Procesor/Parametry Serveru a Záznamy</value>
+  <value column="Help" original="Alert Processor/Server Parameter">Upozornění Procesor/Parametry Serveru</value>
+ </row>
+ <row id="313" trl="N">
+  <value column="Name" original="Partner Relation">Partner Vztah</value>
+  <value column="Description" original="Maintain Business Partner Relations">Udržovat Partner Vztahy</value>
+  <value column="Help" original="Business Partner Relation allow to maintain Third Party Relationship rules: who receives invoices for shipments or pays for invoices.">Partner Vztah umožňuje udržovat pravidla pro Vztah s Třetí Stranou: kdo dostává faktury za zásilky nebo platí faktury.</value>
+ </row>
+ <row id="314" trl="N">
+  <value column="Name" original="RfQ Topic">RfQ Téma</value>
+  <value column="Description" original="Maintain RfQ Topics and Subscribers">Udržovat RfQ Témata a Předplatitele</value>
+  <value column="Help" original="A Request for Quotation Topic allows you to maintain a subscriber list of potential Vendors to respond to RfQs">RfQ Téma umožňuje udržovat seznam předplatitelů potenciálních Dodavatelů pro odpověď na RfQs</value>
+ </row>
+ <row id="315" trl="N">
+  <value column="Name" original="RfQ">RfQ</value>
+  <value column="Description" original="Manage Request for Quotations">Spravovat RfQ</value>
+  <value column="Help" original="Request for Quotation to be sent out to vendors of a RfQ Topic. After Vendor selection, optionally create Sales Order or Quote for Customer as well as Purchase Order  for Vendor(s)">RfQ odeslat dodavatelům RfQ Tématu. Po výběru Dodavatele volitelně vytvořit Prodejní Objednávku nebo Nabídku pro Zákazníka a také Nákupní Objednávku pro Dodavatele(y)</value>
+ </row>
+ <row id="318" trl="N">
+  <value column="Name" original="Distribution List">Distribuční Seznam</value>
+  <value column="Description" original="Maintain Distribution Lists">Udržovat Distribuční Seznamy</value>
+  <value column="Help" original="Distribution list contain business partners and a distribution quantity or ratio for creating Orders">Distribuční seznam obsahuje obchodní partnery a distribuční množství nebo poměr pro vytváření objednávek.</value>
+ </row>
+ <row id="320" trl="N">
+  <value column="Name" original="Customer RMA">Zákazník RMA</value>
+  <value column="Description" original="Manage Return Material Authorization">Spravovat RMA</value>
+  <value column="Help" original="A Return Material Authorization may be required to accept returns and to create Credit Memos">RMA může být vyžadována pro přijetí vrácení a vytvoření Dobropisů</value>
+ </row>
+ <row id="321" trl="N">
+  <value column="Name" original="Dunning Run">Výzva</value>
+  <value column="Description" original="Manage Dunning Runs">Spravovat Výzvy</value>
+  <value column="Help" original="Manage Dunning Runs">Spravovat Výzvy</value>
+ </row>
+ <row id="322" trl="N">
+  <value column="Name" original="Requisition">Žádost</value>
+  <value column="Description" original="Material Requisition">Mat. Žádost</value>
+  <value column="Help" original="Enter and maintain Material Requisitions. Material Requisition can be created automatically via Replenishment.  You create generate optionally consolidated Purchase Orders.">Vytvořit a udržovat Materiálové Žádosti. Mat. Žádost může být vytvořena automaticky pomocí doplnění. Vytvořit volitelně konsolidované Nákupní Objednávky.</value>
+ </row>
+ <row id="323" trl="N">
+  <value column="Name" original="GL Distribution">GL Rozdělení</value>
+  <value column="Description" original="General Ledger Distribution">GL Rozdělení</value>
+  <value column="Help" original="If the account combination criteria of the Distribution is met, the posting to the account combination is replaced by the account combinations of the distribution lines.  The distribution is a one-step operation based on the percentage of the lines.">Pokud jsou splněny kritéria kombinace účtů Rozdělení, zaúčtování na kombinaci účtů je nahrazeno kombinacemi účtů řádků rozdělení. Rozdělení je jednokroková operace založená na procentuálním podílu řádků.</value>
+ </row>
+ <row id="324" trl="N">
+  <value column="Name" original="RfQ Response">RfQ Odpověď</value>
+  <value column="Description" original="Manage RfQ Responses">Spravovat RfQ Odpovědi</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="325" trl="N">
+  <value column="Name" original="Distribution Run">Rozdělení Běh</value>
+  <value column="Description" original="Distribution Run create Orders to distribute products to a selected list of partners">Vytvořit Rozdělení Objednávek pro distribuci produktů vybraným partnerům</value>
+  <value column="Help" original="Distribution Run defines how Orders are created based on Distribution Lists">Rozdělení Běh určuje, jak jsou vytvářeny Objednávky na základě Seznamů Rozdělení</value>
+ </row>
+ <row id="327" trl="N">
+  <value column="Name" original="Counter Document">Proti Dokument</value>
+  <value column="Description" original="Maintain Counter Document Types">Udržovat Typy Proti Dokumentů</value>
+  <value column="Help" original="When using explicit documents for inter-org transaction (after linking a Business Partner to an Organization), you can determine what document type the counter document is based on the document type of the original transaction.  Example: a &quot;Standard Order&quot; creates a &quot;Standard PO&quot;. &#10;If you define a relationship here, you overwrite the default counter document type in the Document Type definition. This allows you to define a specific mapping.&#10;If not defined, the first matching document type is used (e.g. AR Invoice - first AP Invoice document type)">Při použití explicitních dokumentů pro mezioddělovací transakci (po propojení Obchodního partnera s Organizací) můžete určit, jaký typ dokumentu je proti dokument založen na typu dokumentu původní transakce. Příklad: "Standardní objednávka" vytvoří "Standardní objednávku". Pokud zde definujete vztah, přepíšete výchozí typ proti dokumentu v definici typu dokumentu. To vám umožní definovat konkrétní mapování. Pokud není definován, použije se první odpovídající typ dokumentu (např. Faktura zákazníka - první typ dokumentu Faktura dodavatele).</value>
+ </row>
+ <row id="328" trl="N">
+  <value column="Name" original="Forecast">Prognóza</value>
+  <value column="Description" original="Maintain Material Forecast">Udržovat Prognózu Materiálu</value>
+  <value column="Help" original="Material Forecast">Prognóza Materiálu</value>
+ </row>
+ <row id="330" trl="N">
+  <value column="Name" original="Ship/Receipt Confirm">Odeslat/Přijmout Potvrzení</value>
+  <value column="Description" original="Material Shipment or Receipt Confirmation">Potvrzení Odeslání/Přijetí Materiálu</value>
+  <value column="Help" original="Confirmation of Shipment or Receipt - Created from the Shipment/Receipt">Potvrzení Odeslání/Přijetí - Vytvořeno z Odeslání/Přijetí</value>
+ </row>
+ <row id="331" trl="N">
+  <value column="Name" original="RMA Type">Typ RMA</value>
+  <value column="Description" original="Return Material Authorization Type">Typ autorizace vrácení materiálu</value>
+  <value column="Help" original="Maintain the types of RMA">Správa typů RMA</value>
+ </row>
+ <row id="332" trl="N">
+  <value column="Name" original="Process Audit">Proces Audit</value>
+  <value column="Description" original="Audit process use">Audit Proces Použít</value>
+  <value column="Help" original="Process Instance Information">Informace o instanci procesu</value>
+ </row>
+ <row id="333" trl="N">
+  <value column="Name" original="Move Confirmation">Přesun Potvrzení</value>
+  <value column="Description" original="Confirm Inventory Moves">Potvrď Pohyby Inventáře</value>
+  <value column="Help" original="The document is automatically created when the document type of the movement indicates In Transit.. If there is a difference quantity, a Physical Inventory is created for the source (from) warehouse. If there is a scrapped quantity, a Physical Inventory is created for the target (to) warehouse.">Dokument je automaticky vytvořen, když typ dokumentu pohybu označuje "V tranzitu". Pokud existuje rozdílové množství, je vytvořen Fyzický Inventář pro zdrojový (od) sklad. Pokud existuje množství na likvidaci, je vytvořen Fyzický Inventář pro cílový (do) sklad.</value>
+ </row>
+ <row id="334" trl="N">
+  <value column="Name" original="Import Confirmations">Potvrzení Importu</value>
+  <value column="Description" original="Import Receipt/Shipment Confirmation Lines">Import Potvrzení/Zásilka řádků</value>
+  <value column="Help" original="Import Confirmation data of existing Receipt/Shipment Confirmations">Importovat Potvrzení dat existujících Potvrzení/Zásilek</value>
+ </row>
+ <row id="337" trl="N">
+  <value column="Name" original="Price List Schema">Schéma ceníku</value>
+  <value column="Description" original="Maintain Price List Schema">Udržovat Schéma ceníku</value>
+  <value column="Help" original="Price List schema defines calculation rules for price lists">Schéma ceníku určuje výpočetní pravidla pro ceníky</value>
+ </row>
+ <row id="338" trl="N">
+  <value column="Name" original="POS Terminal">POS Terminál</value>
+  <value column="Description" original="Maintain your Point of Sales Terminal">Udržujte POS Terminál</value>
+  <value column="Help" original="The POS Terminal defines the defaults and functions available for the POS Form">POS Terminál určuje výchozí hodnoty a funkce dostupné pro formulář POS</value>
+ </row>
+ <row id="339" trl="N">
+  <value column="Name" original="POS Key Layout">POS Rozvržení</value>
+  <value column="Description" original="POS Function Key Layout">POS Funkční Rozvržení Klíčů</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="341" trl="N">
+  <value column="Name" original="Internal Use Inventory">Interní Inventář</value>
+  <value column="Description" original="Enter Internal Use of Inventory">Vstup Interní Inventář</value>
+  <value column="Help" original="The Internal Use of Inventory Window allows enter the quantity of used products.">Okno pro interní použití inventáře umožňuje zadat množství použitých produktů.</value>
+ </row>
+ <row id="342" trl="N">
+  <value column="Name" original="Invoice Batch">Účtenka Batch</value>
+  <value column="Description" original="Expense Invoice Batch">Nákladová Účtenka Batch</value>
+  <value column="Help" original="Enter expense invoices in batch.  After creating the lines, the actual invoices are created when processing the batch">Vstup nákladových účtenek v dávce. Po vytvoření řádků jsou skutečné účtenky vytvořeny při zpracování dávky.</value>
+ </row>
+ <row id="343" trl="N">
+  <value column="Name" original="Cost Element">Nákladový Prvek</value>
+  <value column="Description" original="Maintain Product Cost Element">Udržovat Nákladový Prvek</value>
+  <value column="Help" original="You can define your own product cost elements.">Můžete definovat vlastní nákladové prvky produktů.</value>
+ </row>
+ <row id="344" trl="N">
+  <value column="Name" original="Product Costs">Náklady na produkt</value>
+  <value column="Description" original="Maintain Product Costs">Udržovat Náklady</value>
+  <value column="Help" original="Maintain Product Cost Elements">Udržovat Nákladové Prvky</value>
+ </row>
+ <row id="345" trl="N">
+  <value column="Name" original="Request Category">Kategorie žádosti</value>
+  <value column="Description" original="Maintain Request Category">Udržovat Kategorii žádosti</value>
+  <value column="Help" original="Category or Topic of the Request ">Kategorie žádosti</value>
+ </row>
+ <row id="346" trl="N">
+  <value column="Name" original="Request Group">Skupina žádosti</value>
+  <value column="Description" original="Maintain Request Group">Udržovat Skupinu žádosti</value>
+  <value column="Help" original="Group of requests (e.g. version numbers, responsibility, ...)">Skupina žádostí (např. verze, odpovědnost, ...)</value>
+ </row>
+ <row id="347" trl="N">
+  <value column="Name" original="Request Resolution">Žádost Řešení</value>
+  <value column="Description" original="Maintain Request Resolutions">Udržovat Řešení Žádosti</value>
+  <value column="Help" original="Resolution status (e.g. Fixed, Rejected, ..)">Stav řešení (např. Opraveno, Odmítnuto, ..)</value>
+ </row>
+ <row id="348" trl="N">
+  <value column="Name" original="Request Standard Response">Žádost Odpověď</value>
+  <value column="Description" original="Maintain Request Standard Response ">Udržovat Žádost Odpověď</value>
+  <value column="Help" original="Text blocks to be copied into request response text">Text bloky pro kopírování do textu odpovědi na žádost</value>
+ </row>
+ <row id="349" trl="N">
+  <value column="Name" original="Request Status">Stav žádosti</value>
+  <value column="Description" original="Maintain Request Status">Udržovat Stav žádosti</value>
+  <value column="Help" original="Status if the request (open, closed, investigating, ..)">Stav žádosti (otevřený, uzavřený, vyšetřování, ..)</value>
+ </row>
+ <row id="350" trl="N">
+  <value column="Name" original="Web Store">Webový obchod</value>
+  <value column="Description" original="Define Web Store">Definovat Webový Obchod</value>
+  <value column="Help" original="Define the web store setup.  ">Definovat nastavení webového obchodu.</value>
+ </row>
+ <row id="351" trl="N">
+  <value column="Name" original="Position">Pozice</value>
+  <value column="Description" original="Maintain Job Positions">Udržovat Pozice</value>
+  <value column="Help" original="Maintain internal (employee) or external positions">Udržovat interní (zaměstnanec) nebo externí pozice</value>
+ </row>
+ <row id="352" trl="N">
+  <value column="Name" original="Position Category">Pozice Kategorie</value>
+  <value column="Description" original="Maintain Job Position Categories">Udržovat Kategorie Pozic</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="353" trl="N">
+  <value column="Name" original="Remuneration">Odměna</value>
+  <value column="Description" original="Maintain Remuneration">Udržovat Odměnu</value>
+  <value column="Help" original="Wages and Salaries">Mzdy a Platby</value>
+ </row>
+ <row id="355" trl="N">
+  <value column="Name" original="BOM Change Notice">Oznámení změny BOM</value>
+  <value column="Description" original="Maintain Bill of Materials (Engineering) Change Notice (Version)">Udržovat BOM (Inženýrství) Oznámení změny (Verze)</value>
+  <value column="Help" original="Change notices can be linked to BOMs or be stand alone.">Oznámení změny může být propojeno s BOM nebo být samostatné.</value>
+ </row>
+ <row id="356" trl="N">
+  <value column="Name" original="Change Notice">Oznámení změny</value>
+  <value column="Description" original="Maintain (Engineering) Change Notice (Version)">Udržovat (Inženýrství) Oznámení změny (Verze)</value>
+  <value column="Help" original="Stand-alone change notice - Change notices could also be directly linked to BOMs">Samostatné oznámení změny - Oznámení změny mohou být také přímo propojena s BOM</value>
+ </row>
+ <row id="358" trl="N">
+  <value column="Name" original="Attribute Set Instance">Instance sady atributů</value>
+  <value column="Description" original="View Attribute Set Instance detail and use">Zobrazení detailu instance sady atributů a použití</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="360" trl="N">
+  <value column="Name" original="Reporting Hierarchy">Hierarchie reportování</value>
+  <value column="Description" original="Define Reporting Hierarchy">Definovat hierarchii reportování</value>
+  <value column="Help" original="Reporting Hierarchy allows you to select different Hierarchies/Trees for the report.&#10;Accounting Segments like Organization, Account, Product may have several hierarchies to accomodate different views on the business">Hierarchie zpráv umožňuje výběr různých hierarchií/stromů pro zprávu. Účetní segmenty jako organizace, účet, produkt mohou mít několik hierarchií pro různé pohledy na podnikání.</value>
+ </row>
+ <row id="363" trl="N">
+  <value column="Name" original="System Issue Report">Zpráva o problémech systému</value>
+  <value column="Description" original="Automatically created or manually entered System Issue Reports">Automaticky vytvořené nebo ručně zadané Systémové Problém Zprávy</value>
+  <value column="Help" original="System Issues are created to speed up the resolution of any system related issues (potential bugs).  If enabled, they are automatically reported to iDempiere.  No data or confidential information is transferred.">Systémové problémy jsou vytvářeny pro zrychlení řešení jakýchkoli problémů souvisejících se systémem (potenciální chyby). Pokud jsou povoleny, jsou automaticky hlášeny do iDempiere. Nejsou přenášena žádná data ani důvěrné informace.</value>
+ </row>
+ <row id="364" trl="N">
+  <value column="Name" original="Performance Color Schema">Barevné schéma výkonu</value>
+  <value column="Description" original="Maintain Performance Color Schema">Udržovat Výkon Barva Schéma</value>
+  <value column="Help" original="Visual representation of performance by color.  The Schema has often three levels (e.g. red-yellow-green).  iDempiere support two levels (e.g. red-green) or four levels (e.g. gray-bronce-silver-gold).  Note that Measures without a goal are represented white.  The percentages could be beween 0 and unlimited (i.e. above 100%).">Vizuální reprezentace výkonu podle barvy. Schéma má často tři úrovně (např. červená-žlutá-zelená). iDempiere podporuje dvě úrovně (např. červená-zelená) nebo čtyři úrovně (např. šedá-bronzová-stříbrná-zlatá). Všimněte si, že Měření bez cíle jsou zobrazena bíle. Procenta mohou být od 0 do nekonečna (tj. nad 100%).</value>
+ </row>
+ <row id="365" trl="N">
+  <value column="Name" original="Performance Benchmark">Výkon Benchmark</value>
+  <value column="Description" original="Performance Benchmark">Výkon Benchmark</value>
+  <value column="Help" original="Data Series to compare internal performance with (e.g. stock price, ...)">Série dat pro porovnání vnitřního výkonu (např. cena akcií, ...)</value>
+ </row>
+ <row id="366" trl="N">
+  <value column="Name" original="Performance Ratio">Výkon Poměr</value>
+  <value column="Description" original="Maintain Performance Ratios">Udržovat Výkon Poměry</value>
+  <value column="Help" original="Calculation instruction for a ratio">Výpočetní instrukce pro poměr</value>
+ </row>
+ <row id="377" trl="N">
+  <value column="Name" original="View Chat">Zobrazit Chat</value>
+  <value column="Description" original="View discussions / chats">Zobrazit diskuze / chaty</value>
+  <value column="Help" original="View chat / discussion threads">Zobrazit chat / diskuze</value>
+ </row>
+ <row id="380" trl="N">
+  <value column="Name" original="Chat Type">Typ Chatu</value>
+  <value column="Description" original="Maintain Chat Types">Udržovat Typy Chatu</value>
+  <value column="Help" original="Chat Types">Typy Chatu</value>
+ </row>
+ <row id="381" trl="N">
+  <value column="Name" original="Entity Type">Typ Entit</value>
+  <value column="Description" original="Maintain System Entity Type">Udržovat Typ Entit Systému</value>
+  <value column="Help" original="The entity type determines the ownership of Application Dictionary entries.  The types &quot;Dictionary&quot; and &quot;iDempiere&quot; should not be used and are maintainted by iDempiere (i.e. all changes are reversed during migration to the current definition).">Typ Entit určuje vlastnictví položek slovníku aplikací. Typy "Slovník" a "iDempiere" by neměly být používány a jsou udržovány iDempiere (tj. všechny změny jsou při migraci na aktuální definici vráceny zpět).</value>
+ </row>
+ <row id="385" trl="N">
+  <value column="Name" original="Info Window">Info Okno</value>
+  <value column="Description" original="Define Info and search/select Window">Definovat Info a vyhledat/vybrat Okno</value>
+  <value column="Help" original="The Info window is used to search and select records as well as display information relevant to the selection.">Info Okno slouží k vyhledávání a výběru záznamů a zobrazování informací souvisejících s výběrem.</value>
+ </row>
+ <row id="50001" trl="N">
+  <value column="Name" original="Packages Installed">Balíčky nainstalovány</value>
+  <value column="Description" original="List of packages installed">Seznam balíčků nainstalován</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50002" trl="N">
+  <value column="Name" original="Package Maintenance">Údržba balíčků</value>
+  <value column="Description" original="Package installation history and maintenance">Historie a údržba instalace balíčků</value>
+  <value column="Help" original="Review package installation.  Also perform package rollback if required">Zkontrolovat instalaci balíčku. Případně provést vrácení balíčku.</value>
+ </row>
+ <row id="50003" trl="N">
+  <value column="Name" original="Pack Out">Balíček</value>
+  <value column="Description" original="Create 2pack package">Vytvořit 2bal balíček</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50005" trl="N">
+  <value column="Name" original="Pack In">Balíček</value>
+  <value column="Description" original="Imports a package">Import balíček</value>
+  <value column="Help" original="Imports a package previously created by PackOut">Import balíček z PackOut</value>
+ </row>
+ <row id="50006" trl="N">
+  <value column="Name" original="System Configurator">Systém Konfigurátor</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="50007" trl="N">
+  <value column="Name" original="Dashboard Content">Obsah Dashboardu</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="53003" trl="N">
+  <value column="Name" original="Model Validator">Model Validator</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="53004" trl="N">
+  <value column="Name" original="Manufacturing Resource">Výrobní prostředek</value>
+  <value column="Description" original="Manufacturing Resource">Výrobní prostředek</value>
+  <value column="Help" original="A Manufacturing Resource is defined as anything required for production and its unavailability can affect the Production Plan. Manufacturing Resources can be: Plants, Production lines, Work Centers and Work Stations.&#10;&#10;It mainly answers the question: Where is the product made?&#10;&#10;A Specific production facility consisting of one or more people and/or machines which can be considered as one unit for purposes of capacity requiremets planning and detailed scheduling.">Výrobní zdroj je definován jako cokoli, co je nutné pro výrobu a co může ovlivnit plán výroby. Výrobními zdroji mohou být: &#10;&#10;Odpovídá především na otázku: &#10;&#10;Konkrétní výrobní zařízení sestávající z jednoho nebo více lidí a/nebo strojů, které lze pro účely plánování kapacitních potřeb a podrobného rozvrhování považovat za jednu jednotku.</value>
+ </row>
+ <row id="53005" trl="N">
+  <value column="Name" original="Manufacturing Workflows">Výrobní postupy</value>
+  <value column="Description" original="Maintain Manufacturing Workflows (Routing)">Udržovat Výrobní Postupy (Směrování)</value>
+  <value column="Help" original="Manufacturing Workflows (Routing) is a set of information detailing the method of manufacture of a particular item .It includes the operations to be performed their sequence the various work centers to be involved and the standards for setup and run. In some companies routing also includes information on tooling operator skill levels inspection operationstesting requirements etc.">Výrobní postupy (Směrování) jsou soubor informací podrobně popisujících způsob výroby konkrétního výrobku. Zahrnuje operace, které mají být provedeny, jejich pořadí, různá pracoviště, která se mají zapojit, a standardy pro nastavení a provoz. V některých společnostech směrování také zahrnuje informace o nástrojích, úrovních dovedností operátorů, požadavcích na kontrolu a testování.</value>
+ </row>
+ <row id="53006" trl="N">
+  <value column="Name" original="Bill of Materials &amp; Formula" xml:space="preserve">Stavba &amp; Vzorec</value>
+  <value column="Description" original="Maintain Product Bill of Materials &amp; Formula" xml:space="preserve">Udržovat Stavbu &amp; Vzorec Produktu</value>
+  <value column="Help" original="It is a list of all the subassemblies, intermediates, parts and raw material that go into a parent assembly showing the quantity of each required to make an assembly. There are a variety of display formats of bill of material, including single level bill of material, indented bill of material, modular (planning), costed bill of material, etc. May also be called &quot;formula&quot;, &quot;recipe&quot;, &quot;ingredients list&quot; in certain industries.&#10;It answers the question, what are the components of the product?">Je to seznam všech podmontáží, prostředníků, dílů a surovin, které se používají při výrobě nadřazené montáže a ukazují množství každého z nich potřebného k vytvoření montáže. Existuje několik zobrazení formátů stavby, včetně jednovrstvé stavby, odsazené stavby, modulární (plánování), nákladové stavby atd. V určitých odvětvích se může nazývat také "vzorec", "recept", "seznam ingrediencí". Odpovídá na otázku, jaké jsou složky produktu?</value>
+ </row>
+ <row id="53007" trl="N">
+  <value column="Name" original="Product Planning Data">Plánování produktu</value>
+  <value column="Description" original="Maintain Product Planning Data">Udržovat Plánování Produktu</value>
+  <value column="Help" original="in the Window Product Planning Data you enter the product information which will serve as a base to execute the algorithms of Material Requirement Planning, along with MPS, open orders and inventories">V okně Plánování produktu zadáváte informace o produktu, které slouží jako základ pro provádění algoritmů plánování potřeb materiálu spolu s MPS, otevřenými objednávkami a zásobami.</value>
+ </row>
+ <row id="53008" trl="N">
+  <value column="Name" original="MRP Notice">MRP Upozornění</value>
+  <value column="Description" original="View MRP Notices">Zobrazit MRP Upozornění</value>
+  <value column="Help" original="The system creates messages while performing processes. In this window you can view them.&#10;&#10;MRP Notice&#10;It is a group of messages generated for the MRP process. It indicates to the scheduler the actions he needs to do to reach the Master Production Schedule. The action messages are set as notices for the planner when he sign up the Compiere session.&#10;&#10;The possible action messages are:&#10;&#10;MRP Code&#09; Action Message&#10;MRP - 001&#09; Beginning Quantity Less Than Zero.&#10;MRP - 020&#09; Create - A Supply Order should be created to satisfy a negative projected on hand balance.&#10;This message is only generate if Create Plan is No or if a new requirement appears the time fence.&#10;&#10;MRP - 030&#09; De Expedite - Indicates that a scheduled supply order is due before it is needed&#10;and should be delayed, or demand rescheduled to an earlier date.&#10;&#10;MRP - 040&#09; Expedite - Indicates that a scheduled supply order is due after is needed&#10;and should be rescheduled to an earlier date, or demand rescheduled to a later date.&#10;&#10;MRP - 050&#09; Cancel - Indicate that a scheduled supply order is no longer needed and should be deleted.&#10;MRP - 060&#09; Release Due For - Indicate that a schedule order should be released.&#10;MRP - 070&#09; Release Past Due For - Indicate that a supply order was not released when it was due,&#10;and should be either released or expedited now, or the demand rescheduled for a later date.&#10;&#10;MRP - 080&#09; Quantity Less than Minimum - Indicates that a supply order was created for&#10;a quantity less than the minimum quantity set in the product planning&#10;&#10;MRP - 090&#09; Quantity Less than Maximum - Indicates that a supply order was created for a quantity&#10;for a quantity greater than than maximum quantity set in the product planning&#10;&#10;MRP - 100&#09; Past Due Time Fence - Indicates that there is an unsatisfied material requirement inside&#10;the planning time fence for this item. You should either manually schedule and expedite orders to&#10;&#10;fill this demand or delay fulfillment of the requirement that created the demand.&#10;&#10;MRP - 110&#09; No exists Dem">Systém generuje zprávy při provádění procesů. Zde můžete vidět MRP Notice, což jsou zprávy pro proces MRP, upozorňující plánovače na akce k dosažení hlavního plánu výroby. Akční zprávy jsou oznámení pro plánovače v relaci iDempiere. Možné akční zprávy jsou: &#10;MRP - 001 Počáteční množství menší než nula; &#10;MRP - 020 Vytvořit objednávku zásob; &#10;MRP - 030 De Expedite; &#10;MRP - 040 Expedite; &#10;MRP - 050 Cancel; &#10;MRP - 060 Release Due For; &#10;MRP - 070 Release Past Due For; &#10;MRP - 080 Množství menší než minimální; &#10;MRP - 090 Množství menší než maximální; &#10;MRP - 100 Past Due Time Fence; MRP - 110 Neexistuje Dem.</value>
+ </row>
+ <row id="53009" trl="N">
+  <value column="Name" original="Manufacturing Order">Výrobní Objednávka</value>
+  <value column="Description" original="Maintain Manufacturing Order">Udržovat Výrobní Objednávku</value>
+  <value column="Help" original="Manufacturing Schedule is a document group of documents or schedule identity  conveying authority for the manufacture of specified parts or products in specified quantities.">Výrobní plán je skupina dokumentů nebo plánovací identita, která uděluje oprávnění k výrobě určitých dílů nebo produktů v určitém množství.</value>
+ </row>
+ <row id="53010" trl="N">
+  <value column="Name" original="Spare parts">Náhradní díly</value>
+  <value column="Description" original="Spare parts">Náhradní díly</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="53011" trl="N">
+  <value column="Name" original="Activity Control Report">Aktivita Kontrola Zpráva</value>
+  <value column="Description" original="Activity Control">Aktivita Kontrola</value>
+  <value column="Help" original="This window is reported the real issue the shop floor">Toto okno hlásí skutečný problém na výrobní ploše.</value>
+ </row>
+ <row id="53013" trl="N">
+  <value column="Name" original="Quality Specifications">Kvalitní Specifikace</value>
+  <value column="Description" original="Maintain Quality Specifications">Udržovat Kvalitní Specifikace</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="53014" trl="N">
+  <value column="Name" original="Cost Collector">Nákladový Sběrač</value>
+  <value column="Description" original="The cost collector is a repository of all the MO transactions.">Nákladový Sběrač je úložištěm všech transakcí MO.</value>
+  <value column="Help" original="The cost collector is a repository of all the MO transactions. This real transactions relation allows to compare it with the standard transactions in order to be able to calculate variations by cost element.">Nákladový Sběrač je úložištěm všech transakcí MO. Tato skutečná relace transakcí umožňuje porovnat s standardními transakcemi pro výpočet odchylek podle nákladového prvku.</value>
+ </row>
+ <row id="53015" trl="N">
+  <value column="Name" original="ASP Modules">ASP Moduly</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="53016" trl="N">
+  <value column="Name" original="ASP Subscribed Modules">ASP Předplatné Moduly</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="53017" trl="N">
+  <value column="Name" original="Rule">Pravidlo</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="53018" trl="N">
+  <value column="Name" original="Distribution Network">Distribuční Síť</value>
+  <value column="Description" original="Distribution Network define the supply relationships">Distribuční Síť definuje dodavatelské vztahy</value>
+  <value column="Help" original="Each realtionship in the network contains a receiving warehouse and a warehouse source and a supply percentage. A relationship is one-way, warehouse to warehouse relationship.">Každý vztah v síti obsahuje přijímající sklad a zdroj skladu a procento dodávky. Vztah je jednosměrný, sklad na sklad vztah.</value>
+ </row>
+ <row id="53019" trl="N">
+  <value column="Name" original="Migration Scripts">Migrační Skripty</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="53025" trl="N">
+  <value column="Name" original="Export Format">Export Formát</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="53026" trl="N">
+  <value column="Name" original="Export Processor">Export Procesor</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="53027" trl="N">
+  <value column="Name" original="Export Processor Type">Export Typ Procesoru</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="53028" trl="N">
+  <value column="Name" original="Import Processor">Import Procesor</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="53029" trl="N">
+  <value column="Name" original="Import Processor Type">Typ Import Procesoru</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="53044" trl="N">
+  <value column="Name" original="Asset Revaluation Processing">Zpracování přepočtu majetku</value>
+  <value column="Description" original="Process Revaluation of Assets">Zpracování přepočtu majetku</value>
+  <value column="Help" original="This window allows you to select and process what assets are revalued">Toto okno umožňuje vybrat a zpracovat, který majetek se přepočítává</value>
+ </row>
+ <row id="53045" trl="N">
+  <value column="Name" original="Asset Revaluation Index">Přepočet majetku index</value>
+  <value column="Description" original="Set the Revaluate Assets Index or Factors">Nastavit index přepočtu majetku nebo faktory</value>
+  <value column="Help" original="The Asset Revaluation Index window allow you to setup the values of indexs or factors to be used in revaluation of assets">Přepočet majetku index umožňuje nastavit hodnoty indexů nebo faktorů pro přepočet majetku</value>
+ </row>
+ <row id="53046" trl="N">
+  <value column="Name" original="Transfer Asset Entry">Převod položky majetku</value>
+  <value column="Description" original="Create Transfer Asset Entry">Vytvořit převod položky majetku</value>
+  <value column="Help" original="The Transfer Asset Entry window allows you to create and post asset transfers to the GL">Okno Převod položky majetku umožňuje vytvořit a zaúčtovat převody majetku do GL</value>
+ </row>
+ <row id="53047" trl="N">
+  <value column="Name" original="Disposed Asset Entry">Zrušená položka majetku</value>
+  <value column="Description" original="Create Disposed Asset Entry">Vytvořit zrušenou položku majetku</value>
+  <value column="Help" original="The Disposed Asset Entry window allows you to create and post assets that have been disposed to the GL">Okno Zrušená položka majetku umožňuje vytvořit a zaúčtovat majetek, který byl zrušen do GL</value>
+ </row>
+ <row id="53048" trl="N">
+  <value column="Name" original="Asset Split">Rozdělení maj.</value>
+  <value column="Description" original="Split Assets Process">Rozdělit majetek</value>
+  <value column="Help" original="The Asset Split window allows you to process asset splits">Okno Rozdělení maj. umožňuje rozdělit majetek</value>
+ </row>
+ <row id="53050" trl="N">
+  <value column="Name" original="Asset Transfers">Převody maj.</value>
+  <value column="Description" original="Process transfers of assets">Zpracovat převody maj.</value>
+  <value column="Help" original="The Asset Transfer window allows you to transfer assets">Okno Převod maj. umožňuje převod maj.</value>
+ </row>
+ <row id="53051" trl="N">
+  <value column="Name" original="Split Asset Entry">Rozdělit maj. položku</value>
+  <value column="Description" original="Create Split Asset Entries">Vytvořit rozdělení maj. položek</value>
+  <value column="Help" original="The Split Asset Entry window allows you to create and post assets that have been split to the GL">Okno Rozdělení maj. položky umožňuje vytvořit a zaúčtovat majetek, který byl rozdělen do GL</value>
+ </row>
+ <row id="53052" trl="N">
+  <value column="Name" original="Build Depreciation Workfile">Sestavit pracovní soubor odpisů</value>
+  <value column="Description" original="Build Depreciation Expense File">Sestavit soubor odpisů</value>
+  <value column="Help" original="The Deprecaiton Build Workfile window allow you to build current depreciation expense for various posting types including actual budget and tax as defined by the user">Okno Sestavit pracovní soubor odpisů umožňuje vytvořit aktuální náklady na odpisy pro různé typy zaúčtování, včetně skutečných rozpočtů a daní, jak je definováno uživatelem.</value>
+ </row>
+ <row id="53053" trl="N">
+  <value column="Name" original="Post Depreciation Entry">Zaúčtovat odpis</value>
+  <value column="Description" original="Create Depreciation Entry">Vytvořit odpis</value>
+  <value column="Help" original="The Depreciation Entry window allows you to create and post the depreciation expense entry to the GL">Okno Odpis umožňuje vytvořit a zaúčtovat položku nákladů na odpisy do GL</value>
+ </row>
+ <row id="53054" trl="N">
+  <value column="Name" original="Build Depreciation Forecast">Sestavit předpověď odpisů</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="53058" trl="N">
+  <value column="Name" original="Depreciation Methods">Odpisové metody</value>
+  <value column="Description" original="Depreciation Methods">Odpisové metody</value>
+  <value column="Help" original="The Depreciation method windows allows the user to review the depreciation calculations available in Adempiere">Okno Odpisové metody umožňuje uživateli zkontrolovat výpočty odpisů dostupné v Adempiere</value>
+ </row>
+ <row id="53059" trl="N">
+  <value column="Name" original="Depreciation Tables">Tabulka odpisů</value>
+  <value column="Description" original="Allows users to create multiple depreciation schedules">Vytvořit více plánů odpisů</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="53060" trl="N">
+  <value column="Name" original="Depreciation First Year Conventions ">Odpis 1. rok Konvence</value>
+  <value column="Description" original="Setup for depreciation Setups">Nastavení odpisů</value>
+  <value column="Help" original="Allows user to define what depreciation conventions are available in Adempiere">Umožňuje uživateli definovat, jaké konvence odpisů jsou k dispozici v Adempiere</value>
+ </row>
+ <row id="53061" trl="N">
+  <value column="Name" original="Depreciation Calculation Method">Odpisová metoda</value>
+  <value column="Description" original="Define Calculation Methods used in depreciation expense calculation">Definovat metody výpočtu pro výpočet odpisů</value>
+  <value column="Help" original="The Depreciation Calcualtion Method window allows the user to define how adjustments to the fixed asset depreciation expense are handled">Okno Odpisové metody umožňuje uživateli definovat, jak jsou zpracovány úpravy výdajů za odpisy hmotného majetku</value>
+ </row>
+ <row id="53062" trl="N">
+  <value column="Name" original="Charge Type">Typ poplatku</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="53063" trl="N">
+  <value column="Name" original="House Keeping">Údržba</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="53064" trl="N">
+  <value column="Name" original="View MRP Records">Zobrazit MRP záznamy</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="53067" trl="N">
+  <value column="Name" original="Web Service Definition">Definice WS</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="53068" trl="N">
+  <value column="Name" original="Web Service Security">WS zabezpečení</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="53069" trl="N">
+  <value column="Name" original="Search Definition">Vyhledávání Definice</value>
+  <value column="Description" original="Define transactioncodes for the QuickSearch bar">Definovat kódy transakcí pro rychlé vyhledávání</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="53071" trl="N">
+  <value column="Name" original="Import Price List">Import Cenovka</value>
+  <value column="Description" original="Import Price Lists">Import Cenovky</value>
+  <value column="Help" original="The Import Price List Window is an interim table which is used when importing external data into the system.  Selecting the 'Process' button will either add or modify the appropriate records.">Okno Import Cenovka je dočasná tabulka, která se používá při importu externích dat do systému. Vybrání tlačítka 'Provést' buď přidá nebo upraví příslušné záznamy.</value>
+ </row>
+ <row id="53073" trl="N">
+  <value column="Name" original="Promotion Group">Skupina akcí</value>
+  <value column="Description" original="Grouping of product for promotion setup">Seskupení pro nastavení akcí</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="53074" trl="N">
+  <value column="Name" original="Promotion">Akcí</value>
+  <value column="Description" original="Setup promotion rule">Nastavit pravidlo akcí</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="53078" trl="N">
+  <value column="Name" original="Report Cube">Report Krychle</value>
+  <value column="Description" original="Define reporting cube for pre-calculation of summary accounting data.">Definovat report krychle pro předvýpočet souhrnných účetních dat.</value>
+  <value column="Help" original="Summary data will be generated for each period of the selected calendar, grouped by the selected dimensions..">Souhrnná data budou generována pro každé období vybraného kalendáře, seskupená podle vybraných dimenzí.</value>
+ </row>
+ <row id="53085" trl="N">
+  <value column="Name" original="MRP Notice (all)">MRP Oznámení (vše)</value>
+  <value column="Description" original="View all MRP Notices">Zobrazit vše MRP Oznámení</value>
+  <value column="Help" original="The system creates notices will running MRP process. In this window you can view them.&#10;">Systém vytváří oznámení při spuštění MRP procesu. V tomto okně je můžete zobrazit.</value>
+ </row>
+ <row id="53086" trl="N">
+  <value column="Name" original="My Unprocessed Documents">Mé Nedokončené Dokumenty</value>
+  <value column="Description" original="My Unprocessed Documents">Mé Nedokončené Dokumenty</value>
+  <value column="Help" original="View my unprocessed documents">Zobrazit nedokončené dokumenty</value>
+ </row>
+ <row id="53087" trl="N">
+  <value column="Name" original="Unprocessed Documents (All)">Nedokončené Dokumenty (Vše)</value>
+  <value column="Description" original="Unprocessed Documents (All)">Nedokončené Dokumenty (Vše)</value>
+  <value column="Help" original="View all unprocessed documents">Zobrazit vše nedokončené dokumenty</value>
+ </row>
+ <row id="53097" trl="N">
+  <value column="Name" original="Customer Return">Vrácení zákazníka</value>
+  <value column="Description" original="Customer Return (Receipts)">Vrácení zákazníka (Příjmy)</value>
+  <value column="Help" original="The Customer Return Window defines the receipt of product or material from a Customer Return.">Okno Vrácení zákazníka definuje příjem produktu nebo materiálu z vrácení zákazníka.</value>
+ </row>
+ <row id="53098" trl="N">
+  <value column="Name" original="Return to Vendor">Vrácení dodavateli</value>
+  <value column="Description" original="Vendor Returns">Vrácení dodav.</value>
+  <value column="Help" original="The Return to Vendor Window defines shipments made or to be made to a vendor as part of a return.">Okno Vrácení dodavateli definuje zásilky provedené nebo které mají být provedeny dodavateli jako součást vrácení.</value>
+ </row>
+ <row id="53099" trl="N">
+  <value column="Name" original="Vendor RMA">Dodav RMA</value>
+  <value column="Description" original="Manage Return Material Authorization">Spravovat RMA</value>
+  <value column="Help" original="A Return Material Authorization may be required to accept returns and to create Credit Memos">Vytvoření RMA může být nutné pro přijetí vrácení a vytvoření dobropisů.</value>
+ </row>
+ <row id="53100" trl="N">
+  <value column="Name" original="My Profile">Můj Profil</value>
+  <value column="Description" original="My user information">Můj uživ. informace</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="53101" trl="N">
+  <value column="Name" original="Order Source">Objednávka Zdroj</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="53102" trl="N">
+  <value column="Name" original="Relation Type">Typ vztahu</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="53113" trl="N">
+  <value column="Name" original="Asset Addition">Přidání majetku</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="53114" trl="N">
+  <value column="Name" original="Asset Disposal">Odebrání majetku</value>
+  <value column="Description" original="Dispose of Assets">Odebrat majetek</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="53115" trl="N">
+  <value column="Name" original="Asset Change Account">Změna účtu majetku</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="53117" trl="N">
+  <value column="Name" original="Asset Funding Mode">Režim financování maj.</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="53118" trl="N">
+  <value column="Name" original="Revaluation Asset">Reval. majetek</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="53120" trl="N">
+  <value column="Name" original="Imported Fixed Asset">Importovaný majetek</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="53121" trl="N">
+  <value column="Name" original="Import Inventory Move">Import Pohyb Zás.</value>
+  <value column="Description" original="This window allow import Inventory Move transaction">Toto okno umožňuje importovat pohyb zásob</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="53124" trl="N">
+  <value column="Name" original="Chart">Graf</value>
+  <value column="Description" original="Chart Definition">Definice grafu</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="53125" trl="N">
+  <value column="Name" original="Fact Reconciliation">Výkaz uskutečnění</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="53127" trl="N">
+  <value column="Name" original="Production (Single Product)">Výroba (Jednotný produkt)</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="53128" trl="N">
+  <value column="Name" original="Parts and BOMs">Díly a BOMy</value>
+  <value column="Description" original="Maintain Bill of Materials">Udržovat BOM</value>
+  <value column="Help" original="The Bill of Materials Window defines all product bills of materials used by an organization for light manufacturing.">Okno BOM definuje všechny výrobní listy produktů používané organizací pro lehkou výrobu.</value>
+ </row>
+ <row id="53134" trl="N">
+  <value column="Name" original="Cash Plan">Plán hotovosti</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="53149" trl="N">
+  <value column="Name" original="Quality Test">Kvalitní test</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="53150" trl="N">
+  <value column="Name" original="Part Type">Typ dílu</value>
+  <value column="Description" original="Manufacturing Part Types">Typy dílů výroby</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="53152" trl="N">
+  <value column="Name" original="Contact">Kontakt</value>
+  <value column="Description" original="Maintain Contacts">Udržovat kontakty</value>
+  <value column="Help" original="The Contact Window allows you to maintain Contacts who are individuals you deal with.  Contacts may also be internal or external users who can log into the system and have access to functionality via one or more roles.  A contact can also be a business partner contact.">Okno Kontaktů umožňuje udržovat kontakty s jednotlivci, se kterými jednáte. Kontakty mohou být také interní nebo externí uživatelé, kteří se mohou přihlásit do systému a mít přístup k funkcím prostřednictvím jedné nebo více rolí. Kontakt může být také kontaktem obchodního partnera.</value>
+ </row>
+ <row id="53153" trl="N">
+  <value column="Name" original="Lead">Vest</value>
+  <value column="Description" original="Maintain Leads">Udržovat zájemce</value>
+  <value column="Help" original="The Lead Window allows you to maintain Leads (can be Sales or Purchase). These are unqualified contacts to who you wish to recruit or market to. ">Okno Zájemců umožňuje udržovat zájemce (mohou být prodejní nebo nákupní). Jedná se o nekvalifikované kontakty, které chcete získat nebo oslovit.</value>
+ </row>
+ <row id="53154" trl="N">
+  <value column="Name" original="Sales Stage">Prodejní fáze</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="53155" trl="N">
+  <value column="Name" original="Sales Opportunity">Prodejní příležitost</value>
+  <value column="Description" original="A potential sale">Potenciální prodej</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="53156" trl="N">
+  <value column="Name" original="Sales Rep Dashboard">Prodejní rep. Dashboard</value>
+  <value column="Description" original="The Sales Rep Dashboard provides a single location for managing sales opportunities">Prodejní rep. Dashboard: Jedno místo pro správu prodejních příležitostí</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="53165" trl="N">
+  <value column="Name" original="Customer">Zákazník</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200000" trl="N">
+  <value column="Name" original="Toolbar Button">Nástroj Panel</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200001" trl="N">
+  <value column="Name" original="Role Toolbar Button Access">Role Nástroj Panel Přístup</value>
+  <value column="Description" original="Maintain toolbar button access rule">Udržovat přístup k nástrojové liště</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="200002" trl="N">
+  <value column="Name" original="Password Rule">Heslo pravidlo</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200005" trl="N">
+  <value column="Name" original="GL Journal">Deník GL Journal</value>
+  <value column="Description" original="Enter and change Manual Journal Entries">Zadat a změnit ruční účtování</value>
+  <value column="Help" original="The GL Journal Window allows you to enter and modify manual journal entries">Účtová kniha: Zadávání a úprava ručních účtování</value>
+ </row>
+ <row id="200006" trl="N">
+  <value column="Name" original="Dashboard Preference">Předvolby ovládacího panelu</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200008" trl="N">
+  <value column="Name" original="POS Payment">POS Platba</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200009" trl="N">
+  <value column="Name" original="POS Tender Type">POS Typ Platby</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200012" trl="N">
+  <value column="Name" original="Schedule">Harmonogram</value>
+  <value column="Description" original="Times for the scheduler">Časy pro plánovače</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="200013" trl="N">
+  <value column="Name" original="GL Journal Generator">Generátor deníku GL</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200015" trl="N">
+  <value column="Name" original="Payment Processor">Procesor plateb</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200016" trl="N">
+  <value column="Name" original="Active Session">Aktivní relace</value>
+  <value column="Description" original="List of Current Logged in user">Seznam přihlášených uživatelů</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="200017" trl="N">
+  <value column="Name" original="Payment Transaction">Platební transakce</value>
+  <value column="Description" original="Payment Transactions">Platební transakce</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="200018" trl="N">
+  <value column="Name" original="Online Transaction History">Online Transakce Historie</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200020" trl="N">
+  <value column="Name" original="Setup Wizard Maintenance">Nastavení Průvodce Údržbou</value>
+  <value column="Description" original="Maintenance Setup Wizard window">Nast. Průvodce Údržby</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="200022" trl="N">
+  <value column="Name" original="Storage Provider">Poskytovatel skladování</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200023" trl="N">
+  <value column="Name" original="Broadcast Message">Vysílat zprávu</value>
+  <value column="Description" original="Broadcast Message">Vysílat zprávu</value>
+  <value column="Help" original="Window allows to enter broadcast messages">Okno umožňuje zadávat vysílání zpráv</value>
+ </row>
+ <row id="200024" trl="N">
+  <value column="Name" original="Shipping Processor">Procesor přepravy</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200025" trl="N">
+  <value column="Name" original="Shipment Package">Balík Dodávky</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200026" trl="N">
+  <value column="Name" original="Commodity Shipment">Komodita Dodávka</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200028" trl="N">
+  <value column="Name" original="Shipping Processor Configuration">Konfigurace přepravního procesoru</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200029" trl="N">
+  <value column="Name" original="Shipper Configuration">Konfigurace přepravce</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200030" trl="N">
+  <value column="Name" original="Shipping Transaction">Přepravní transakce</value>
+  <value column="Description" original="Shipping Transactions">Dopr. Transakce</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="200031" trl="N">
+  <value column="Name" original="Payments into Batch">Platby do dávky</value>
+  <value column="Description" original="Process Payments">Zpracovat platby</value>
+  <value column="Help" original="The Process Payments Window allows you to enter payments for invoices.  If the payment is for a single invoice then it can be processed here.">Okno pro zpracování plateb umožňuje zadat platby pro faktury. Pokud je platba pro jednu fakturu, může být zpracována zde.</value>
+ </row>
+ <row id="200034" trl="N">
+  <value column="Name" original="Context Help">Nápověda</value>
+  <value column="Description" original="Maintain Context Helps">Udržovat Nápovědy Kontextu</value>
+  <value column="Help" original="The Context Help window defines the context help message text to display in the help pane. It is for Web UI only.">Okno pro Nápovědu definuje text zprávy kontextové nápovědy k zobrazení v panelu nápovědy. Je pouze pro Web UI.</value>
+ </row>
+ <row id="200036" trl="N">
+  <value column="Name" original="1099 Box">1099 Box</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200043" trl="N">
+  <value column="Name" original="Cost Adjustment">Nákladová Úprava</value>
+  <value column="Description" original="Enter Inventory Cost Adjustment">Zadat Nákladovou Úpravu Zásob</value>
+  <value column="Help" original="The Cost Adjustment Window allow user to enter cost adjustment for products">Nákladová Úprava: Umožňuje zadat nákladovou úpravu pro produkty.</value>
+ </row>
+ <row id="200044" trl="N">
+  <value column="Name" original="Tax Provider Configuration">Konfigurace Daňového Poskytovatele</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200045" trl="N">
+  <value column="Name" original="Tax Provider">Daňový Poskytovatel</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200046" trl="N">
+  <value column="Name" original="Address Validation Configuration">Konfigurace Validace Adres</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200047" trl="N">
+  <value column="Name" original="Address Validation">Validace Adres</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200048" trl="N">
+  <value column="Name" original="Address Transaction">Adresa Transakce</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200049" trl="N">
+  <value column="Name" original="Status Line">Stav řádku</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200054" trl="N">
+  <value column="Name" original="Dummy">Dummy</value>
+  <value column="Description" original="This window if for save preference for process parameter panel and info window in case open from menu (stand alone window)">Tato okno slouží k uložení preferencí pro panel parametrů procesu a informační okno v případě otevření z menu (samostatné okno).</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="200059" trl="N">
+  <value column="Name" original="Recurring Group">Opakující Skupina</value>
+  <value column="Description" original="Recurring Group">Opakující Skupina</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="200061" trl="N">
+  <value column="Name" original="Country Group">Země Skupina</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200063" trl="N">
+  <value column="Name" original="Import Template">Šablona Importu</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200073" trl="N">
+  <value column="Name" original="User Preference">Uživatelské nastavení</value>
+  <value column="Description" original="This window is use to set up the preferences entries for each user.">Toto okno slouží k nastavení preferencí pro každého uživatele.</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="200074" trl="N">
+  <value column="Name" original="Locator Type">Typ Lokátoru</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200086" trl="N">
+  <value column="Name" original="CSS Style">CSS Styl</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200087" trl="N">
+  <value column="Name" original="Field Suggestions">Návrhy názvu pole</value>
+  <value column="Description" original="Suggestions for field name, description and help.">Návrhy pro název pole, popis a nápovědu.</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="200088" trl="N">
+  <value column="Name" original="Context Help Suggestion">Návrh kontextové nápovědy</value>
+  <value column="Description" original="Review context help suggestion from tenant">Návrh kontextové nápovědy od nájemce</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="200089" trl="N">
+  <value column="Name" original="Post-it">Post-it</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200090" trl="N">
+  <value column="Name" original="Document Status">Stav Dokumentu</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200092" trl="N">
+  <value column="Name" original="All Tenants">Všichni Mandanty</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200093" trl="N">
+  <value column="Name" original="All Users">Všichni Uživatelé</value>
+  <value column="Description" original="Users from All Tenants">Uživatelé ze všech mandantů</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="200095" trl="N">
+  <value column="Name" original="Process Customization">Úprava procesů</value>
+  <value column="Description" original="Define Process Customization for Role/User">Definice přizpůsobení procesu pro roli/uživatele</value>
+  <value column="Help" original="The customization values defined here overwrite/replace the default system definition if defined.">Zde definované hodnoty přizpůsobení přepíší nebo nahradí výchozí systémovou definici, pokud je definována.</value>
+ </row>
+ <row id="200100" trl="N">
+  <value column="Name" original="Print Header/Footer">Tisk Hlavní/Zápatí</value>
+  <value column="Description" original="Maintain Print Header/Footer">Uprav Tisk Hlavní/Zápatí</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="200105" trl="N">
+  <value column="Name" original="Bank/Cash Transfer">Bank/Převod hot.</value>
+  <value column="Description" original="Manage Bank Transfer">Spravuj Převod Bank</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="200107" trl="N">
+  <value column="Name" original="All User Roles">Všichni Role</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200108" trl="N">
+  <value column="Name" original="All Roles">Všichni Role</value>
+  <value column="Description" original="Roles from All Tenants">Role Všech Mand.</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="200109" trl="N">
+  <value column="Name" original="User Queries">Uživ. Dotazy</value>
+  <value column="Description" original="View and maintain saved queries">Zobrazit a spravovat uložené dotazy</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="200110" trl="N">
+  <value column="Name" original="Info Window Customization">Úprava informačního okna</value>
+  <value column="Description" original="Define Info Window Customization for Role/User">Definice přizpůsobení informačního okna pro roli/uživatele</value>
+  <value column="Help" original="The customization values defined here overwrite/replace the default system definition if defined.">Definované hodnoty úprav přepisují výchozí systémové definice, pokud jsou definovány.</value>
+ </row>
+ <row id="200111" trl="N">
+  <value column="Name" original="Menu user favourites">Menu oblíbenci uživ.</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200112" trl="N">
+  <value column="Name" original="Authorization Provider">Ověřovatel oprávnění</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200113" trl="N">
+  <value column="Name" original="Authorization Credential">Ověřovací údaj</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200114" trl="N">
+  <value column="Name" original="MFA Method">MFA Metoda</value>
+  <value column="Description" original="Multi-factor Authentication Method">MFA Metoda Ověř.</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="200115" trl="N">
+  <value column="Name" original="MFA Registered Device">MFA Reg. Zařízení</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200116" trl="N">
+  <value column="Name" original="MFA Registration">MFA Registrace</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200117" trl="N">
+  <value column="Name" original="MFA Rule">MFA Pravidlo</value>
+  <value column="Description" original="Multi-factor Authentication Rule">MFA Pravidlo</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="200118" trl="N">
+  <value column="Name" original="SMTP Server">SMTP Server</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200119" trl="N">
+  <value column="Name" original="Customization of the Wlistbox">Přizpůsobení Wlistboxu</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200120" trl="N">
+  <value column="Name" original="Tenant level messages">Zprávy mandanta</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200123" trl="N">
+  <value column="Name" original="Drill Rule">Pravidlo drilu</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200128" trl="N">
+  <value column="Name" original="Label Category">Kategorie štítku</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200129" trl="N">
+  <value column="Name" original="Label">Štítek</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200130" trl="N">
+  <value column="Name" original="Label Assignment">Přiřazení štítku </value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200137" trl="N">
+  <value column="Name" original="Verify Migration">Ověřit Migraci</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+</idempiereTrl>

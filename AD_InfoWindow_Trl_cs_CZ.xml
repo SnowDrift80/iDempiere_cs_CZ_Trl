@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 10_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community-->
+<!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="cs_CZ" table="AD_InfoWindow">
+ <row id="200000" trl="N">
+  <value column="Name" original="Product Info">Produktové informace</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200001" trl="N">
+  <value column="Name" original="Business Partner Info">Informace o obchodním partnerovi</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200002" trl="N">
+  <value column="Name" original="Order Info">Objednávka Info</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200003" trl="N">
+  <value column="Name" original="Invoice Info">Fakturační informace</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200004" trl="N">
+  <value column="Name" original="Shipment Info">Dodací informace</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200005" trl="N">
+  <value column="Name" original="Payment Info">Platební informace</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200006" trl="N">
+  <value column="Name" original="Resource Info">Informace o zdrojích</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200007" trl="N">
+  <value column="Name" original="Asset Info">Info o majetku</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200008" trl="N">
+  <value column="Name" original="Generate Shipments (manual)">Vytvořit dodávky (ručně)</value>
+  <value column="Description" original="Select and generate shipments">Vybrat a vytvořit dodávky</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="200011" trl="N">
+  <value column="Name" original="Generate Invoices (manual)">Vytvořit faktury (ručně)</value>
+  <value column="Description" original="Select and generate invoices">Vybrat a vytvořit faktury</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="200013" trl="N">
+  <value column="Name" original="Role (All)">Role (Všechny)</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200014" trl="N">
+  <value column="Name" original="Support Users vs Roles">Podpora uživatelů vs Role</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200019" trl="N">
+  <value column="Name" original="Period Control Management">Řízení období kontroly</value>
+  <value column="Description" original="Management of Calendars, Years and Periods">Řízení kalendářů, let a období</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="200022" trl="N">
+  <value column="Name" original="Create lines from Shipment/Receipt">Vytvořit řádky z dodávky/příjmu</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200023" trl="N">
+  <value column="Name" original="Create lines from RMA">Vytvořit řádky z RMA</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200024" trl="N">
+  <value column="Name" original="Create lines from Invoice">Vytvořit řádky z faktury</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+</idempiereTrl>

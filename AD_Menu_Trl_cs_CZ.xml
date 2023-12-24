@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 10_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community-->
+<!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="cs_CZ" table="AD_Menu">
+ <row id="100" trl="N">
+  <value column="Name" original="Invoice Inquiry">Faktura Dotaz</value>
+  <value column="Description" original="" />
+ </row>
+ <row id="153" trl="N">
+  <value column="Name" original="Application Dictionary">Aplikace Slovník</value>
+  <value column="Description" original="Maintain Application Dictionary">Udržovat Aplikace Slovník</value>
+ </row>
+ <row id="155" trl="N">
+  <value column="Name" original="General Rules">Obecná Pravidla</value>
+  <value column="Description" original="" />
+ </row>
+ <row id="156" trl="N">
+  <value column="Name" original="Tenant Rules">Mandant Pravidla</value>
+  <value column="Description" original="Maintain Tenant Rules">Udržovat Mandant Pravidla</value>
+ </row>
+ <row id="157" trl="N">
+  <value column="Name" original="Data">Data</value>
+  <value column="Description" original="Maintain Data">Udržovat Data</value>
+ </row>
+ <row id="158" trl="N">
+  <value column="Name" original="Performance Measurement">Výkon Měření</value>
+  <value column="Description" original="" />
+ </row>
+ <row id="159" trl="N">
+  <value column="Name" original="Utility">Nástroj</value>
+  <value column="Description" original="" />
+ </row>
+ <row id="160" trl="N">
+  <value column="Name" original="Project Management">Projekt Řízení</value>
+  <value column="Description" original="" />
+ </row>
+ <row id="161" trl="N">
+  <value column="Name" original="System Rules">Systém Pravidla</value>
+  <value column="Description" original="General System Rules">Obecná Systém Pravidla</value>
+ </row>
+ <row id="163" trl="N">
+  <value column="Name" original="Data Import">Import Dat</value>
+  <value column="Description" original="" />
+ </row>
+ <row id="164" trl="N">
+  <value column="Name" original="Accounting Rules">Účetní Pravidla</value>
+  <value column="Description" original="" />
+ </row>
+ <row id="165" trl="N">
+  <value column="Name" original="Business Partner Rules">Obchodní Partner Pravidla</value>
+  <value column="Description" original="" />
+ </row>
+ <row id="166" trl="N">
+  <value column="Name" original="Quote-to-Invoice">Nabídka-Faktura</value>
+  <value column="Description" original="" />
+ </row>
+ <row id="167" trl="N">
+  <value column="Name" original="Material Management Rules">Materiál Pravidla</value>
+  <value column="Description" original="" />
+ </row>
+ <row id="175" trl="N">
+  <value column="Name" original="Organization Rules">Organizace Pravidla</value>
+  <value column="Description" original="" />
+ </row>
+ <row id="183" trl="N">
+  <value column="Name" original="Material Management">Materiál Řízení</value>
+  <value column="Description" original="" />
+ </row>
+ <row id="203" trl="N">
+  <value column="Name" original="Requisition-to-Invoice">Žádost-Faktura</value>
+  <value column="Description" original="" />
+ </row>
+ <row id="218" trl="N">
+  <value column="Name" original="System Admin">Systém Admin</value>
+  <value column="Description" original="" />
+ </row>
+ <row id="236" trl="N">
+  <value column="Name" original="Open Items">Otevřené položky</value>
+  <value column="Description" original="" />
+ </row>
+ <row id="263" trl="N">
+  <value column="Name" original="Partner Relations">Partner Vztahy</value>
+  <value column="Description" original="Customer Relations and Partner Management">Zákaznické Vztahy a Partner Řízení</value>
+ </row>
+ <row id="271" trl="N">
+  <value column="Name" original="Service">Služba</value>
+  <value column="Description" original="Service Management">Služba Řízení</value>
+ </row>
+ <row id="272" trl="N">
+  <value column="Name" original="Sales and Marketing">Prodej a Marketing</value>
+  <value column="Description" original="" />
+ </row>
+ <row id="278" trl="N">
+  <value column="Name" original="Performance Analysis">Výkon Analýza</value>
+  <value column="Description" original="" />
+ </row>
+ <row id="280" trl="N">
+  <value column="Name" original="Financial Reporting">Finanční Výkazy</value>
+  <value column="Description" original="" />
+ </row>
+ <row id="326" trl="N">
+  <value column="Name" original="Printing">Tisk</value>
+  <value column="Description" original="Print Definition">Tisk Definice</value>
+ </row>
+ <row id="345" trl="N">
+  <value column="Name" original="Assets">Aktiva</value>
+  <value column="Description" original="" />
+ </row>
+ <row id="357" trl="N">
+  <value column="Name" original="Product Attributes">Produkt Atributy</value>
+  <value column="Description" original="" />
+ </row>
+ <row id="367" trl="N">
+  <value column="Name" original="Security">Bezpečnost</value>
+  <value column="Description" original="" />
+ </row>
+ <row id="456" trl="N">
+  <value column="Name" original="Server">Server</value>
+  <value column="Description" original="iDempiere Server Maintenance">iDempiere Server Údržba</value>
+ </row>
+ <row id="457" trl="N">
+  <value column="Name" original="Sales Orders">Prodej Objednávky</value>
+  <value column="Description" original="" />
+ </row>
+ <row id="458" trl="N">
+  <value column="Name" original="Sales Invoices">Prodej Faktury</value>
+  <value column="Description" original="" />
+ </row>
+ <row id="459" trl="N">
+  <value column="Name" original="Shipments">Dodávky</value>
+  <value column="Description" original="" />
+ </row>
+ <row id="501" trl="N">
+  <value column="Name" original="Workflow">Pracovní postup</value>
+  <value column="Description" original="iDempiere Workflow">Pracovní postup iDempiere</value>
+ </row>
+ <row id="522" trl="N">
+  <value column="Name" original="Costing">Náklady</value>
+  <value column="Description" original="" />
+ </row>
+ <row id="528" trl="N">
+  <value column="Name" original="Request">Žádost</value>
+  <value column="Description" original="" />
+ </row>
+ <row id="566" trl="N">
+  <value column="Name" original="Collaboration">Spolupráce</value>
+  <value column="Description" original="Collaboration and Content Management">Spolupráce a Správa Obsahu</value>
+ </row>
+ <row id="50001" trl="N">
+  <value column="Name" original="Application Packaging">Aplikace Balení</value>
+  <value column="Description" original="Import and export packaging">Import a export balení</value>
+ </row>
+ <row id="53098" trl="N">
+  <value column="Name" original="Replication Data">Replikace Data</value>
+  <value column="Description" original="" />
+ </row>
+ <row id="53133" trl="N">
+  <value column="Name" original="Customer Service">Zákaznický servis</value>
+  <value column="Description" original="Customer Related Assets">Zákazník Aktiva</value>
+ </row>
+ <row id="53139" trl="N">
+  <value column="Name" original="Asset Transactions ">Aktivní transakce</value>
+  <value column="Description" original="Asset Transactions (Addition, Disposal, Split &amp; Transfer)" xml:space="preserve">Aktivní transakce (Přidání, Likvidace, Rozdělení &amp; Převod)</value>
+ </row>
+ <row id="53149" trl="N">
+  <value column="Name" original="Depreciation Processing">Depreciace zpracování</value>
+  <value column="Description" original="Applications to Process Fixed Assets to the GL">Aplikace pro zpracování aktiv do GL</value>
+ </row>
+ <row id="53155" trl="N">
+  <value column="Name" original="Reporting">Výkazy</value>
+  <value column="Description" original="Reporting for fixed assets">Výkazy pro aktivní majetek</value>
+ </row>
+ <row id="53171" trl="N">
+  <value column="Name" original="Depreciation Setup">Nastavení odpisů</value>
+  <value column="Description" original="Applications to setup and maintain depreciation">Aplikace pro nastavení a údržbu odpisů</value>
+ </row>
+ <row id="53242" trl="N">
+  <value column="Name" original="Returns">Vráceno</value>
+  <value column="Description" original="" />
+ </row>
+ <row id="53247" trl="N">
+  <value column="Name" original="EDI">EDI</value>
+  <value column="Description" original="" />
+ </row>
+ <row id="53296" trl="N">
+  <value column="Name" original="Manufacturing">Výroba</value>
+  <value column="Description" original="" />
+ </row>
+ <row id="53363" trl="N">
+  <value column="Name" original="Sales Management">Řízení prodeje</value>
+  <value column="Description" original="" />
+ </row>
+ <row id="200095" trl="N">
+  <value column="Name" original="Import Template">Šablona importu</value>
+  <value column="Description" original="" />
+ </row>
+ <row id="200178" trl="N">
+  <value column="Name" original="External Authorization">Externí autorizace</value>
+  <value column="Description" original="" />
+ </row>
+ <row id="200184" trl="N">
+  <value column="Name" original="Multi Factor Authentication">MFA</value>
+  <value column="Description" original="" />
+ </row>
+</idempiereTrl>

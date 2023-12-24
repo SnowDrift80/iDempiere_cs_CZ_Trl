@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 10_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community-->
+<!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="cs_CZ" table="AD_Form">
+ <row id="100" trl="N">
+  <value column="Name" original="Generate Invoices (manual)">Vytvořit faktury (manuálně)</value>
+  <value column="Description" original="Select and generate invoices">Vybrat a vytvořit faktury</value>
+  <value column="Help" original="Generate Invoices from Orders.  &#10;Select the orders to generate the invoice for.">Vytvořit faktury z objednávek. Vyberte objednávky pro vytvoření faktury.</value>
+ </row>
+ <row id="101" trl="N">
+  <value column="Name" original="Import File Loader">Načíst soubor</value>
+  <value column="Description" original="Load flat Files into import tables">Načíst soubory do tabulek importu</value>
+  <value column="Help" original="The Import File Loader parses the content of a flat file and loads it into import tables. Comments start with a '[' and end with a ']' and are ignored; example: [Some Heading].">Načítání souboru načte obsah plochého souboru a načte jej do tabulek importu. Komentáře začínají '[' a končí ']' a jsou ignorovány; příklad: [Nějaký nadpis].</value>
+ </row>
+ <row id="103" trl="N">
+  <value column="Name" original="Material Transactions">Transakce materiálu</value>
+  <value column="Description" original="Material Transactions">Transakce materiálu</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="104" trl="N">
+  <value column="Name" original="Payment Allocation">Rozdělení platby</value>
+  <value column="Description" original="Allocate invoices and payments">Přiřadit faktury a platby</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="105" trl="N">
+  <value column="Name" original="Generate Charges">Vytvořit poplatky</value>
+  <value column="Description" original="Generate Charges from natural accounts">Vytvořit poplatky z přirozených účtů</value>
+  <value column="Help" original="Use the upper portion to create new charges using the general charge accounts.  Use the lower portion to create charges based on the natural account.">Použijte horní část pro vytvoření nových poplatků pomocí obecných účtů poplatků. Použijte dolní část pro vytvoření poplatků na základě přirozeného účtu.</value>
+ </row>
+ <row id="106" trl="N">
+  <value column="Name" original="Payment Print/Export">Tisk/Export platby</value>
+  <value column="Description" original="Print or export your payments">Tisk/Export platby</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="107" trl="N">
+  <value column="Name" original="Payment Selection (manual)">Výběr platby (manuální)</value>
+  <value column="Description" original="Manual Payment Selection">Ruční výběr platby</value>
+  <value column="Help" original="Select vendor invoices for payment. If you don't see an invoice, make sure that it is not included in a different (nprocessed) Payment Selection.">Vyberte faktury dodavatele pro platbu. Pokud nevidíte fakturu, ujistěte se, že není zahrnuta v jiném (nezpracovaném) výběru platby.</value>
+ </row>
+ <row id="108" trl="N">
+  <value column="Name" original="Matching PO-Receipt-Invoice">Shoda PO-Příjem-Faktura</value>
+  <value column="Description" original="Match Purchase Orders, Receipts, Vendor Invoices">Shoda PO, příjem, faktury dodavatele</value>
+  <value column="Help" original="Make sure that the Receipts and Invoices are processed. If you want to match partial shipment, make sure that &quot;Same Quantity&quot; is not selected.">Ujistěte se, že jsou zpracovány příjmy a faktury. Pokud chcete shodovat částečné zásilky, ujistěte se, že není vybráno "Stejné množství".</value>
+ </row>
+ <row id="111" trl="N">
+  <value column="Name" original="SQL Process">SQL Proces</value>
+  <value column="Description" original="Process SQL Statements">SQL Proces</value>
+  <value column="Help" original="Process SQL DDL Statements">SQL DDL Proces</value>
+ </row>
+ <row id="112" trl="N">
+  <value column="Name" original="Merge Entities">Sloučit subjekty</value>
+  <value column="Description" original="Merge From Entity to To Entity - Delete From">Sloučit z subjektu do subjektu - Smazat z</value>
+  <value column="Help" original="&lt;i&gt;Dangerous - Please are aware of what you are doing!&lt;/i&gt;&#10;All instances of the From entity (e.g. Customer A) are changed to the To entity (e.g. Customer B). &#10;The From entity (e.g. Customer A) is deleted. &#10;&lt;p&gt;&lt;b&gt;There is NO undo nor trace !  Please do a backup first&lt;/b&gt; Please be aware that you may be changing history records (e.g. invoices, etc.) ! &lt;/p&gt;&#10;&lt;p&gt;&lt;b&gt;Side effects:&lt;/b&gt; Merging Products are likely to distort product costs; Merging Business Partners may result in incorrect open item balance. Check with support on remedies.&lt;/p&gt;&#10;&lt;p&gt;&lt;b&gt;Restrictions:&lt;/b&gt; Accounting and Inventory conflicts are not resolved in this version.&lt;/p&gt;" xml:space="preserve">"Nebezpečné - Buďte si vědomi, co děláte!
+Všechny instance z subjektu (např. Zákazník A) jsou změněny na subjekt (např. Zákazník B).
+Subjekt (např. Zákazník A) je smazán.
+&lt;p&gt;&lt;b&gt;Neexistuje žádná možnost vrácení ani sledování! Nejprve zálohujte&lt;/b&gt; Buďte si vědomi, že můžete měnit historické záznamy (např. faktury, atd.)! &lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Vedlejší účinky:&lt;/b&gt; Sloučení produktů může zkreslit náklady na produkt; Sloučení obchodních partnerů může vést k nesprávnému zůstatkovému saldu. Konzultujte s podporou ohledně řešení.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Omezení:&lt;/b&gt; Konflikty v účetnictví a inventáři nejsou v této verzi vyřešeny.&lt;/p&gt;"</value>
+ </row>
+ <row id="113" trl="N">
+  <value column="Name" original="POS">POS</value>
+  <value column="Description" original="Point Of Sales Terminal">Kasa pro prodej</value>
+  <value column="Help" original="Enter Transactions via a POS Terminal.  Automatically, scans or credit card swipes are recongized.">Zadávejte transakce prostřednictvím kasy. Automaticky jsou rozpoznány skenování nebo přejetí kreditní kartou.</value>
+ </row>
+ <row id="114" trl="N">
+  <value column="Name" original="BOM Drop">Strom</value>
+  <value column="Description" original="Drop (expand) Bill of Materials">Rozbalit BOM</value>
+  <value column="Help" original="Drop the extended Bill of Materials into an Order, Invoice, etc.  The documents need to be in a Drafted stage.  Make sure that the items included in the BOM are on the price list of the Order, Invoice, etc. as otherwise the price will be zero!">Rozbalte rozšířený strom v objednávce, faktuře, atd. Dokumenty musí být ve stavu Návrh. Ujistěte se, že položky zahrnuté v BOM jsou na ceníku objednávky, faktury, atd., jinak bude cena nula!</value>
+ </row>
+ <row id="115" trl="N">
+  <value column="Name" original="Tree Maintenance">Strom údržba</value>
+  <value column="Description" original="Maintain Trees">Strom údržba</value>
+  <value column="Help" original="View and change trees. Maintain the entries in their specific Windows.">Zobrazit a změnit stromy. Udržujte záznamy ve svých specifických oknech.</value>
+ </row>
+ <row id="116" trl="N">
+  <value column="Name" original="Workflow Editor">, translated: Editor WF</value>
+  <value column="Description" original="Edit Workflows">Upravit WF</value>
+  <value column="Help" original="Edit the graphical layout of workflows">Upravit grafický layout WF</value>
+ </row>
+ <row id="117" trl="N">
+  <value column="Name" original="Workflow Activities">Aktivity WF</value>
+  <value column="Description" original="My active workflow activities">Moje akt. WF aktivity</value>
+  <value column="Help" original="View active worflow activities">Zobrazit akt. WF aktivity</value>
+ </row>
+ <row id="118" trl="N">
+  <value column="Name" original="Archive Viewer">Archivní prohlížeč</value>
+  <value column="Description" original="View automatically archived Documents">Zobrazit archivované Dokumenty</value>
+  <value column="Help" original="Depending on the Tenant Automatic Archive Level documents and reports are saved and available for view. In the Report Viewer you can manually archive Documents or Reports.  You can only view archives, if you have access to the original document.">V závislosti na úrovni automatického archivování mandanta jsou dokumenty a zprávy uloženy a k dispozici pro zobrazení. V prohlížeči zpráv můžete ručně archivovat dokumenty nebo zprávy. Archivy můžete zobrazit pouze v případě, že máte přístup k původnímu dokumentu.</value>
+ </row>
+ <row id="119" trl="N">
+  <value column="Name" original="Performance Indicators">Výkonnostní ukazatele</value>
+  <value column="Description" original="View Performance Indicators">Zobrazit Výk. ukazatele</value>
+  <value column="Help" original="View all Performance Indicators and Goals">Zobrazit Výk. ukazatele a cíle</value>
+ </row>
+ <row id="120" trl="N">
+  <value column="Name" original="Product Attribute Grid">Vlastnosti produktu</value>
+  <value column="Description" original="Maintain Products with Attributes in a Table Grid">Spravovat produkty s vlastnostmi v tabulce</value>
+  <value column="Help" original="Select one or two attributes if a Product Attribute and display/maintain products in a row or table grid.">Vyberte jednu nebo dvě vlastnosti, pokud jde o vlastnost produktu a zobrazte/spravujte produkty v řádku nebo tabulce.</value>
+ </row>
+ <row id="53001" trl="N">
+  <value column="Name" original="BOM &amp; Formula Info" xml:space="preserve">BOM a Formule Info</value>
+  <value column="Description" original="Shows in two different panels the parent-component relationship for the product entered in the Product field.">Zobrazuje v dvou různých panelych vztah mezi nadřazeným komponentem a zadaným produktem v poli Produkt.</value>
+  <value column="Help" original="The BOM &amp; Formula Review option menu shows in two different panels the parent-component relationship for the product entered in the Product field.&#10;&#10;You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.&#10;&#10;When you need to consult an implosion, click the implosion check box and enter the component you wish to consult and tick the Implosion check box.&#10;&#10;You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.&#10;&#10;The left panel shows the BOM hierarchies in a tree form. The right panel shows the information connected with the BOM for every product in it" xml:space="preserve">Možnost nabídky BOM a Formule zobrazuje v dvou různých panelych vztah mezi nadřazeným komponentem a zadaným produktem v poli Produkt.
+
+Musíte zadat nadřazený produkt, jehož komponenty chcete zobrazit, a poté kliknout na tlačítko OK, přetáhnout levý okraj panelu doprava a budete mít dva panely.
+
+Pokud potřebujete konzultovat implozi, zaškrtněte políčko imploze a zadejte komponent, který chcete konzultovat, a zaškrtněte políčko imploze.
+
+Musíte zadat nadřazený produkt, jehož komponenty chcete zobrazit, a poté kliknout na tlačítko OK, přetáhnout levý okraj panelu doprava a budete mít dva panely.
+
+Levý panel zobrazuje hierarchie BOM ve formě stromu. Pravý panel zobrazuje informace spojené s BOM pro každý produkt v něm.</value>
+ </row>
+ <row id="53002" trl="N">
+  <value column="Name" original="Product Configuration BOM">Konfigurace produktu BOM</value>
+  <value column="Description" original="This form let create a product configure with multy level using options and variants">Tento formulář umožňuje vytvořit konfiguraci produktu s více úrovněmi pomocí možností a variant.</value>
+  <value column="Help" original="A configurable Bill of Material (CBOM) is used by industries that have multiple options and highly configurable products.&#10;&#10;The CBOM is used to dynamically create &quot;end-items&quot; that a company sells. The benefit of using CBOM structure is it reduces the work-effort needed to maintain product structures. The configurable BOM is most frequently driven by &quot;configurator&quot; software, however it can be enabled manually (manual maintenance is infrequent because its unwieldy to manage the number of permutaions and combinations of possible configurations) The development of the CBOM is dependent on having a Modular BOM structure in place (see Modular BOM). The Modular BOM structure provides the assemblies/sub-systems that can be selected to &quot;configure&quot; an end-item.">Konfigurovatelný seznam materiálu (CBOM) se používá v průmyslu, který má více možností a vysoko konfigurovatelné produkty.
+
+CBOM se používá k dynamickému vytváření "koncových položek", které společnost prodává. Výhodou použití struktury CBOM je snížení úsilí potřebného k udržování struktur produktů. Konfigurovatelný BOM je nejčastěji řízen softwarovým "konfigurátorem", ale lze jej povolit i ručně (ruční údržba je nečastá, protože je obtížné spravovat počet permutací a kombinací možných konfigurací). Vývoj CBOM závisí na tom, že je k dispozici modulární struktura BOM (viz modulární BOM). Modulární struktura BOM poskytuje sestavy/pod-systémy, které lze vybrat pro "konfiguraci" koncové položky.</value>
+ </row>
+ <row id="53003" trl="N">
+  <value column="Name" original="MRP Info">MRP Info</value>
+  <value column="Description" original="Show the detail of MRP calculation">Zobrazit detail výpočtu MRP</value>
+  <value column="Help" original="Show the detail of MRP calculation">Zobrazit detail výpočtu MRP</value>
+ </row>
+ <row id="53004" trl="N">
+  <value column="Name" original="Planned Order Approval ">Schválení plánované objednávky</value>
+  <value column="Description" original="A planned manufacturing order is a manufacturing order suggested by the MRP process and contains its quantity and its release and promise dates.">Plánovaná výrobní objednávka je výrobní objednávka navržená procesem MRP a obsahuje její množství a termíny uvolnění a slibů.</value>
+  <value column="Help" original="A planned manufacturing order is a manufacturing order suggested by the MRP process and contains its quantity and its release and promise dates. when you approve a manufacturing planned order you convert it in a manufacturing order with the status of In Process.&#10;&#10;When you approve a planned order you are telling the system that the manufacturing order is ready to start its process with the approval you change the order status from Draft to In Process.">Plánovaná výrobní objednávka je výrobní objednávka navržená procesem MRP a obsahuje její množství a termíny uvolnění a slibů. Když schválíte plánovanou výrobní objednávku, převedete ji na výrobní objednávku se stavem V procesu.
+
+Když schválíte plánovanou objednávku, říkáte systému, že výrobní objednávka je připravena začít svůj proces. Schválením změníte stav objednávky z Návrhu na V procesu.</value>
+ </row>
+ <row id="53005" trl="N">
+  <value column="Name" original="CRP Info">CRP Info</value>
+  <value column="Description" original="It shows graphically of the required and available time for each manufacturing resource.">Graficky zobrazuje požadovaný a dostupný čas pro každý výrobní zdroj.</value>
+  <value column="Help" original="It shows graphically of the required and available time for each manufacturing resource.">Graficky zobrazuje požadovaný a dostupný čas pro každý výrobní zdroj.</value>
+ </row>
+ <row id="53006" trl="N">
+  <value column="Name" original="Resource Load View">Zdrojové zatížení</value>
+  <value column="Description" original="It shows graphically of the required and available time for each manufacturing resource.">Graficky zobrazuje požadovaný a dostupný čas pro každý výrobní zdroj.</value>
+  <value column="Help" original="It shows graphically of the required and available time for each manufacturing resource.">Graficky zobrazuje požadovaný a dostupný čas pro každý výrobní zdroj.</value>
+ </row>
+ <row id="53007" trl="N">
+  <value column="Name" original="Order Receipt &amp; Issue" xml:space="preserve">Příjem &amp; Vydání obj.</value>
+  <value column="Description" original="Order Receipt &amp; Issue" xml:space="preserve">Příjem &amp; Vydání obj.</value>
+  <value column="Help" original="The form shows at the upper side static information around the product and the manufacturing resource where it has to be made, it also shows a summary of the quantities to be controlled in the MO such as the Original and delivered quantities and the Quantity to deliver for the MO up to date.&#10;&#10;If the production process requires production in batch, then the Qty Batchs shows the Number of batches the shop floor needs to do and the Qty Batch Size contains the size of every batch to be produced.&#10;&#10;&#10;If you want to issue the MO components before you receive the finished product you should tick the checkbox Is Delivery, this case is recommended when you have a long to medium lead time and you want to have the inventory quantities as reliable as possible at every moment.&#10;&#10;If you have small lead time and you wish to save clerk time then you must tick Is Backflush checkbox and you will receive the finished product at the same time you issue automatically the components&#10;&#10;The Backflush Group field is used when you want to issue just components belonging to this group. (This characteristic could not be included in the current version).&#10;&#10;At the lower part of the window you can find the list of every MO component, this can be modified according with the real products and quantities given to the shop floor.&#10;&#10;The quantities to be issued are selected with the checkbox at the first column of the list of components. If the actual quantity is different from the standard quantity showed in the column Qty to deliver you should edit this field to enter the right quantity to be issued.&#10;&#10;Finally a message box asks if you want to close the OM document, you should click the ok button if this MO does not have any more transactions and has to be closed.&#10;&#10;">Formulář zobrazuje na horní straně statické informace o produktu a výrobním zdroji, kde má být vyroben, zároveň zobrazuje souhrn množství, které mají být kontrolovány v MO, jako jsou původní a dodaná množství a množství k dodání pro MO až do dnešního dne.
+
+Pokud výrobní proces vyžaduje výrobu v dávkách, pak pole Množství dávek zobrazuje počet dávek, které musí být provedeny na dílně, a pole Velikost dávky obsahuje velikost každé dávky, která má být vyrobena.
+
+Pokud chcete vydávat komponenty MO před přijetím hotového produktu, zaškrtněte políčko Je dodávka, toto je doporučeno v případě, že máte dlouhý až střední dodací termín a chcete mít množství na skladě co nejspolehlivější v každém okamžiku.
+
+Pokud máte krátký dodací termín a chcete ušetřit čas úředníka, musíte zaškrtnout políčko Je automatické vydání a hotový produkt obdržíte současně s automatickým vydáním komponent.
+
+Pole Skupina pro automatické vydání se používá, pokud chcete vydávat pouze komponenty patřící do této skupiny. (Tato vlastnost nemohla být zahrnuta do současné verze).
+
+V dolní části okna naleznete seznam každé komponenty MO, který lze upravit podle skutečných produktů a množství poskytnutých na dílnu.
+
+Množství k vydání jsou vybrána zaškrtnutím políčka v prvním sloupci seznamu komponent. Pokud se skutečné množství liší od standardního množství zobrazeného v sloupci Množství k dodání, měli byste upravit toto pole a zadat správné množství k vydání.
+
+Nakonec se zobrazí okno s dotazem, zda chcete uzavřít dokument MO, pokud tento MO nemá žádné další transakce a má být uzavřen.</value>
+ </row>
+ <row id="53008" trl="N">
+  <value column="Name" original="Generate Movement Manual">Vytvořit pohyb ručně</value>
+  <value column="Description" original="Generate Movement to a Order Distribution">Vytvořit pohyb pro distribuci objednávky</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="53009" trl="N">
+  <value column="Name" original="Payroll Action Notice">Oznámení o platbě</value>
+  <value column="Description" original="Payroll Action Notice let entry the events that happend with any Employee">Oznámení o platbě umožňuje zadat události, které se staly s jakýmkoli zaměstnancem.</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="53012" trl="N">
+  <value column="Name" original="Material Receipt Distribution Order">Příjem materiálu - distribuční obj.</value>
+  <value column="Description" original="Material Receipt Distribution Order">Příjem materiálu - distribuční obj.</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="53013" trl="N">
+  <value column="Name" original="Manufacturing Workflow Editor">Výrobní editor toku</value>
+  <value column="Description" original="Edit Manufacturing Workflows">Upravit výrobní toky</value>
+  <value column="Help" original="Edit the graphical layout of manufacturing workflows">Upravit grafický layout výrobních toků</value>
+ </row>
+ <row id="53016" trl="N">
+  <value column="Name" original="Accounting Fact Reconciliation (manual)">Účetní výkaz - ruční vyrovnání</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="53017" trl="N">
+  <value column="Name" original="BOM Viewer">Stromový pohled</value>
+  <value column="Description" original="Shows the parent-component relationship for the product entered in the Product field.">Zobrazuje vztah mezi nadřazeným a podřazeným komponentem pro produkt zadaný v poli Produkt.</value>
+  <value column="Help" original="Selecting a product will display a hierarchy of components and sub-BOMs for that product.&#10;&#10;Selecting the &quot;Where Used&quot; check box will display the BOMs that this product is used in.">"Výběrem produktu se zobrazí hierarchie komponent a pod-BOMů pro tento produkt.
+
+Zaškrtnutím políčka "Kde použito" se zobrazí BOMy, ve kterých je tento produkt použit."</value>
+ </row>
+ <row id="200000" trl="N">
+  <value column="Name" original="Setup Wizard">Nastavení průvodce</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200001" trl="N">
+  <value column="Name" original="Reset Password">Obnovit heslo</value>
+  <value column="Description" original="Reset Password">Obnovit heslo</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="200002" trl="N">
+  <value column="Name" original="Report Wizard">Průvodce</value>
+  <value column="Description" original="Report Wizard">Průvodce</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="200005" trl="N">
+  <value column="Name" original="Tab Editor">Editor záložek</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200006" trl="N">
+  <value column="Name" original="Bank Statement Create From Batch">Vytvořit výpis z banky z dávky</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200008" trl="N">
+  <value column="Name" original="Captured Process Parameter">Zachycený parametr procesu</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200009" trl="N">
+  <value column="Name" original="Compare Field Suggestion">Srovnání pole</value>
+  <value column="Description" original="Review field changes for label, descriptipn and help">Zkontroluj změny pole pro popisek, popis a nápovědu</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="200010" trl="N">
+  <value column="Name" original="Compare Context Help Suggestion">Srovnání nápovědy kontextu</value>
+  <value column="Description" original="Review changes for context help">Zkontroluj změny nápovědy kontextu</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="200011" trl="N">
+  <value column="Name" original="idempiereMonitor">idempiereMonitor</value>
+  <value column="Description" original="Form to configure access to /idempiereMonitor - do not add to menu">Formulář pro konfiguraci přístupu k /idempiereMonitor - nezařazovat do menu</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="200012" trl="N">
+  <value column="Name" original="Apache Felix Web Console">Apache Felix Web Console</value>
+  <value column="Description" original="Form to configure access to /osgi/system/console - do not add to menu">Formulář pro konfiguraci přístupu k /osgi/system/console - nezařazovat do menu</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="200015" trl="N">
+  <value column="Name" original="Plugin Manager">Správce pluginů</value>
+  <value column="Description" original="Plugin Manager">Správce pluginů</value>
+  <value column="Help" original="Plugin Manager">Správce pluginů</value>
+ </row>
+ <row id="200016" trl="N">
+  <value column="Name" original="Add Authorization Mail Account">Přidat autorizační e-mail</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200017" trl="N">
+  <value column="Name" original="Register MFA">Registruj MFA</value>
+  <value column="Description" original="Register a multi-factor authentication mechanism">Registrovat MFA mechanismus</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="200018" trl="N">
+  <value column="Name" original="SQL Query">SQL Dotaz</value>
+  <value column="Description" original="Process SQL Queries">SQL Dotazy</value>
+  <value column="Help" original="Process SQL Queries">SQL Dotazy</value>
+ </row>
+</idempiereTrl>

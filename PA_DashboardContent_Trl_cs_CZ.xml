@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 10_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community-->
+<!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="cs_CZ" table="PA_DashboardContent">
+ <row id="50001" trl="N">
+  <value column="Name" original="Favourites">Oblíbené</value>
+  <value column="Description" original="User favourities">Uživatelské oblíbené</value>
+  <value column="HTML" original="" />
+ </row>
+ <row id="50002" trl="N">
+  <value column="Name" original="Views">Pohledy</value>
+  <value column="Description" original="Info views">Info pohledy</value>
+  <value column="HTML" original="" />
+ </row>
+ <row id="50003" trl="N">
+  <value column="Name" original="Performance">Výkon</value>
+  <value column="Description" original="Performance meters">Výkonnostní metry</value>
+  <value column="HTML" original="" />
+ </row>
+ <row id="200000" trl="N">
+  <value column="Name" original="Recent Items">Nedávné položky</value>
+  <value column="Description" original="Recent items">Nedávné položky</value>
+  <value column="HTML" original="" />
+ </row>
+ <row id="200002" trl="N">
+  <value column="Name" original="Running Jobs">Běžící úkoly</value>
+  <value column="Description" original="Running Jobs">Běžící úkoly</value>
+  <value column="HTML" original="" />
+ </row>
+ <row id="200003" trl="N">
+  <value column="Name" original="Activities">Aktivity</value>
+  <value column="Description" original="" />
+  <value column="HTML" original="" />
+ </row>
+ <row id="200005" trl="N">
+  <value column="Name" original="Donate">Darovat</value>
+  <value column="Description" original="" />
+  <value column="HTML" original="&lt;iframe src=&quot;https://www.idempiere.org/short-donate/&quot; style=&quot;border-top-width: 0px;border-bottom-width: 0px;border-right-width: 0px;border-left-width: 0px;width: 100%;height: 450px;&quot;&gt;&lt;/iframe&gt;" xml:space="preserve">&lt;iframe src="https://www.idempiere.org/kratky-darovat/" style="border-top-width: 0px;border-bottom-width: 0px;border-right-width: 0px;border-left-width: 0px;width: 100%;height: 450px;"&gt;&lt;/iframe&gt;</value>
+ </row>
+</idempiereTrl>

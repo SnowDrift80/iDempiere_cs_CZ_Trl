@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 10_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community-->
+<!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="cs_CZ" table="AD_Task">
+ <row id="102" trl="N">
+  <value column="Name" original="Java Version">Verze Java</value>
+  <value column="Description" original="Displays the version of the default Java VM">Zobrazuje verzi výchozího Java VM</value>
+  <value column="Help" original="The java version used by the application might be different.">Verze Java používaná aplikací se může lišit.</value>
+ </row>
+ <row id="103" trl="N">
+  <value column="Name" original="Database export">Export databáze</value>
+  <value column="Description" original="Export (save) the database">Exportovat (uložit) databázi</value>
+  <value column="Help" original="Run this command from the server">Spusťte tento příkaz ze serveru</value>
+ </row>
+ <row id="104" trl="N">
+  <value column="Name" original="Database transfer">Přenos databáze</value>
+  <value column="Description" original="Transfer the database">Přenést databázi</value>
+  <value column="Help" original="Run this command from the server">Spusťte tento příkaz ze serveru</value>
+ </row>
+</idempiereTrl>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 10_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community-->
+<!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="cs_CZ" table="C_UOM">
+ <row id="100" trl="N">
+  <value column="Name" original="Each">Každý</value>
+  <value column="Description" original="" />
+  <value column="UOMSymbol" original="Ea ">Každý</value>
+ </row>
+ <row id="101" trl="N">
+  <value column="Name" original="Hour">Hodina</value>
+  <value column="Description" original="" />
+  <value column="UOMSymbol" original="h  ">hod.</value>
+ </row>
+ <row id="102" trl="N">
+  <value column="Name" original="Day">Den</value>
+  <value column="Description" original="" />
+  <value column="UOMSymbol" original="d  ">mandant</value>
+ </row>
+ <row id="103" trl="N">
+  <value column="Name" original="Minutes">Minuty</value>
+  <value column="Description" original="(lowest unit for resorce assigments)">nejnižší jednotka pro přiřazení zdrojů</value>
+  <value column="UOMSymbol" original="m  ">mandant</value>
+ </row>
+ <row id="104" trl="N">
+  <value column="Name" original="Work Day">Pracovní den</value>
+  <value column="Description" original="8 hour">8 hodin</value>
+  <value column="UOMSymbol" original="D  ">D</value>
+ </row>
+ <row id="105" trl="N">
+  <value column="Name" original="Week">Týden</value>
+  <value column="Description" original="" />
+  <value column="UOMSymbol" original="w  ">t</value>
+ </row>
+ <row id="106" trl="N">
+  <value column="Name" original="Month">Měsíc</value>
+  <value column="Description" original="30 days">30 dní</value>
+  <value column="UOMSymbol" original="m  ">mandant</value>
+ </row>
+ <row id="107" trl="N">
+  <value column="Name" original="Working Month">Pracovní měsíc</value>
+  <value column="Description" original="20 days">20 dní</value>
+  <value column="UOMSymbol" original="M  ">M</value>
+ </row>
+ <row id="108" trl="N">
+  <value column="Name" original="Year">Rok</value>
+  <value column="Description" original="" />
+  <value column="UOMSymbol" original="y  ">r</value>
+ </row>
+</idempiereTrl>

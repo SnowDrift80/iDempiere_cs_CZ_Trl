@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 10_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community-->
+<!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="cs_CZ" table="AD_Workflow">
+ <row id="101" trl="N">
+  <value column="Name" original="Project Setup and Use">Nastavení projektu</value>
+  <value column="Description" original="Setup of projects and project reporting">Nastavení projektů a reportování projektů</value>
+  <value column="Help" original="Projects allow to monitor the status and progress of sales opportunities, service projects and investment projects. A Project is a process that is undertaken which can involve multiple steps or phases and require resources from more than one area.">Projekty umožňují sledovat stav a pokrok prodejních příležitostí, servisních projektů a investičních projektů. Projekt je proces, který se podniká a může zahrnovat více kroků nebo fází a vyžadovat zdroje z více oblastí.</value>
+ </row>
+ <row id="103" trl="N">
+  <value column="Name" original="Language Setup">Nastavení jazyka</value>
+  <value column="Description" original="Setup a new Language of the system and translate elements">Nastavit nový jazyk systému a přeložit prvky</value>
+  <value column="Help" original="Define a new language as a system language.">Definovat nový jazyk jako systémový jazyk.</value>
+ </row>
+ <row id="104" trl="N">
+  <value column="Name" original="Initial Tenant Setup Review">Přezkum nastavení mandanta</value>
+  <value column="Description" original="Review of system level setup of a new  Tenant">Přezkum nastavení nového mandanta</value>
+  <value column="Help" original="This workflow reviews the system setup of a new tenant as performed by the automatic Initial Tenant Setup.&#10;You may want to check also the following Workflows:&#10;- Accounting Setup&#10;- Business Partner Setup&#10;- Product Setup&#10;- Price list Setup&#10;- Warehouse Setup&#10;- Tax Setup">Tento postup přezkoumává nastavení systému nového mandanta, které provede automatické přezkoumání počátečního nastavení mandanta.
+Můžete také zkontrolovat následující postupy:
+- Nastavení účetnictví
+- Nastavení obchodního partnera
+- Nastavení produktu
+- Nastavení ceníku
+- Nastavení skladu
+- Nastavení daně</value>
+ </row>
+ <row id="105" trl="N">
+  <value column="Name" original="Accounting Setup">Nastavení účetnictví</value>
+  <value column="Description" original="Review and change Accounting Setup">Přezkoumání a změna nastavení účetnictví</value>
+  <value column="Help" original="This workflow allows you to review and change your Accounting Rules. ">Tento postup umožňuje přezkoumat a změnit vaše účetní pravidla.</value>
+ </row>
+ <row id="106" trl="N">
+  <value column="Name" original="Business Partner Setup">Nastavení obch. partnera</value>
+  <value column="Description" original="Setup Business Partner Rules">Nastavení pravidel obch. partnera</value>
+  <value column="Help" original="This workflow defines the Business Partners and the supporting rules.">Tento postup definuje obchodní partnery a příslušná pravidla.</value>
+ </row>
+ <row id="107" trl="N">
+  <value column="Name" original="Product Setup">Nastavení produktu</value>
+  <value column="Description" original="Set up Products">Nastav. produktů</value>
+  <value column="Help" original="Define your products manually. You should verify the settings especially if you import your products.">Definujte své produkty ručně. Měli byste ověřit nastavení, zejména pokud importujete své produkty.</value>
+ </row>
+ <row id="108" trl="N">
+  <value column="Name" original="Price List Setup">Nastavení ceníku</value>
+  <value column="Description" original="Define your Price Lists and Discounts">Nastavte ceníky a slevy</value>
+  <value column="Help" original="You define your price lists after entering or importing your products. In addition to price lists, you can define discounts for business partners.  Assign specific Price Lists and Discounst to Business Partners.">Definujete své ceníky po zadání nebo importu produktů. Kromě ceníků můžete definovat slevy pro obchodní partnery. Přiřaďte konkrétní ceníky a slevy k obchodním partnerům.</value>
+ </row>
+ <row id="110" trl="N">
+  <value column="Name" original="Tax Setup">Daňové nastavení</value>
+  <value column="Description" original="Setup tax calculation">Nastavení výpočtu daně</value>
+  <value column="Help" original="Setup the tax calculation for products, services and charges">Nastavte výpočet daně pro produkty, služby a poplatky</value>
+ </row>
+ <row id="111" trl="N">
+  <value column="Name" original="Sales Setup">Nastavení prodeje</value>
+  <value column="Description" original="Setup Sales">Nastavení prodeje</value>
+  <value column="Help" original="Setting up Sales Representatives, Commissions as well as Marketing Channels and Campaigns.">Nastavení prodejních zástupců, provizí, marketingových kanálů a kampaní.</value>
+ </row>
+ <row id="112" trl="N">
+  <value column="Name" original="Performance Measurement Setup">Nastavení měření výkonu</value>
+  <value column="Description" original="Setup your Performance Measurement">Nastavte měření výkonu</value>
+  <value column="Help" original="This workflow guides you through setting up your performance measurement based on Key Performance Indicators, Balanced Scorecard, etc.&#10;&#10;Most important: Do your analysis first!&#10;- What are your goals and how do you measure it?&#10;&#10;When you are setting up the system, you do it in reverse:&#10;First you define how you measure it and last you define the goals for the measurements.&#10;You have three ways measuring performance:&#10;- via quantifiable measures (e.g. sales of $3 million in Q1)&#10;- via manual measures&#10;- via achievements (tasks)&#10;&#10;The system converts the measures into percentages (based on the target and achieved measure - or number of total and reached achievements)">Tento postup vás provede nastavením měření výkonu založeného na klíčových ukazatelích výkonu, vyváženém skóre, atd.
+
+Nejdůležitější: Nejprve proveďte analýzu!
+- Jaké jsou vaše cíle a jak je měříte?
+
+Při nastavování systému to děláte obráceně:
+Nejprve definujete, jak je měříte, a nakonec stanovíte cíle pro měření.
+Máte tři způsoby měření výkonu:
+- prostřednictvím kvantifikovatelných ukazatelů (např. prodej 3 milionů dolarů v 1. čtvrtletí)
+- prostřednictvím manuálních ukazatelů
+- prostřednictvím dosažených úspěchů (úkolů)
+
+Systém převádí ukazatele na procenta (na základě cílového a dosaženého ukazatele - nebo počtu celkových a dosažených úspěchů).</value>
+ </row>
+ <row id="113" trl="N">
+  <value column="Name" original="Request Setup">Nastavení žádosti</value>
+  <value column="Description" original="Set up the tenant to process requests">Nastavte mandant pro zpracování žádostí</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="115" trl="N">
+  <value column="Name" original="Process_Requisition">Process_Requisition</value>
+  <value column="Description" original="(Standard Process_Requisition)">(Standardní Process_Requisition)</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="116" trl="N">
+  <value column="Name" original="Process_Order">Process_Order</value>
+  <value column="Description" original="(Standard Process Order)">(Standardní Proces Objednávky)</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="117" trl="N">
+  <value column="Name" original="Process_Shipment">Process_Shipment</value>
+  <value column="Description" original="(Standard Process Shipment)">(Standardní Proces Dodávky)</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="118" trl="N">
+  <value column="Name" original="Process_Invoice">Process_Invoice</value>
+  <value column="Description" original="(Standard Process Invoice)">(Standardní Proces Faktury)</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="120" trl="N">
+  <value column="Name" original="Process_Payment">Process_Payment</value>
+  <value column="Description" original="(Standard Process Payment)">(Standardní Proces Platby)</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="121" trl="N">
+  <value column="Name" original="Process_Journal">Process_Journal</value>
+  <value column="Description" original="(Standard Process Journal)">(Standardní Proces Zápisníku)</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="122" trl="N">
+  <value column="Name" original="Process_JournalBatch">Process_JournalBatch</value>
+  <value column="Description" original="(Standard Process Jornal Batch)">(Standardní Proces Zápisníku Batch)</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="123" trl="N">
+  <value column="Name" original="Process_RMA">Process_RMA</value>
+  <value column="Description" original="(Standard Process_RMA)">(Standardní Process_RMA)</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="124" trl="N">
+  <value column="Name" original="Process_InOutConfirm">Process_InOutConfirm</value>
+  <value column="Description" original="(Standard Process Confirmation)">(Standardní Proces Potvrzení)</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="125" trl="N">
+  <value column="Name" original="Process_Allocation">Process_Allocation</value>
+  <value column="Description" original="(Standard Process Allocation)">(Standardní Proces Přiřazení)</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="126" trl="N">
+  <value column="Name" original="Process_TimeExpense">Process_TimeExpense</value>
+  <value column="Description" original="(Standard Process Time Expense)">(Standardní Proces Čas Výdaje)</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="127" trl="N">
+  <value column="Name" original="Process_Inventory">Process_Inventory</value>
+  <value column="Description" original="(Standard Process Inventory)">(Standardní Proces Inventáře)</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="128" trl="N">
+  <value column="Name" original="Process_Movement">Process_Movement</value>
+  <value column="Description" original="(Standard Process Movement)">(Standardní Proces Pohyb)</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="129" trl="N">
+  <value column="Name" original="Process_MovementConfirm">Process_MovementConfirm</value>
+  <value column="Description" original="(Standard Process Movement Confirmation)">(Standardní Proces Potvrzení Pohybu)</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="130" trl="N">
+  <value column="Name" original="Process_BankStatement">Process_BankStatement</value>
+  <value column="Description" original="(Standard Process Bank Statement)">(Standardní Proces Bankovní Výpis)</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="50012" trl="N">
+  <value column="Name" original="Setup Replication">Nastavit Replikaci</value>
+  <value column="Description" original="Setup of data replication">Nastavit replikace dat</value>
+  <value column="Help" original="Data Replication allows you to synchronize data of remote instances with a central office.  All actions are initialized from the central office.&lt;p&gt;&#10;&lt;b&gt;Central System:&lt;/b&gt;&lt;br&gt;&#10;- setup system with all organizations, roles, etc.&lt;br&gt;&#10;- run the migration to make sure that it is up-to-date&lt;br&gt;&#10;- export the central system&lt;br&gt;&#10;&lt;p&gt;&#10;&lt;b&gt;Remote System:&lt;/b&gt;&#10;- install the exact version as Central System&lt;br&gt;&#10;- import data from Central System in the remote locations&lt;br&gt;&#10;&lt;p&gt;&#10;&lt;b&gt;Central System:&lt;/b&gt;&#10;- Replication Strategy&lt;br&gt;&#10;- Define Export Format&lt;br&gt;&#10;- Config Export Processor&lt;br&gt;&#10;- Start JMS Server&lt;br&gt;&#10;&lt;p&gt;&#10;** Enter Transactions **&#10;&lt;p&gt;&#10;&lt;b&gt;Remote System:&lt;/b&gt;&lt;br&gt;&#10;- Config Import Processor&lt;br&gt;" xml:space="preserve">"Replikace dat umožňuje synchronizaci dat vzdálených instancí s centrálním úřadem. Všechny akce jsou spuštěny z centrálního úřadu.&lt;p&gt;
+&lt;b&gt;Centrální systém:&lt;/b&gt;&lt;br&gt;
+- nastavit systém se všemi organizacemi, rolemi, atd.&lt;br&gt;
+- spustit migraci, aby byl systém aktuální&lt;br&gt;
+- exportovat centrální systém&lt;br&gt;
+&lt;p&gt;
+&lt;b&gt;Vzdálený systém:&lt;/b&gt;
+- nainstalovat přesnou verzi jako centrální systém&lt;br&gt;
+- importovat data z centrálního systému do vzdálených míst&lt;br&gt;
+&lt;p&gt;
+&lt;b&gt;Centrální systém:&lt;/b&gt;
+- Strategie replikace&lt;br&gt;
+- Definovat formát exportu&lt;br&gt;
+- Konfigurovat exportní procesor&lt;br&gt;
+- Spustit JMS server&lt;br&gt;
+&lt;p&gt;
+** Zadat transakce **
+&lt;p&gt;
+&lt;b&gt;Vzdálený systém:&lt;/b&gt;&lt;br&gt;
+- Konfigurovat importní procesor&lt;br&gt;"</value>
+ </row>
+ <row id="50020" trl="N">
+  <value column="Name" original="Process_Asset_Adition">Process_Asset_Adition</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="50021" trl="N">
+  <value column="Name" original="Process_Asset_Disposed">Process_Asset_Disposed</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="50022" trl="N">
+  <value column="Name" original="Process_Asset_Transfer">Process_Asset_Transfer</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="50023" trl="N">
+  <value column="Name" original="Process_Asset_Reval">Process_Asset_Reval</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="50024" trl="N">
+  <value column="Name" original="Process Asset Depreciation Entry">Proces odpisů majetku</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200002" trl="N">
+  <value column="Name" original="Process_Production">Process_Production</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+ <row id="200005" trl="N">
+  <value column="Name" original="Process_BankTransfer">Process_BankTransfer</value>
+  <value column="Description" original="(Standard Process_BankTransfer)">(Standardní Process_BankTransfer)</value>
+  <value column="Help" original="" />
+ </row>
+ <row id="200007" trl="N">
+  <value column="Name" original="Process_C_ProjectIssue">Process_C_ProjectIssue</value>
+  <value column="Description" original="" />
+  <value column="Help" original="" />
+ </row>
+</idempiereTrl>

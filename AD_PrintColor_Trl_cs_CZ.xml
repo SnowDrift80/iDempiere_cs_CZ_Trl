@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--iDempiere(r) Release 10_2022-12-24 -Smart Suite ERP, CRM and SCM- (c) 1999-2023 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community-->
+<!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="cs_CZ" table="AD_PrintColor">
+ <row id="100" trl="N">
+  <value column="Name" original="Black">translated: Černý</value>
+ </row>
+ <row id="102" trl="N">
+  <value column="Name" original="Red">Červený</value>
+ </row>
+ <row id="103" trl="N">
+  <value column="Name" original="Green">Zelený</value>
+ </row>
+ <row id="104" trl="N">
+  <value column="Name" original="Blue">Modrá</value>
+ </row>
+ <row id="105" trl="N">
+  <value column="Name" original="Gray dark">Šedá tmavá</value>
+ </row>
+ <row id="106" trl="N">
+  <value column="Name" original="Gray">Šedá</value>
+ </row>
+ <row id="107" trl="N">
+  <value column="Name" original="Gray light">Šedá světlá</value>
+ </row>
+ <row id="108" trl="N">
+  <value column="Name" original="White">Bílý</value>
+ </row>
+ <row id="109" trl="N">
+  <value column="Name" original="Cyan">Azurová</value>
+ </row>
+ <row id="110" trl="N">
+  <value column="Name" original="Magenta">Fialová</value>
+ </row>
+ <row id="111" trl="N">
+  <value column="Name" original="Orange">Oranžový</value>
+ </row>
+ <row id="112" trl="N">
+  <value column="Name" original="Pink">, translated: Růžový</value>
+ </row>
+ <row id="113" trl="N">
+  <value column="Name" original="Yellow">Žlutý</value>
+ </row>
+ <row id="114" trl="N">
+  <value column="Name" original="Blue dark">Modrá tmavá</value>
+ </row>
+ <row id="115" trl="N">
+  <value column="Name" original="Gray white">Šedobílá</value>
+ </row>
+ <row id="116" trl="N">
+  <value column="Name" original="Green dark">Zelená tmavá</value>
+ </row>
+ <row id="117" trl="N">
+  <value column="Name" original="Green black">Zelenočerná</value>
+ </row>
+ <row id="119" trl="N">
+  <value column="Name" original="Blue black">Modročerná</value>
+ </row>
+ <row id="120" trl="N">
+  <value column="Name" original="Brown">Hnědý</value>
+ </row>
+ <row id="121" trl="N">
+  <value column="Name" original="Brown dark">Hnědá tmavá</value>
+ </row>
+ <row id="200000" trl="N">
+  <value column="Name" original="Metabase Red">Metabase Červená</value>
+ </row>
+ <row id="200001" trl="N">
+  <value column="Name" original="Metabase Yellow">Metabase Žlutý</value>
+ </row>
+ <row id="200002" trl="N">
+  <value column="Name" original="Metabase Green">Metabase Zelená</value>
+ </row>
+</idempiereTrl>
